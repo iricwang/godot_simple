@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://dp5ye8tp5w0js"]
+
+[ext_resource type="Script" path="res://scripts/toast_custom.gd" id="1_tcst"]
+
+[node name="CustomToast" type="MarginContainer" unique_id=1421509934]
+script = ExtResource("1_tcst")
