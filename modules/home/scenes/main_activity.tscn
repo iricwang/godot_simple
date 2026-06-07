@@ -1,12 +1,1537 @@
-[gd_scene load_steps=2 format=3 uid="uid://b3k1m8v5x9p2a"]
+[gd_scene format=3 uid="uid://b3k1m8v5yap2a"]
 
-[ext_resource type="Script" path="res://modules/home/main_activity.gd" id="1_mact"]
+[ext_resource type="Script" uid="uid://ubujko1omg43" path="res://modules/home/main_activity.gd" id="1_mact"]
+[ext_resource type="Texture2D" uid="uid://dw06uolt4lyc5" path="res://modules/home/scenes/1_Lobby_textures/Color_Fill_1_0.png" id="2_ttqyc"]
+[ext_resource type="Texture2D" uid="uid://t7kpfhaby4a6" path="res://modules/home/scenes/1_Lobby_textures/Rounded_Rectangle_2_1.png" id="3_opob4"]
+[ext_resource type="Texture2D" uid="uid://cbsmij8vdxwa2" path="res://modules/home/scenes/1_Lobby_textures/뒤_2.png" id="4_jetet"]
+[ext_resource type="Texture2D" uid="uid://buplo4742cyom" path="res://modules/home/scenes/1_Lobby_textures/뒤_copy_3.png" id="5_ehf4v"]
+[ext_resource type="Texture2D" uid="uid://cwi1py3mkgplu" path="res://modules/home/scenes/1_Lobby_textures/Layer_788_4.png" id="6_g8axq"]
+[ext_resource type="Texture2D" uid="uid://cog1dkfnuxdbm" path="res://modules/home/scenes/1_Lobby_textures/Shape_790_copy_4_5.png" id="7_j8nqc"]
+[ext_resource type="Texture2D" uid="uid://cnxvenh0ucb13" path="res://modules/home/scenes/1_Lobby_textures/Ellipse_1317_copy_6.png" id="8_hclmb"]
+[ext_resource type="Texture2D" uid="uid://cyohhljbpglt5" path="res://modules/home/scenes/1_Lobby_textures/Ellipse_1317_copy_2_7.png" id="9_t347x"]
+[ext_resource type="Texture2D" uid="uid://ueqbsiylkxp8" path="res://modules/home/scenes/1_Lobby_textures/Ellipse_1317_copy_3_8.png" id="10_gyqws"]
+[ext_resource type="Texture2D" uid="uid://b6uasr76gxqmo" path="res://modules/home/scenes/1_Lobby_textures/Ellipse_1317_copy_4_9.png" id="11_ooigt"]
+[ext_resource type="Texture2D" uid="uid://i2o0mjusnqkm" path="res://modules/home/scenes/1_Lobby_textures/Ellipse_1317_copy_5_10.png" id="12_o3u7w"]
+[ext_resource type="Texture2D" uid="uid://l7hkva6epg75" path="res://modules/home/scenes/1_Lobby_textures/front_11.png" id="13_17o6h"]
+[ext_resource type="Texture2D" uid="uid://bu7beboyt71hv" path="res://modules/home/scenes/1_Lobby_textures/bg_14.png" id="14_f5qdr"]
+[ext_resource type="Texture2D" uid="uid://uax5dfynou2g" path="res://modules/home/scenes/1_Lobby_textures/area_15.png" id="15_o6aq8"]
+[ext_resource type="Texture2D" uid="uid://ikoywblqr6le" path="res://modules/home/scenes/1_Lobby_textures/area_copy_16.png" id="16_yojr1"]
+[ext_resource type="Texture2D" uid="uid://ox2nctflr6b8" path="res://modules/home/scenes/1_Lobby_textures/area_copy_2_17.png" id="17_e34db"]
+[ext_resource type="Texture2D" uid="uid://cjxkieyxwaswx" path="res://modules/home/scenes/1_Lobby_textures/area_copy_3_18.png" id="18_qrrvt"]
+[ext_resource type="Texture2D" uid="uid://c7bckqq3oofkj" path="res://modules/home/scenes/1_Lobby_textures/area_copy_4_19.png" id="19_dfxtb"]
+[ext_resource type="Texture2D" uid="uid://b80hjc6upvkwc" path="res://modules/home/scenes/1_Lobby_textures/Rounded_Rectangle_1037_copy_6_20.png" id="20_xhd8x"]
+[ext_resource type="Texture2D" uid="uid://dfgwi3a4vto2j" path="res://modules/home/scenes/1_Lobby_textures/icon_23.png" id="21_hciad"]
+[ext_resource type="Texture2D" uid="uid://cfnqnn6n7ufnk" path="res://modules/home/scenes/1_Lobby_textures/icon_26.png" id="22_4fvey"]
+[ext_resource type="Texture2D" uid="uid://ct0ftmgkxrpqy" path="res://modules/home/scenes/1_Lobby_textures/icon_29.png" id="23_13738"]
+[ext_resource type="Texture2D" uid="uid://c8sg3mljjf1te" path="res://modules/home/scenes/1_Lobby_textures/icon_32.png" id="24_vpq26"]
+[ext_resource type="Texture2D" uid="uid://bkum4nyhmqmod" path="res://modules/home/scenes/1_Lobby_textures/icon_35.png" id="25_5dprg"]
+[ext_resource type="Texture2D" uid="uid://e65v6i2f17ro" path="res://modules/home/scenes/1_Lobby_textures/new_42.png" id="26_bx2pu"]
+[ext_resource type="Texture2D" uid="uid://jnp7eui0iotp" path="res://modules/home/scenes/1_Lobby_textures/new_46.png" id="27_lyb48"]
+[ext_resource type="Texture2D" uid="uid://c6xhtdxojd1ec" path="res://modules/home/scenes/1_Lobby_textures/shadow_50.png" id="28_mlbcq"]
+[ext_resource type="Texture2D" uid="uid://dqyttkij3b86n" path="res://modules/home/scenes/1_Lobby_textures/dunk_51.png" id="29_2d7u3"]
+[ext_resource type="Texture2D" uid="uid://dhm5ej75pp4hs" path="res://modules/home/scenes/1_Lobby_textures/bg_53.png" id="30_hphhr"]
+[ext_resource type="Texture2D" uid="uid://c2tpwaseu4opy" path="res://modules/home/scenes/1_Lobby_textures/Rounded_Rectangle_1029_copy_11_54.png" id="31_t7g5s"]
+[ext_resource type="Texture2D" uid="uid://cd2cpfi57f4lm" path="res://modules/home/scenes/1_Lobby_textures/Shape_4_61.png" id="32_14wch"]
+[ext_resource type="Texture2D" uid="uid://by4jrhhqp818h" path="res://modules/home/scenes/1_Lobby_textures/Shape_9_62.png" id="33_lu68l"]
+[ext_resource type="Texture2D" uid="uid://oyhouuv3ciab" path="res://modules/home/scenes/1_Lobby_textures/Shape_9_copy_63.png" id="34_cnhn1"]
+[ext_resource type="Texture2D" uid="uid://cygqohwgg4ywv" path="res://modules/home/scenes/1_Lobby_textures/Shape_4_copy_64.png" id="35_i0fmy"]
+[ext_resource type="Texture2D" uid="uid://cv8h6jgfyxdk1" path="res://modules/home/scenes/1_Lobby_textures/Rectangle_1297_76.png" id="36_cfw1l"]
+[ext_resource type="Texture2D" uid="uid://dds1t3fhuf1ew" path="res://modules/home/scenes/1_Lobby_textures/Rectangle_1297_copy_3_77.png" id="37_17y6h"]
+[ext_resource type="Texture2D" uid="uid://owrtjieg67ta" path="res://modules/home/scenes/1_Lobby_textures/icon_79.png" id="38_vkpav"]
+[ext_resource type="Texture2D" uid="uid://e871rwuwuoog" path="res://modules/home/scenes/1_Lobby_textures/Shape_679_copy_83.png" id="39_ym01b"]
+[ext_resource type="Texture2D" uid="uid://uroxn2np3kcm" path="res://modules/home/scenes/1_Lobby_textures/Shape_679_copy_2_84.png" id="40_0ddcl"]
+[ext_resource type="Texture2D" uid="uid://4fho1lypwfis" path="res://modules/home/scenes/1_Lobby_textures/Shape_679_copy_3_85.png" id="41_xvbl6"]
+[ext_resource type="Texture2D" uid="uid://dkfuuc4f6sauv" path="res://modules/home/scenes/1_Lobby_textures/Ellipse_36_87.png" id="42_y7q1p"]
+[ext_resource type="Texture2D" uid="uid://ciy0blh8dqqe4" path="res://modules/home/scenes/1_Lobby_textures/icon_92.png" id="43_ujcpx"]
+[ext_resource type="Texture2D" uid="uid://3fq64m2lmyu2" path="res://modules/home/scenes/1_Lobby_textures/bg_93.png" id="44_r8ma0"]
+[ext_resource type="Texture2D" uid="uid://bify4ajqyq1r3" path="res://modules/home/scenes/1_Lobby_textures/Rounded_Rectangle_1029_copy_94.png" id="45_6rlqh"]
+[ext_resource type="Texture2D" uid="uid://dluatkhdfwgv2" path="res://modules/home/scenes/1_Lobby_textures/Rectangle_3_95.png" id="46_pwf61"]
+[ext_resource type="Texture2D" uid="uid://b81us6ykfg3or" path="res://modules/home/scenes/1_Lobby_textures/icon_97.png" id="47_bksiv"]
+[ext_resource type="Texture2D" uid="uid://d7bxkhio8frr" path="res://modules/home/scenes/1_Lobby_textures/Rectangle_544_107.png" id="48_4mkk8"]
+[ext_resource type="Texture2D" uid="uid://bdwww4huqaa7q" path="res://modules/home/scenes/1_Lobby_textures/icon_109.png" id="49_c4a5h"]
+[ext_resource type="Texture2D" uid="uid://b4fyfn3bwf8ub" path="res://modules/home/scenes/1_Lobby_textures/Rectangle_544_114.png" id="50_d8qmx"]
+[ext_resource type="Texture2D" uid="uid://djpi5k7py70rc" path="res://modules/home/scenes/1_Lobby_textures/Rectangle_606_115.png" id="51_o803h"]
+[ext_resource type="Texture2D" uid="uid://deidlro4lt542" path="res://modules/home/scenes/1_Lobby_textures/icon_117.png" id="52_undya"]
+[ext_resource type="Texture2D" uid="uid://do7o6nwunxfbq" path="res://modules/home/scenes/1_Lobby_textures/Rectangle_544_122.png" id="53_w152t"]
+[ext_resource type="Texture2D" uid="uid://bwvs0m5n5eqcs" path="res://modules/home/scenes/1_Lobby_textures/icon_124.png" id="54_3wtq2"]
+[ext_resource type="Texture2D" uid="uid://c8xgsxy7ojsgx" path="res://modules/home/scenes/1_Lobby_textures/Rectangle_544_129.png" id="55_absxv"]
+[ext_resource type="Texture2D" uid="uid://djj87s5quoumr" path="res://modules/home/scenes/1_Lobby_textures/icon_131.png" id="56_hqmg6"]
+[ext_resource type="Texture2D" uid="uid://ccuvbmu8dgekg" path="res://modules/home/scenes/1_Lobby_textures/Rectangle_544_136.png" id="57_q6h5t"]
+[ext_resource type="Texture2D" uid="uid://becr2gjor6jd1" path="res://modules/home/scenes/1_Lobby_textures/icon_138.png" id="58_vtcl8"]
+[ext_resource type="Texture2D" uid="uid://b3mydtjjp20ii" path="res://modules/home/scenes/1_Lobby_textures/new_143.png" id="59_ijgia"]
+[ext_resource type="Texture2D" uid="uid://duxkdvuo3vmop" path="res://modules/home/scenes/1_Lobby_textures/icon_144.png" id="60_2ahmr"]
+[ext_resource type="Texture2D" uid="uid://gxjue3kvw8hn" path="res://modules/home/scenes/1_Lobby_textures/bg_148.png" id="61_42fsd"]
+[ext_resource type="Texture2D" uid="uid://bpm2hkemlvol3" path="res://modules/home/scenes/1_Lobby_textures/Rounded_Rectangle_1029_copy_10_150.png" id="62_5gswk"]
+[ext_resource type="Texture2D" uid="uid://dsbthijthodkw" path="res://modules/home/scenes/1_Lobby_textures/Rounded_Rectangle_1029_copy_11_152.png" id="63_bc35p"]
+[ext_resource type="Texture2D" uid="uid://l4dc7sxyx7x6" path="res://modules/home/scenes/1_Lobby_textures/item_155.png" id="64_ywt60"]
+[ext_resource type="Texture2D" uid="uid://bw1ejfk71mrpv" path="res://modules/home/scenes/1_Lobby_textures/new_161.png" id="65_5p5cf"]
+[ext_resource type="Texture2D" uid="uid://btdkhct0y3jxp" path="res://modules/home/scenes/1_Lobby_textures/new_copy_162.png" id="66_61iqj"]
+[ext_resource type="Texture2D" uid="uid://6ru74gjfgx5j" path="res://modules/home/scenes/1_Lobby_textures/bg_165.png" id="67_ylpit"]
+[ext_resource type="Texture2D" uid="uid://b1h7q3dvaw523" path="res://modules/home/scenes/1_Lobby_textures/Rounded_Rectangle_1029_copy_10_167.png" id="68_rirki"]
+[ext_resource type="Texture2D" uid="uid://31qlnhrs3ule" path="res://modules/home/scenes/1_Lobby_textures/Rounded_Rectangle_1029_copy_11_170.png" id="69_3y6lj"]
+[ext_resource type="Texture2D" uid="uid://dej8ylytxsoxv" path="res://modules/home/scenes/1_Lobby_textures/icon_178.png" id="70_r23ex"]
+[ext_resource type="Texture2D" uid="uid://06ofqtf733i5" path="res://modules/home/scenes/1_Lobby_textures/Rounded_Rectangle_1_copy_3_183.png" id="71_n3loh"]
+[ext_resource type="Texture2D" uid="uid://bdir1qeee1w3w" path="res://modules/home/scenes/1_Lobby_textures/icon_190.png" id="72_2cxf2"]
+[ext_resource type="Texture2D" uid="uid://cvyh1k7niea1h" path="res://modules/home/scenes/1_Lobby_textures/bg_195.png" id="73_5rtuh"]
+[ext_resource type="Texture2D" uid="uid://b32bc37up04cd" path="res://modules/home/scenes/1_Lobby_textures/icon_200.png" id="74_5lhvb"]
+[ext_resource type="Texture2D" uid="uid://bwmaakjap60a0" path="res://modules/home/scenes/1_Lobby_textures/Rounded_Rectangle_960_202.png" id="75_lojay"]
+[ext_resource type="Texture2D" uid="uid://do5nv378w60ui" path="res://modules/home/scenes/1_Lobby_textures/Rounded_Rectangle_960_copy_203.png" id="76_vds4b"]
+[ext_resource type="Texture2D" uid="uid://dpb1rko3wltpm" path="res://modules/home/scenes/1_Lobby_textures/close_206.png" id="77_4bjvn"]
+[ext_resource type="Texture2D" uid="uid://jbvsym52jvov" path="res://modules/home/scenes/1_Lobby_textures/bg_210.png" id="78_8dfqb"]
+[ext_resource type="Texture2D" uid="uid://dypxftysyl4jg" path="res://modules/home/scenes/1_Lobby_textures/Rounded_Rectangle_960_213.png" id="79_4odo1"]
+[ext_resource type="Texture2D" uid="uid://bsrw8s65222ex" path="res://modules/home/scenes/1_Lobby_textures/Rounded_Rectangle_960_copy_214.png" id="80_2hdbj"]
+[ext_resource type="Texture2D" uid="uid://cvryhfs5q0tj3" path="res://modules/home/scenes/1_Lobby_textures/close_217.png" id="81_a2rum"]
+[ext_resource type="Texture2D" uid="uid://gvx3lj1gjvec" path="res://modules/home/scenes/1_Lobby_textures/icon_225.png" id="82_krxwe"]
+[ext_resource type="Texture2D" uid="uid://bqqw54nlllq8l" path="res://modules/home/scenes/1_Lobby_textures/bg_227.png" id="83_76i6h"]
+[ext_resource type="Texture2D" uid="uid://cdaedhg33yynk" path="res://modules/home/scenes/1_Lobby_textures/icon_232.png" id="84_4ern7"]
+[ext_resource type="Texture2D" uid="uid://ovkxfh3ofpj2" path="res://modules/home/scenes/1_Lobby_textures/Rounded_Rectangle_960_234.png" id="85_sovws"]
+[ext_resource type="Texture2D" uid="uid://c5h64a2273plf" path="res://modules/home/scenes/1_Lobby_textures/Rounded_Rectangle_960_copy_235.png" id="86_4iffs"]
+[ext_resource type="Texture2D" uid="uid://bb2kt2xwfxriw" path="res://modules/home/scenes/1_Lobby_textures/close_238.png" id="87_uxlm4"]
+[ext_resource type="Texture2D" uid="uid://cahxlwpmlat8o" path="res://modules/home/scenes/1_Lobby_textures/Shape_2_copy_243.png" id="88_v8554"]
+[ext_resource type="Texture2D" uid="uid://2ppkiig05xsv" path="res://modules/home/scenes/1_Lobby_textures/icon_245.png" id="89_1n28s"]
+[ext_resource type="Texture2D" uid="uid://o5jcnpkhm3ah" path="res://modules/home/scenes/1_Lobby_textures/new_247.png" id="90_dctx2"]
+[ext_resource type="Texture2D" uid="uid://di5bmsp2bfrxt" path="res://modules/home/scenes/1_Lobby_textures/new_copy_248.png" id="91_kqf3h"]
 
-[node name="MainActivity" type="Activity"]
-layout_mode = 3
+[node name="MainActivity" type="Activity" unique_id=1341940476]
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_mact")
+
+[node name="Top" type="Control" parent="." unique_id=770740290]
+anchors_preset = 0
+
+[node name="Top" type="Control" parent="Top" unique_id=1418492033]
+anchors_preset = 0
+
+[node name="Resource" type="Control" parent="Top/Top" unique_id=1208920040]
+anchors_preset = 0
+
+[node name="energe" type="Control" parent="Top/Top/Resource" unique_id=987159102]
+anchors_preset = 0
+
+[node name="add_" type="Control" parent="Top/Top/Resource/energe" unique_id=857201312]
+anchors_preset = 0
+
+[node name="icon" type="Control" parent="Top/Top/Resource/energe/add_" unique_id=1070587681]
+anchors_preset = 0
+
+[node name="text" type="Control" parent="Top/Top/Resource/energe/add_/icon" unique_id=694349901]
+anchors_preset = 0
+
+[node name="gold" type="Control" parent="Top/Top/Resource/energe/add_/icon/text" unique_id=1248689971]
+anchors_preset = 0
+
+[node name="gem" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold" unique_id=189984620]
+anchors_preset = 0
+
+[node name="pass" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem" unique_id=1966681749]
+anchors_preset = 0
+
+[node name="label" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass" unique_id=958723900]
+anchors_preset = 0
+
+[node name="Center" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label" unique_id=277267559]
+anchors_preset = 0
+
+[node name="character" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center" unique_id=1792640539]
+anchors_preset = 0
+
+[node name="Color_Fill_1" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character" unique_id=1198724969]
+layout_mode = 0
+offset_right = 1080.0
+offset_bottom = 2340.0
+texture = ExtResource("2_ttqyc")
+stretch_mode = 5
+
+[node name="bg" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character" unique_id=1817109372]
+anchors_preset = 0
+
+[node name="Rounded_Rectangle_2" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/bg" unique_id=913756813]
+layout_mode = 0
+offset_left = -237.0
+offset_top = 545.0
+offset_right = 1096.0
+offset_bottom = 2211.0
+texture = ExtResource("3_opob4")
+stretch_mode = 5
+
+[node name="3" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/bg" unique_id=2079996135]
+anchors_preset = 0
+
+[node name="뒤" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/bg/3" unique_id=1245135787]
+layout_mode = 0
+offset_left = -116.0
+offset_top = 1153.0
+offset_right = 1242.0
+offset_bottom = 1544.0
+texture = ExtResource("4_jetet")
+stretch_mode = 5
+
+[node name="뒤_copy" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/bg/3" unique_id=546409837]
+layout_mode = 0
+offset_left = -26.0
+offset_top = 1279.0
+offset_right = 1095.0
+offset_bottom = 2168.0
+texture = ExtResource("5_ehf4v")
+stretch_mode = 5
+
+[node name="Layer_788" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/bg/3" unique_id=1698153844]
+layout_mode = 0
+offset_top = 1747.0
+offset_right = 1080.0
+offset_bottom = 2320.0
+texture = ExtResource("6_g8axq")
+stretch_mode = 5
+
+[node name="Shape_790_copy_4" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/bg/3" unique_id=935740874]
+layout_mode = 0
+offset_left = 53.0
+offset_top = 1399.0
+offset_right = 1000.0
+offset_bottom = 2008.0
+texture = ExtResource("7_j8nqc")
+stretch_mode = 5
+
+[node name="Ellipse_1317_copy" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/bg/3" unique_id=1068094316]
+layout_mode = 0
+offset_left = 192.0
+offset_top = 1382.0
+offset_right = 1038.0
+offset_bottom = 1983.0
+texture = ExtResource("8_hclmb")
+stretch_mode = 5
+
+[node name="Ellipse_1317_copy_2" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/bg/3" unique_id=63394528]
+layout_mode = 0
+offset_left = -61.0
+offset_top = 1346.0
+offset_right = 155.0
+offset_bottom = 1433.0
+texture = ExtResource("9_t347x")
+stretch_mode = 5
+
+[node name="Ellipse_1317_copy_3" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/bg/3" unique_id=692183370]
+layout_mode = 0
+offset_left = 783.0
+offset_top = 1229.0
+offset_right = 1182.0
+offset_bottom = 1341.0
+texture = ExtResource("10_gyqws")
+stretch_mode = 5
+
+[node name="Ellipse_1317_copy_4" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/bg/3" unique_id=1376630672]
+layout_mode = 0
+offset_left = 1008.0
+offset_top = 1309.0
+offset_right = 1044.0
+offset_bottom = 1341.0
+texture = ExtResource("11_ooigt")
+stretch_mode = 5
+
+[node name="Ellipse_1317_copy_5" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/bg/3" unique_id=1717559358]
+layout_mode = 0
+offset_left = 22.0
+offset_top = 1409.0
+offset_right = 48.0
+offset_bottom = 1434.0
+texture = ExtResource("12_o3u7w")
+stretch_mode = 5
+
+[node name="front" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/bg/3" unique_id=1321699258]
+layout_mode = 0
+offset_left = -322.0
+offset_top = 1964.0
+offset_right = 1402.0
+offset_bottom = 2166.0
+texture = ExtResource("13_17o6h")
+stretch_mode = 5
+
+[node name="Bottom" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character" unique_id=342447360]
+anchors_preset = 0
+
+[node name="bg_" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/Bottom" unique_id=938366544]
+anchors_preset = 0
+
+[node name="bg" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/Bottom/bg_" unique_id=1260740693]
+layout_mode = 0
+offset_left = -2.0
+offset_top = 2165.0
+offset_right = 1081.0
+offset_bottom = 2465.0
+texture = ExtResource("14_f5qdr")
+stretch_mode = 5
+
+[node name="area" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/Bottom/bg_" unique_id=1016065231]
+layout_mode = 0
+offset_left = -1.0
+offset_top = 2164.0
+offset_right = 217.0
+offset_bottom = 2341.0
+texture = ExtResource("15_o6aq8")
+stretch_mode = 5
+
+[node name="area_copy" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/Bottom/bg_" unique_id=1167629450]
+layout_mode = 0
+offset_left = 214.0
+offset_top = 2164.0
+offset_right = 433.0
+offset_bottom = 2341.0
+texture = ExtResource("16_yojr1")
+stretch_mode = 5
+
+[node name="area_copy_2" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/Bottom/bg_" unique_id=424604354]
+layout_mode = 0
+offset_left = 430.0
+offset_top = 2164.0
+offset_right = 650.0
+offset_bottom = 2341.0
+texture = ExtResource("17_e34db")
+stretch_mode = 5
+
+[node name="area_copy_3" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/Bottom/bg_" unique_id=1467897331]
+layout_mode = 0
+offset_left = 647.0
+offset_top = 2164.0
+offset_right = 866.0
+offset_bottom = 2341.0
+texture = ExtResource("18_qrrvt")
+stretch_mode = 5
+
+[node name="area_copy_4" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/Bottom/bg_" unique_id=1041388530]
+layout_mode = 0
+offset_left = 863.0
+offset_top = 2164.0
+offset_right = 1081.0
+offset_bottom = 2341.0
+texture = ExtResource("19_dfxtb")
+stretch_mode = 5
+
+[node name="focus" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/Bottom/bg_" unique_id=150485223]
+anchors_preset = 0
+
+[node name="Rounded_Rectangle_1037_copy_6" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/Bottom/bg_/focus" unique_id=1142522725]
+layout_mode = 0
+offset_left = 419.0
+offset_top = 2155.0
+offset_right = 661.0
+offset_bottom = 2364.0
+texture = ExtResource("20_xhd8x")
+stretch_mode = 5
+
+[node name="menu_icon" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/Bottom" unique_id=1025727503]
+anchors_preset = 0
+
+[node name="shop" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/Bottom/menu_icon" unique_id=982220450]
+anchors_preset = 0
+
+[node name="icon" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/Bottom/menu_icon/shop" unique_id=606281085]
+anchors_preset = 0
+
+[node name="icon" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/Bottom/menu_icon/shop/icon" unique_id=1345105907]
+layout_mode = 0
+offset_left = 53.0
+offset_top = 2193.0
+offset_right = 156.0
+offset_bottom = 2286.0
+texture = ExtResource("21_hciad")
+stretch_mode = 5
+
+[node name="collect" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/Bottom/menu_icon" unique_id=903647082]
+anchors_preset = 0
+
+[node name="book" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/Bottom/menu_icon/collect" unique_id=2068254293]
+anchors_preset = 0
+
+[node name="icon" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/Bottom/menu_icon/collect/book" unique_id=2078057089]
+layout_mode = 0
+offset_left = 260.0
+offset_top = 2191.0
+offset_right = 348.0
+offset_bottom = 2291.0
+texture = ExtResource("22_4fvey")
+stretch_mode = 5
+
+[node name="Battle" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/Bottom/menu_icon" unique_id=583967092]
+anchors_preset = 0
+
+[node name="icon" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/Bottom/menu_icon/Battle" unique_id=2026835688]
+anchors_preset = 0
+
+[node name="icon" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/Bottom/menu_icon/Battle/icon" unique_id=1639622776]
+layout_mode = 0
+offset_left = 478.0
+offset_top = 2161.0
+offset_right = 603.0
+offset_bottom = 2256.0
+texture = ExtResource("23_13738")
+stretch_mode = 5
+
+[node name="inventory" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/Bottom/menu_icon" unique_id=117660871]
+anchors_preset = 0
+
+[node name="bag" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/Bottom/menu_icon/inventory" unique_id=124862822]
+anchors_preset = 0
+
+[node name="icon" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/Bottom/menu_icon/inventory/bag" unique_id=10334590]
+layout_mode = 0
+offset_left = 724.0
+offset_top = 2195.0
+offset_right = 826.0
+offset_bottom = 2289.0
+texture = ExtResource("24_vpq26")
+stretch_mode = 5
+
+[node name="map" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/Bottom/menu_icon" unique_id=1345269584]
+anchors_preset = 0
+
+[node name="icon" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/Bottom/menu_icon/map" unique_id=556370395]
+anchors_preset = 0
+
+[node name="icon" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/Bottom/menu_icon/map/icon" unique_id=1639348984]
+layout_mode = 0
+offset_left = 919.0
+offset_top = 2190.0
+offset_right = 1026.0
+offset_bottom = 2288.0
+texture = ExtResource("25_5dprg")
+stretch_mode = 5
+
+[node name="text" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/Bottom" unique_id=1915317508]
+anchors_preset = 0
+
+[node name="text" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/Bottom/text" unique_id=753289315]
+anchors_preset = 0
+
+[node name="Battle" type="Label" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/Bottom/text/text" unique_id=1853460315]
+layout_mode = 0
+offset_left = 483.0
+offset_top = 2279.0
+offset_right = 597.0
+offset_bottom = 2303.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 97
+text = "Battle"
+
+[node name="red_dot" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/Bottom" unique_id=1951786965]
+anchors_preset = 0
+
+[node name="new" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/Bottom/red_dot" unique_id=1232516940]
+layout_mode = 0
+offset_left = 802.0
+offset_top = 2177.0
+offset_right = 852.0
+offset_bottom = 2227.0
+texture = ExtResource("26_bx2pu")
+stretch_mode = 5
+
+[node name="text" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/Bottom/red_dot" unique_id=1271033173]
+anchors_preset = 0
+
+[node name="7" type="Label" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/Bottom/red_dot" unique_id=2143417280]
+layout_mode = 0
+offset_left = 821.0
+offset_top = 2191.0
+offset_right = 836.0
+offset_bottom = 2215.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 50
+text = "7"
+
+[node name="green_dot" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/Bottom" unique_id=1738357290]
+anchors_preset = 0
+
+[node name="new" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/Bottom/green_dot" unique_id=287650638]
+layout_mode = 0
+offset_left = 332.0
+offset_top = 2177.0
+offset_right = 382.0
+offset_bottom = 2227.0
+texture = ExtResource("27_lyb48")
+stretch_mode = 5
+
+[node name="2" type="Label" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/Bottom/green_dot" unique_id=1294396689]
+layout_mode = 0
+offset_left = 350.0
+offset_top = 2191.0
+offset_right = 365.0
+offset_bottom = 2214.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 50
+text = "2"
+
+[node name="character_lv" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character" unique_id=2120888260]
+anchors_preset = 0
+
+[node name="level" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/character_lv" unique_id=154853872]
+anchors_preset = 0
+
+[node name="character" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/character_lv/level" unique_id=1843503041]
+anchors_preset = 0
+
+[node name="shadow" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/character_lv/level/character" unique_id=594174873]
+layout_mode = 0
+offset_left = 188.0
+offset_top = 1418.0
+offset_right = 892.0
+offset_bottom = 1599.0
+texture = ExtResource("28_mlbcq")
+stretch_mode = 5
+
+[node name="dunk" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/character_lv/level/character" unique_id=732123672]
+layout_mode = 0
+offset_left = 260.0
+offset_top = 906.0
+offset_right = 851.0
+offset_bottom = 1539.0
+texture = ExtResource("29_2d7u3")
+stretch_mode = 5
+
+[node name="text" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/character_lv/level" unique_id=362114518]
+anchors_preset = 0
+
+[node name="bg" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/character_lv/level/text" unique_id=1726108065]
+layout_mode = 0
+offset_left = 401.0
+offset_top = 1630.0
+offset_right = 729.0
+offset_bottom = 1693.0
+texture = ExtResource("30_hphhr")
+stretch_mode = 5
+
+[node name="bar" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/character_lv/level/text" unique_id=623363471]
+anchors_preset = 0
+
+[node name="bar_" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/character_lv/level/text/bar" unique_id=1512027361]
+anchors_preset = 0
+
+[node name="Rounded_Rectangle_1029_copy_11" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/character_lv/level/text/bar/bar_" unique_id=686048650]
+layout_mode = 0
+offset_left = 430.0
+offset_top = 1630.0
+offset_right = 585.0
+offset_bottom = 1693.0
+texture = ExtResource("31_t7g5s")
+stretch_mode = 5
+
+[node name="text" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/character_lv/level/text" unique_id=1283058764]
+anchors_preset = 0
+
+[node name="text" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/character_lv/level/text/text" unique_id=563727072]
+anchors_preset = 0
+
+[node name="136_280" type="Label" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/character_lv/level/text/text/text" unique_id=348974167]
+layout_mode = 0
+offset_left = 529.0
+offset_top = 1646.0
+offset_right = 668.0
+offset_bottom = 1676.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 50
+text = "136/280"
+
+[node name="badge" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/character_lv/level/text" unique_id=1022150146]
+anchors_preset = 0
+
+[node name="Group_219" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/character_lv/level/text/badge" unique_id=1036171896]
+anchors_preset = 0
+
+[node name="<_Layer_group>" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/character_lv/level/text/badge/Group_219" unique_id=186224367]
+anchors_preset = 0
+
+[node name="Shape_4" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/character_lv/level/text/badge/Group_219" unique_id=2017063361]
+layout_mode = 0
+offset_left = 354.0
+offset_top = 1608.0
+offset_right = 451.0
+offset_bottom = 1707.0
+texture = ExtResource("32_14wch")
+stretch_mode = 5
+
+[node name="Shape_9" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/character_lv/level/text/badge/Group_219" unique_id=947100633]
+layout_mode = 0
+offset_left = 354.0
+offset_top = 1608.0
+offset_right = 403.0
+offset_bottom = 1662.0
+texture = ExtResource("33_lu68l")
+stretch_mode = 5
+
+[node name="Shape_9_copy" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/character_lv/level/text/badge/Group_219" unique_id=535827234]
+layout_mode = 0
+offset_left = 400.0
+offset_top = 1659.0
+offset_right = 448.0
+offset_bottom = 1716.0
+texture = ExtResource("34_cnhn1")
+stretch_mode = 5
+
+[node name="Shape_4_copy" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/character_lv/level/text/badge/Group_219" unique_id=791737977]
+layout_mode = 0
+offset_left = 366.0
+offset_top = 1620.0
+offset_right = 439.0
+offset_bottom = 1696.0
+texture = ExtResource("35_i0fmy")
+stretch_mode = 5
+
+[node name="_Control_31144" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/character_lv/level/text" unique_id=468756305]
+anchors_preset = 0
+
+[node name="<_Layer_group>" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/character_lv/level/text/_Control_31144" unique_id=944221547]
+anchors_preset = 0
+
+[node name="7" type="Label" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/character_lv/level/text/_Control_31144" unique_id=583331072]
+layout_mode = 0
+offset_left = 392.0
+offset_top = 1641.0
+offset_right = 415.0
+offset_bottom = 1677.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 68
+text = "7"
+
+[node name="text" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character" unique_id=91274377]
+anchors_preset = 0
+
+[node name="text" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/text" unique_id=1200017513]
+anchors_preset = 0
+
+[node name="Dunk" type="Label" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/text/text" unique_id=430233264]
+layout_mode = 0
+offset_left = 466.0
+offset_top = 1556.0
+offset_right = 617.0
+offset_bottom = 1602.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 65
+text = "Dunk"
+
+[node name="skin" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character" unique_id=252185766]
+anchors_preset = 0
+
+[node name="btn" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/skin" unique_id=1052118409]
+anchors_preset = 0
+
+[node name="Rectangle_1297" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/skin/btn" unique_id=1577077357]
+layout_mode = 0
+offset_left = 721.0
+offset_top = 1455.0
+offset_right = 835.0
+offset_bottom = 1568.0
+texture = ExtResource("36_cfw1l")
+stretch_mode = 5
+
+[node name="Rectangle_1297_copy_3" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/skin/btn" unique_id=954090877]
+layout_mode = 0
+offset_left = 730.0
+offset_top = 1464.0
+offset_right = 825.0
+offset_bottom = 1559.0
+texture = ExtResource("37_17y6h")
+stretch_mode = 5
+
+[node name="icon" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/skin" unique_id=1530406627]
+anchors_preset = 0
+
+[node name="icon" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/character/skin/icon" unique_id=1015114141]
+layout_mode = 0
+offset_left = 737.0
+offset_top = 1484.0
+offset_right = 819.0
+offset_bottom = 1539.0
+texture = ExtResource("38_vkpav")
+stretch_mode = 5
+
+[node name="btn_yellow" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center" unique_id=637495058]
+anchors_preset = 0
+
+[node name="btn_action_yellow" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/btn_yellow" unique_id=675860889]
+anchors_preset = 0
+
+[node name="Group_7796" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/btn_yellow/btn_action_yellow" unique_id=62054906]
+anchors_preset = 0
+
+[node name="Shape_679_copy" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/btn_yellow/btn_action_yellow/Group_7796" unique_id=1842297591]
+layout_mode = 0
+offset_left = 317.0
+offset_top = 1757.0
+offset_right = 764.0
+offset_bottom = 1926.0
+texture = ExtResource("39_ym01b")
+stretch_mode = 5
+
+[node name="Shape_679_copy_2" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/btn_yellow/btn_action_yellow/Group_7796" unique_id=94338489]
+layout_mode = 0
+offset_left = 317.0
+offset_top = 1745.0
+offset_right = 763.0
+offset_bottom = 1913.0
+texture = ExtResource("40_0ddcl")
+stretch_mode = 5
+
+[node name="Shape_679_copy_3" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/btn_yellow/btn_action_yellow/Group_7796" unique_id=1446559890]
+layout_mode = 0
+offset_left = 326.0
+offset_top = 1807.0
+offset_right = 756.0
+offset_bottom = 1906.0
+texture = ExtResource("41_xvbl6")
+stretch_mode = 5
+
+[node name="Ellipse_36" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/btn_yellow/btn_action_yellow" unique_id=293142695]
+layout_mode = 0
+offset_left = 357.0
+offset_top = 1757.0
+offset_right = 387.0
+offset_bottom = 1784.0
+texture = ExtResource("42_y7q1p")
+stretch_mode = 5
+
+[node name="Play" type="Label" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/Center/btn_yellow" unique_id=1255052184]
+layout_mode = 0
+offset_left = 435.0
+offset_top = 1803.0
+offset_right = 645.0
+offset_bottom = 1862.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 268
+text = "Play"
+
+[node name="icon" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label" unique_id=1030390502]
+layout_mode = 0
+offset_left = 39.0
+offset_top = 2003.0
+offset_right = 138.0
+offset_bottom = 2099.0
+texture = ExtResource("43_ujcpx")
+stretch_mode = 5
+
+[node name="bar" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label" unique_id=1668693995]
+anchors_preset = 0
+
+[node name="bg" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar" unique_id=667962044]
+layout_mode = 0
+offset_left = -1.0
+offset_top = -92.0
+offset_right = 1081.0
+offset_bottom = 121.0
+texture = ExtResource("44_r8ma0")
+stretch_mode = 5
+
+[node name="player" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar" unique_id=896376412]
+anchors_preset = 0
+
+[node name="bg" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/player" unique_id=783272452]
+anchors_preset = 0
+
+[node name="Rounded_Rectangle_1029_copy" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/player/bg" unique_id=861062382]
+layout_mode = 0
+offset_left = 40.0
+offset_top = 178.0
+offset_right = 1040.0
+offset_bottom = 284.0
+texture = ExtResource("45_6rlqh")
+stretch_mode = 5
+
+[node name="Rectangle_3" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/player/bg" unique_id=1664817451]
+layout_mode = 0
+offset_left = 753.0
+offset_top = 178.0
+offset_right = 1060.0
+offset_bottom = 284.0
+texture = ExtResource("46_pwf61")
+stretch_mode = 5
+
+[node name="icon" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/player" unique_id=89938959]
+anchors_preset = 0
+
+[node name="icon" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/player/icon" unique_id=937363611]
+anchors_preset = 0
+
+[node name="icon" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/player/icon/icon" unique_id=116544446]
+layout_mode = 0
+offset_left = 748.0
+offset_top = 192.0
+offset_right = 849.0
+offset_bottom = 265.0
+texture = ExtResource("47_bksiv")
+stretch_mode = 5
+
+[node name="text" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/player" unique_id=1324788526]
+anchors_preset = 0
+
+[node name="text" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/player/text" unique_id=1007880333]
+anchors_preset = 0
+
+[node name="99,999" type="Label" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/player/text/text" unique_id=1505678611]
+layout_mode = 0
+offset_left = 873.0
+offset_top = 217.0
+offset_right = 1014.0
+offset_bottom = 256.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 61
+text = "99,999"
+
+[node name="_Control_31143" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/player" unique_id=1101778189]
+anchors_preset = 0
+
+[node name="text" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/player/_Control_31143" unique_id=2003769430]
+anchors_preset = 0
+
+[node name="Layerlab" type="Label" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/player/_Control_31143/text" unique_id=551275890]
+layout_mode = 0
+offset_left = 80.0
+offset_top = 211.0
+offset_right = 273.0
+offset_bottom = 257.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 61
+text = "Layerlab"
+
+[node name="sub_menu" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar" unique_id=527490464]
+anchors_preset = 0
+
+[node name="friend" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/sub_menu" unique_id=395783499]
+anchors_preset = 0
+
+[node name="btn" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/sub_menu/friend" unique_id=292088499]
+anchors_preset = 0
+
+[node name="Rectangle_544" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/sub_menu/friend/btn" unique_id=550068769]
+layout_mode = 0
+offset_left = 35.0
+offset_top = 522.0
+offset_right = 195.0
+offset_bottom = 664.0
+texture = ExtResource("48_4mkk8")
+stretch_mode = 5
+
+[node name="icon" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/sub_menu/friend" unique_id=1150873014]
+layout_mode = 0
+offset_left = 58.0
+offset_top = 517.0
+offset_right = 171.0
+offset_bottom = 608.0
+texture = ExtResource("49_c4a5h")
+stretch_mode = 5
+
+[node name="text" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/sub_menu/friend" unique_id=217562001]
+anchors_preset = 0
+
+[node name="text" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/sub_menu/friend/text" unique_id=1314195312]
+anchors_preset = 0
+
+[node name="Friends" type="Label" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/sub_menu/friend/text/text" unique_id=793322449]
+layout_mode = 0
+offset_left = 60.0
+offset_top = 616.0
+offset_right = 174.0
+offset_bottom = 644.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 54
+text = "Friends"
+
+[node name="reward" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/sub_menu" unique_id=1742287248]
+anchors_preset = 0
+
+[node name="btn" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/sub_menu/reward" unique_id=182490690]
+anchors_preset = 0
+
+[node name="Rectangle_544" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/sub_menu/reward/btn" unique_id=668886806]
+layout_mode = 0
+offset_left = 35.0
+offset_top = 686.0
+offset_right = 195.0
+offset_bottom = 828.0
+texture = ExtResource("50_d8qmx")
+stretch_mode = 5
+
+[node name="Rectangle_606" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/sub_menu/reward/btn" unique_id=659651023]
+layout_mode = 0
+offset_left = 28.0
+offset_top = 782.0
+offset_right = 201.0
+offset_bottom = 843.0
+texture = ExtResource("51_o803h")
+stretch_mode = 5
+
+[node name="icon" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/sub_menu/reward" unique_id=816349604]
+layout_mode = 0
+offset_left = 63.0
+offset_top = 673.0
+offset_right = 164.0
+offset_bottom = 779.0
+texture = ExtResource("52_undya")
+stretch_mode = 5
+
+[node name="text" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/sub_menu/reward" unique_id=1478770881]
+anchors_preset = 0
+
+[node name="text" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/sub_menu/reward/text" unique_id=1043747582]
+anchors_preset = 0
+
+[node name="4d_14h" type="Label" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/sub_menu/reward/text/text" unique_id=1445624576]
+layout_mode = 0
+offset_left = 75.0
+offset_top = 798.0
+offset_right = 157.0
+offset_bottom = 821.0
+theme_override_colors/font_color = Color(0.57254, 0.92941, 0.94901, 1)
+theme_override_font_sizes/font_size = 46
+text = "4d 14h"
+
+[node name="ranking" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/sub_menu" unique_id=771269348]
+anchors_preset = 0
+
+[node name="btn" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/sub_menu/ranking" unique_id=761807979]
+anchors_preset = 0
+
+[node name="Rectangle_544" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/sub_menu/ranking/btn" unique_id=1993812596]
+layout_mode = 0
+offset_left = 886.0
+offset_top = 522.0
+offset_right = 1046.0
+offset_bottom = 664.0
+texture = ExtResource("53_w152t")
+stretch_mode = 5
+
+[node name="icon" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/sub_menu/ranking" unique_id=1913165202]
+layout_mode = 0
+offset_left = 906.0
+offset_top = 509.0
+offset_right = 1025.0
+offset_bottom = 610.0
+texture = ExtResource("54_3wtq2")
+stretch_mode = 5
+
+[node name="text" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/sub_menu/ranking" unique_id=293809652]
+anchors_preset = 0
+
+[node name="text" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/sub_menu/ranking/text" unique_id=864184237]
+anchors_preset = 0
+
+[node name="Ranking" type="Label" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/sub_menu/ranking/text/text" unique_id=799067057]
+layout_mode = 0
+offset_left = 903.0
+offset_top = 616.0
+offset_right = 1032.0
+offset_bottom = 652.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 54
+text = "Ranking"
+
+[node name="clan" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/sub_menu" unique_id=1140625511]
+anchors_preset = 0
+
+[node name="btn" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/sub_menu/clan" unique_id=1775532721]
+anchors_preset = 0
+
+[node name="Rectangle_544" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/sub_menu/clan/btn" unique_id=1863154169]
+layout_mode = 0
+offset_left = 886.0
+offset_top = 686.0
+offset_right = 1046.0
+offset_bottom = 828.0
+texture = ExtResource("55_absxv")
+stretch_mode = 5
+
+[node name="icon" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/sub_menu/clan" unique_id=212217322]
+layout_mode = 0
+offset_left = 915.0
+offset_top = 675.0
+offset_right = 1016.0
+offset_bottom = 781.0
+texture = ExtResource("56_hqmg6")
+stretch_mode = 5
+
+[node name="text" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/sub_menu/clan" unique_id=1366179519]
+anchors_preset = 0
+
+[node name="text" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/sub_menu/clan/text" unique_id=154124995]
+anchors_preset = 0
+
+[node name="Clan" type="Label" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/sub_menu/clan/text/text" unique_id=789522914]
+layout_mode = 0
+offset_left = 933.0
+offset_top = 783.0
+offset_right = 1000.0
+offset_bottom = 808.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 54
+text = "Clan"
+
+[node name="mission" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/sub_menu" unique_id=1739687833]
+anchors_preset = 0
+
+[node name="btn" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/sub_menu/mission" unique_id=1403167853]
+anchors_preset = 0
+
+[node name="Rectangle_544" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/sub_menu/mission/btn" unique_id=724161294]
+layout_mode = 0
+offset_left = 886.0
+offset_top = 850.0
+offset_right = 1046.0
+offset_bottom = 992.0
+texture = ExtResource("57_q6h5t")
+stretch_mode = 5
+
+[node name="icon" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/sub_menu/mission" unique_id=1822982437]
+layout_mode = 0
+offset_left = 919.0
+offset_top = 834.0
+offset_right = 1014.0
+offset_bottom = 945.0
+texture = ExtResource("58_vtcl8")
+stretch_mode = 5
+
+[node name="text" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/sub_menu/mission" unique_id=495666555]
+anchors_preset = 0
+
+[node name="text" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/sub_menu/mission/text" unique_id=533771453]
+anchors_preset = 0
+
+[node name="Quest" type="Label" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/sub_menu/mission/text/text" unique_id=128036983]
+layout_mode = 0
+offset_left = 921.0
+offset_top = 948.0
+offset_right = 1012.0
+offset_bottom = 977.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 54
+text = "Quest"
+
+[node name="red_dot" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/sub_menu" unique_id=1724475053]
+anchors_preset = 0
+
+[node name="new" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/sub_menu/red_dot" unique_id=543152620]
+layout_mode = 0
+offset_left = 998.0
+offset_top = 846.0
+offset_right = 1048.0
+offset_bottom = 896.0
+texture = ExtResource("59_ijgia")
+stretch_mode = 5
+
+[node name="icon" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/sub_menu/red_dot" unique_id=767600967]
+anchors_preset = 0
+
+[node name="icon" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/sub_menu/red_dot/icon" unique_id=1745316931]
+layout_mode = 0
+offset_left = 1017.0
+offset_top = 853.0
+offset_right = 1030.0
+offset_bottom = 888.0
+texture = ExtResource("60_2ahmr")
+stretch_mode = 5
+
+[node name="chest" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar" unique_id=1848060824]
+anchors_preset = 0
+
+[node name="chest" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/chest" unique_id=120364651]
+anchors_preset = 0
+
+[node name="bg" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/chest/chest" unique_id=1434585493]
+anchors_preset = 0
+
+[node name="bg" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/chest/chest/bg" unique_id=563444118]
+layout_mode = 0
+offset_left = 104.0
+offset_top = 324.0
+offset_right = 393.0
+offset_bottom = 476.0
+texture = ExtResource("61_42fsd")
+stretch_mode = 5
+
+[node name="prg" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/chest/chest" unique_id=326016677]
+anchors_preset = 0
+
+[node name="bg" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/chest/chest/prg" unique_id=379975249]
+anchors_preset = 0
+
+[node name="Rounded_Rectangle_1029_copy_10" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/chest/chest/prg/bg" unique_id=1247620086]
+layout_mode = 0
+offset_left = 180.0
+offset_top = 426.0
+offset_right = 389.0
+offset_bottom = 473.0
+texture = ExtResource("62_5gswk")
+stretch_mode = 5
+
+[node name="bar_" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/chest/chest/prg" unique_id=433250134]
+anchors_preset = 0
+
+[node name="Rounded_Rectangle_1029_copy_11" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/chest/chest/prg/bar_" unique_id=1869482967]
+layout_mode = 0
+offset_left = 180.0
+offset_top = 426.0
+offset_right = 242.0
+offset_bottom = 473.0
+texture = ExtResource("63_bc35p")
+stretch_mode = 5
+
+[node name="item" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/chest/chest" unique_id=1017419934]
+layout_mode = 0
+offset_left = 24.0
+offset_top = 325.0
+offset_right = 208.0
+offset_bottom = 479.0
+texture = ExtResource("64_ywt60")
+stretch_mode = 5
+
+[node name="text" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/chest/chest" unique_id=2006393828]
+anchors_preset = 0
+
+[node name="text" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/chest/chest/text" unique_id=1421509903]
+anchors_preset = 0
+
+[node name="1___10" type="Label" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/chest/chest/text/text" unique_id=2045814956]
+layout_mode = 0
+offset_left = 246.0
+offset_top = 364.0
+offset_right = 353.0
+offset_bottom = 397.0
+theme_override_colors/font_color = Color(1, 0.86273, 0.18823, 1)
+theme_override_font_sizes/font_size = 54
+text = "1 / 10"
+
+[node name="count" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/chest" unique_id=1598969615]
+anchors_preset = 0
+
+[node name="red_dot" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/chest" unique_id=1142942019]
+anchors_preset = 0
+
+[node name="new" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/chest/red_dot" unique_id=1252344054]
+layout_mode = 0
+offset_left = 366.0
+offset_top = 325.0
+offset_right = 397.0
+offset_bottom = 356.0
+texture = ExtResource("65_5p5cf")
+stretch_mode = 5
+
+[node name="new_copy" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/chest/red_dot" unique_id=1324044236]
+layout_mode = 0
+offset_left = 371.0
+offset_top = 330.0
+offset_right = 397.0
+offset_bottom = 356.0
+texture = ExtResource("66_61iqj")
+stretch_mode = 5
+
+[node name="prg" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar" unique_id=1001105060]
+anchors_preset = 0
+
+[node name="bg" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/prg" unique_id=1284285321]
+anchors_preset = 0
+
+[node name="bg" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/prg/bg" unique_id=2049256811]
+layout_mode = 0
+offset_left = 419.0
+offset_top = 324.0
+offset_right = 1045.0
+offset_bottom = 476.0
+texture = ExtResource("67_ylpit")
+stretch_mode = 5
+
+[node name="text" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/prg" unique_id=1380878564]
+anchors_preset = 0
+
+[node name="bar" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/prg/text" unique_id=1171120274]
+anchors_preset = 0
+
+[node name="bg" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/prg/text/bar" unique_id=149521674]
+anchors_preset = 0
+
+[node name="Rounded_Rectangle_1029_copy_10" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/prg/text/bar/bg" unique_id=666334193]
+layout_mode = 0
+offset_left = 615.0
+offset_top = 369.0
+offset_right = 882.0
+offset_bottom = 428.0
+texture = ExtResource("68_rirki")
+stretch_mode = 5
+
+[node name="blue" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/prg/text/bar" unique_id=1300780091]
+anchors_preset = 0
+
+[node name="<_Layer_group>" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/prg/text/bar/blue" unique_id=1879837804]
+anchors_preset = 0
+
+[node name="Rounded_Rectangle_1029_copy_11" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/prg/text/bar/blue" unique_id=952689429]
+layout_mode = 0
+offset_left = 627.0
+offset_top = 369.0
+offset_right = 736.0
+offset_bottom = 428.0
+texture = ExtResource("69_3y6lj")
+stretch_mode = 5
+
+[node name="text" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/prg/text" unique_id=437256734]
+anchors_preset = 0
+
+[node name="<_Layer_group>" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/prg/text/text" unique_id=47637171]
+anchors_preset = 0
+
+[node name="13_50" type="Label" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/prg/text/text" unique_id=232710469]
+layout_mode = 0
+offset_left = 702.0
+offset_top = 384.0
+offset_right = 795.0
+offset_bottom = 412.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 46
+text = "13/50"
+
+[node name="icon" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar" unique_id=663186107]
+anchors_preset = 0
+
+[node name="icon" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/icon" unique_id=19106430]
+anchors_preset = 0
+
+[node name="icon" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bar/icon/icon" unique_id=1319823830]
+layout_mode = 0
+offset_left = 566.0
+offset_top = 356.0
+offset_right = 654.0
+offset_bottom = 434.0
+texture = ExtResource("70_r23ex")
+stretch_mode = 5
+
+[node name="bg" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label" unique_id=2054607577]
+anchors_preset = 0
+
+[node name="bg" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bg" unique_id=9632719]
+anchors_preset = 0
+
+[node name="bg" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bg/bg" unique_id=1768536828]
+anchors_preset = 0
+
+[node name="<_Layer_group>" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bg/bg/bg" unique_id=541774057]
+anchors_preset = 0
+
+[node name="Rounded_Rectangle_1_copy_3" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/bg/bg/bg" unique_id=262661398]
+layout_mode = 0
+offset_left = 449.0
+offset_top = 351.0
+offset_right = 545.0
+offset_bottom = 447.0
+texture = ExtResource("71_n3loh")
+stretch_mode = 5
+
+[node name="txt" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label" unique_id=424226903]
+anchors_preset = 0
+
+[node name="3" type="Label" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/label/txt" unique_id=291220427]
+layout_mode = 0
+offset_left = 486.0
+offset_top = 383.0
+offset_right = 508.0
+offset_bottom = 417.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 105
+text = "3"
+
+[node name="ticket" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass" unique_id=56793145]
+anchors_preset = 0
+
+[node name="icon" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/ticket" unique_id=242766083]
+anchors_preset = 0
+
+[node name="icon" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/ticket/icon" unique_id=613976963]
+anchors_preset = 0
+
+[node name="icon" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/pass/ticket/icon/icon" unique_id=1522365044]
+layout_mode = 0
+offset_left = 869.0
+offset_top = 336.0
+offset_right = 1031.0
+offset_bottom = 458.0
+texture = ExtResource("72_2cxf2")
+stretch_mode = 5
+
+[node name="add_" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem" unique_id=1037898675]
+anchors_preset = 0
+
+[node name="icon" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/add_" unique_id=1895616154]
+anchors_preset = 0
+
+[node name="text" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/add_/icon" unique_id=852111803]
+anchors_preset = 0
+
+[node name="bg" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/add_/icon/text" unique_id=2136137433]
+layout_mode = 0
+offset_left = 612.0
+offset_top = 31.0
+offset_right = 805.0
+offset_bottom = 89.0
+texture = ExtResource("73_5rtuh")
+stretch_mode = 5
+
+[node name="text" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/add_/icon/text" unique_id=1372252384]
+anchors_preset = 0
+
+[node name="<_Layer_group>" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/add_/icon/text/text" unique_id=1998129538]
+anchors_preset = 0
+
+[node name="120" type="Label" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/add_/icon/text/text" unique_id=1097480837]
+layout_mode = 0
+offset_left = 688.0
+offset_top = 48.0
+offset_right = 744.0
+offset_bottom = 73.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 26
+text = "120"
+
+[node name="icon" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/add_/icon" unique_id=1525964770]
+layout_mode = 0
+offset_left = 586.0
+offset_top = 26.0
+offset_right = 663.0
+offset_bottom = 94.0
+texture = ExtResource("74_5lhvb")
+stretch_mode = 5
+
+[node name="Group_1" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/add_/icon" unique_id=1835484000]
+anchors_preset = 0
+
+[node name="<_Layer_group>" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/add_/icon/Group_1" unique_id=2032166100]
+anchors_preset = 0
+
+[node name="Rounded_Rectangle_960" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/add_/icon/Group_1" unique_id=1507026001]
+layout_mode = 0
+offset_left = 777.0
+offset_top = 35.0
+offset_right = 833.0
+offset_bottom = 87.0
+texture = ExtResource("75_lojay")
+stretch_mode = 5
+
+[node name="Rounded_Rectangle_960_copy" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/add_/icon/Group_1" unique_id=1323147180]
+layout_mode = 0
+offset_left = 777.0
+offset_top = 31.0
+offset_right = 833.0
+offset_bottom = 82.0
+texture = ExtResource("76_vds4b")
+stretch_mode = 5
+
+[node name="<_Layer_group>" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/add_/icon" unique_id=947393848]
+anchors_preset = 0
+
+[node name="close" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/gem/add_/icon" unique_id=610754809]
+layout_mode = 0
+offset_left = 790.0
+offset_top = 41.0
+offset_right = 820.0
+offset_bottom = 71.0
+texture = ExtResource("77_4bjvn")
+stretch_mode = 5
+
+[node name="text" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold" unique_id=263364007]
+anchors_preset = 0
+
+[node name="add_" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/text" unique_id=1377410151]
+anchors_preset = 0
+
+[node name="bg" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/text/add_" unique_id=718685917]
+layout_mode = 0
+offset_left = 302.0
+offset_top = 31.0
+offset_right = 545.0
+offset_bottom = 89.0
+texture = ExtResource("78_8dfqb")
+stretch_mode = 5
+
+[node name="<_Layer_group>" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/text/add_" unique_id=869347721]
+anchors_preset = 0
+
+[node name="_Control_31141" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/text/add_" unique_id=262578334]
+anchors_preset = 0
+
+[node name="Rounded_Rectangle_960" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/text/add_" unique_id=713276400]
+layout_mode = 0
+offset_left = 512.0
+offset_top = 35.0
+offset_right = 568.0
+offset_bottom = 87.0
+texture = ExtResource("79_4odo1")
+stretch_mode = 5
+
+[node name="Rounded_Rectangle_960_copy" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/text/add_" unique_id=922503657]
+layout_mode = 0
+offset_left = 512.0
+offset_top = 31.0
+offset_right = 568.0
+offset_bottom = 82.0
+texture = ExtResource("80_2hdbj")
+stretch_mode = 5
+
+[node name="Group_1" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/text/add_" unique_id=1308351803]
+anchors_preset = 0
+
+[node name="_Control_31142" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/text/add_" unique_id=192935850]
+anchors_preset = 0
+
+[node name="close" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold/text/add_" unique_id=1649364896]
+layout_mode = 0
+offset_left = 525.0
+offset_top = 41.0
+offset_right = 555.0
+offset_bottom = 71.0
+texture = ExtResource("81_a2rum")
+stretch_mode = 5
+
+[node name="icon" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/text/add_" unique_id=880820371]
+anchors_preset = 0
+
+[node name="<_Layer_group>" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/text" unique_id=838559055]
+anchors_preset = 0
+
+[node name="_Control_31140" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/text" unique_id=693971346]
+anchors_preset = 0
+
+[node name="349810" type="Label" parent="Top/Top/Resource/energe/add_/icon/text/gold/text" unique_id=1486461141]
+layout_mode = 0
+offset_left = 372.0
+offset_top = 48.0
+offset_right = 488.0
+offset_bottom = 73.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 26
+text = "349810"
+
+[node name="text" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/gold/text" unique_id=1170640328]
+anchors_preset = 0
+
+[node name="icon" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text/gold" unique_id=901840929]
+layout_mode = 0
+offset_left = 282.0
+offset_top = 23.0
+offset_right = 348.0
+offset_bottom = 97.0
+texture = ExtResource("82_krxwe")
+stretch_mode = 5
+
+[node name="bg" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/text" unique_id=2141616720]
+layout_mode = 0
+offset_left = 43.0
+offset_top = 31.0
+offset_right = 236.0
+offset_bottom = 89.0
+texture = ExtResource("83_76i6h")
+stretch_mode = 5
+
+[node name="text" type="Control" parent="Top/Top/Resource/energe/add_/icon/text" unique_id=1090214903]
+anchors_preset = 0
+
+[node name="<_Layer_group>" type="Control" parent="Top/Top/Resource/energe/add_/icon/text/text" unique_id=809011863]
+anchors_preset = 0
+
+[node name="5_5" type="Label" parent="Top/Top/Resource/energe/add_/icon/text/text" unique_id=1514101358]
+layout_mode = 0
+offset_left = 111.0
+offset_top = 47.0
+offset_right = 164.0
+offset_bottom = 75.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 26
+text = "5/5"
+
+[node name="icon" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon" unique_id=313097956]
+layout_mode = 0
+offset_left = 31.0
+offset_top = 21.0
+offset_right = 88.0
+offset_bottom = 99.0
+texture = ExtResource("84_4ern7")
+stretch_mode = 5
+
+[node name="Group_1" type="Control" parent="Top/Top/Resource/energe/add_/icon" unique_id=25087052]
+anchors_preset = 0
+
+[node name="<_Layer_group>" type="Control" parent="Top/Top/Resource/energe/add_/icon/Group_1" unique_id=839711777]
+anchors_preset = 0
+
+[node name="Rounded_Rectangle_960" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/Group_1" unique_id=1855985534]
+layout_mode = 0
+offset_left = 193.0
+offset_top = 35.0
+offset_right = 249.0
+offset_bottom = 87.0
+texture = ExtResource("85_sovws")
+stretch_mode = 5
+
+[node name="Rounded_Rectangle_960_copy" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon/Group_1" unique_id=961060106]
+layout_mode = 0
+offset_left = 193.0
+offset_top = 31.0
+offset_right = 249.0
+offset_bottom = 82.0
+texture = ExtResource("86_4iffs")
+stretch_mode = 5
+
+[node name="<_Layer_group>" type="Control" parent="Top/Top/Resource/energe/add_/icon" unique_id=1511751776]
+anchors_preset = 0
+
+[node name="close" type="TextureRect" parent="Top/Top/Resource/energe/add_/icon" unique_id=2075034501]
+layout_mode = 0
+offset_left = 206.0
+offset_top = 41.0
+offset_right = 236.0
+offset_bottom = 71.0
+texture = ExtResource("87_uxlm4")
+stretch_mode = 5
+
+[node name="top_btn_menu" type="Control" parent="Top/Top" unique_id=1903058721]
+anchors_preset = 0
+
+[node name="btn" type="Control" parent="Top/Top/top_btn_menu" unique_id=2128883607]
+anchors_preset = 0
+
+[node name="Shape_2_copy" type="TextureRect" parent="Top/Top/top_btn_menu/btn" unique_id=1416193706]
+layout_mode = 0
+offset_left = 913.0
+offset_top = 28.0
+offset_right = 1045.0
+offset_bottom = 151.0
+texture = ExtResource("88_v8554")
+stretch_mode = 5
+
+[node name="icon" type="Control" parent="Top/Top/top_btn_menu" unique_id=554569361]
+anchors_preset = 0
+
+[node name="icon" type="TextureRect" parent="Top/Top/top_btn_menu/icon" unique_id=936336557]
+layout_mode = 0
+offset_left = 946.0
+offset_top = 61.0
+offset_right = 1012.0
+offset_bottom = 117.0
+texture = ExtResource("89_1n28s")
+stretch_mode = 5
+
+[node name="red_dot" type="Control" parent="Top/Top/top_btn_menu" unique_id=1999889588]
+anchors_preset = 0
+
+[node name="new" type="TextureRect" parent="Top/Top/top_btn_menu/red_dot" unique_id=41365838]
+layout_mode = 0
+offset_left = 1014.0
+offset_top = 29.0
+offset_right = 1045.0
+offset_bottom = 60.0
+texture = ExtResource("90_dctx2")
+stretch_mode = 5
+
+[node name="new_copy" type="TextureRect" parent="Top/Top/top_btn_menu/red_dot" unique_id=1172267570]
+layout_mode = 0
+offset_left = 1019.0
+offset_top = 34.0
+offset_right = 1045.0
+offset_bottom = 60.0
+texture = ExtResource("91_kqf3h")
+stretch_mode = 5

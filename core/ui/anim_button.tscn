@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://by75bggnbxmrw"]
+
+[ext_resource type="Script" uid="uid://b4v110cogpd5r" path="res://core/ui/anim_button.gd" id="1_animb"]
+
+[node name="AnimButton" type="TextureButton" unique_id=770312481]
+custom_minimum_size = Vector2(160, 48)
+pivot_offset = Vector2(80, 24)
+mouse_default_cursor_shape = 2
+script = ExtResource("1_animb")

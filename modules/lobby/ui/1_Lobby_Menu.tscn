@@ -1,0 +1,165 @@
+[gd_scene format=3 uid="uid://b1fndajge6iye"]
+
+[ext_resource type="Texture2D" uid="uid://bvgry6s8qedum" path="res://modules/lobby/ui/1_Lobby_Menu_textures/Layer_9_0.png" id="1_1jp47"]
+[ext_resource type="Texture2D" uid="uid://bwpow0plvbm3e" path="res://modules/lobby/ui/1_Lobby_Menu_textures/bg_1.png" id="2_0vyob"]
+[ext_resource type="Texture2D" uid="uid://bivr0jgpxavit" path="res://modules/lobby/ui/1_Lobby_Menu_textures/icon_6.png" id="3_robf7"]
+[ext_resource type="Texture2D" uid="uid://csasv0w5sdp0i" path="res://modules/lobby/ui/1_Lobby_Menu_textures/icon_9.png" id="4_rylse"]
+[ext_resource type="Texture2D" uid="uid://bkpi1ber2e4iy" path="res://modules/lobby/ui/1_Lobby_Menu_textures/icon_12.png" id="5_dxjai"]
+[ext_resource type="Texture2D" uid="uid://cb40rm43ga4xi" path="res://modules/lobby/ui/1_Lobby_Menu_textures/icon_15.png" id="6_8vcup"]
+[ext_resource type="Texture2D" uid="uid://c0mt622urnq3v" path="res://modules/lobby/ui/1_Lobby_Menu_textures/new_18.png" id="7_akc4r"]
+
+[node name="PsdRoot" type="Control" unique_id=973987366]
+custom_minimum_size = Vector2(1080, 2340)
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1080.0
+offset_bottom = 2340.0
+
+[node name="Layer_9" type="TextureRect" parent="." unique_id=782188006]
+layout_mode = 0
+offset_right = 1080.0
+offset_bottom = 2340.0
+texture = ExtResource("1_1jp47")
+stretch_mode = 5
+
+[node name="menu" type="Control" parent="." unique_id=1951734669]
+anchors_preset = 0
+offset_right = 1082.0
+offset_bottom = 691.0
+
+[node name="bg" type="Control" parent="menu" unique_id=787047425]
+anchors_preset = 0
+offset_left = 547.0
+offset_top = 173.0
+offset_right = 1040.0
+offset_bottom = 677.0
+
+[node name="bg" type="TextureRect" parent="menu/bg" unique_id=2123019272]
+layout_mode = 0
+offset_right = 493.0
+offset_bottom = 504.0
+texture = ExtResource("2_0vyob")
+stretch_mode = 5
+
+[node name="text" type="Control" parent="menu" unique_id=1747036403]
+anchors_preset = 0
+offset_left = 732.0
+offset_top = 225.0
+offset_right = 733.0
+offset_bottom = 248.0
+
+[node name="text" type="Control" parent="menu/text" unique_id=159359809]
+anchors_preset = 0
+offset_right = 1.0
+offset_bottom = 23.0
+
+[node name="Settings_Achievement_Daily_Gift_Inbox" type="Label" parent="menu/text/text" unique_id=2059832991]
+layout_mode = 0
+offset_right = 1.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 70
+text = "SettingsAchievementDaily GiftInbox"
+
+[node name="icon" type="Control" parent="menu" unique_id=1658133431]
+anchors_preset = 0
+offset_left = 583.0
+offset_top = 204.0
+offset_right = 653.0
+offset_bottom = 284.0
+
+[node name="icon" type="Control" parent="menu/icon" unique_id=835921559]
+anchors_preset = 0
+offset_right = 70.0
+offset_bottom = 80.0
+
+[node name="icon" type="TextureRect" parent="menu/icon/icon" unique_id=1226772445]
+layout_mode = 0
+offset_right = 70.0
+offset_bottom = 80.0
+texture = ExtResource("3_robf7")
+stretch_mode = 5
+
+[node name="@Control@26374" type="Control" parent="menu" unique_id=1435681745]
+anchors_preset = 0
+offset_left = 572.0
+offset_top = 331.0
+offset_right = 664.0
+offset_bottom = 397.0
+
+[node name="icon" type="Control" parent="menu/@Control@26374" unique_id=312848435]
+anchors_preset = 0
+offset_right = 92.0
+offset_bottom = 66.0
+
+[node name="icon" type="TextureRect" parent="menu/@Control@26374/icon" unique_id=915801734]
+layout_mode = 0
+offset_right = 92.0
+offset_bottom = 66.0
+texture = ExtResource("4_rylse")
+stretch_mode = 5
+
+[node name="@Control@26375" type="Control" parent="menu" unique_id=2020365993]
+anchors_preset = 0
+offset_left = 581.0
+offset_top = 444.0
+offset_right = 657.0
+offset_bottom = 528.0
+
+[node name="calendar" type="Control" parent="menu/@Control@26375" unique_id=1877573743]
+anchors_preset = 0
+offset_right = 76.0
+offset_bottom = 84.0
+
+[node name="icon" type="TextureRect" parent="menu/@Control@26375/calendar" unique_id=1059729188]
+layout_mode = 0
+offset_right = 76.0
+offset_bottom = 84.0
+texture = ExtResource("5_dxjai")
+stretch_mode = 5
+
+[node name="@Control@26376" type="Control" parent="menu" unique_id=1029123134]
+anchors_preset = 0
+offset_left = 577.0
+offset_top = 574.0
+offset_right = 660.0
+offset_bottom = 643.0
+
+[node name="icon" type="Control" parent="menu/@Control@26376" unique_id=1610432300]
+anchors_preset = 0
+offset_right = 83.0
+offset_bottom = 69.0
+
+[node name="icon" type="TextureRect" parent="menu/@Control@26376/icon" unique_id=2082365771]
+layout_mode = 0
+offset_right = 83.0
+offset_bottom = 69.0
+texture = ExtResource("6_8vcup")
+stretch_mode = 5
+
+[node name="red_dot" type="Control" parent="menu" unique_id=337486862]
+anchors_preset = 0
+offset_right = 693.0
+offset_bottom = 362.0
+
+[node name="new" type="TextureRect" parent="menu/red_dot" unique_id=65917999]
+layout_mode = 0
+offset_left = 643.0
+offset_top = 312.0
+offset_right = 693.0
+offset_bottom = 362.0
+texture = ExtResource("7_akc4r")
+stretch_mode = 5
+
+[node name="text" type="Control" parent="menu/red_dot" unique_id=1585473669]
+anchors_preset = 0
+
+[node name="1" type="Label" parent="menu/red_dot" unique_id=1632181212]
+layout_mode = 0
+offset_left = 660.0
+offset_top = 325.0
+offset_right = 661.0
+offset_bottom = 348.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 50
+text = "1"

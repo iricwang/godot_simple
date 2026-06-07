@@ -1,3 +1,7 @@
-extends Node
+extends Control
+
+var app: Application
+
 func _ready() -> void:
-	print("[gamescene] 加载...")
+	app = Application.new()
+	app.initialize(self)

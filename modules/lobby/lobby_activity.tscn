@@ -1,0 +1,2470 @@
+[gd_scene format=3 uid="uid://bd4rt1nu4oqyw"]
+
+[ext_resource type="Script" uid="uid://chsrprm0r7kni" path="res://modules/lobby/lobby_activity.gd" id="1_lobby"]
+[ext_resource type="Texture2D" uid="uid://cey3ao2ksk4im" path="res://modules/lobby/ui/13_Shop_1_textures/Color_Fill_1_0.png" id="2_d3wpg"]
+[ext_resource type="Texture2D" uid="uid://1m5hixvvbwf7" path="res://modules/lobby/ui/13_Shop_1_textures/bg_1.png" id="3_71mye"]
+[ext_resource type="Texture2D" uid="uid://drnmk61webcp8" path="res://modules/lobby/ui/13_Shop_1_textures/bg_2.png" id="4_a7h2i"]
+[ext_resource type="Texture2D" uid="uid://witmb1gxpku2" path="res://modules/lobby/ui/13_Shop_1_textures/gradient_3.png" id="5_u2op2"]
+[ext_resource type="Texture2D" uid="uid://dkvau33ch2aq8" path="res://modules/lobby/ui/13_Shop_1_textures/in_4.png" id="6_ccfjc"]
+[ext_resource type="Texture2D" uid="uid://da5fqq6uc70er" path="res://modules/lobby/ui/13_Shop_1_textures/Shape_1752_5.png" id="7_1bvoi"]
+[ext_resource type="Texture2D" uid="uid://dgjpmvnxhl5j0" path="res://modules/lobby/ui/13_Shop_1_textures/glow_7.png" id="8_ygc4g"]
+[ext_resource type="Texture2D" uid="uid://onilc3rjrfvo" path="res://modules/lobby/ui/13_Shop_1_textures/effect_8.png" id="9_ro0eg"]
+[ext_resource type="Texture2D" uid="uid://b7qb108ud76o2" path="res://modules/lobby/ui/13_Shop_1_textures/Group_7543_9.png" id="10_hjq3q"]
+[ext_resource type="Texture2D" uid="uid://dybu2tg26uu3u" path="res://modules/lobby/ui/13_Shop_1_textures/Group_7542_15.png" id="12_8713q"]
+[ext_resource type="Texture2D" uid="uid://b2wx2csi4oi2f" path="res://modules/lobby/ui/13_Shop_1_textures/effect_17.png" id="13_1xkli"]
+[ext_resource type="Texture2D" uid="uid://fs0fntc53238" path="res://modules/lobby/ui/13_Shop_1_textures/bg_26.png" id="14_73mi3"]
+[ext_resource type="Texture2D" uid="uid://caalc5pn7dbx4" path="res://modules/lobby/ui/13_Shop_1_textures/icon_27.png" id="15_oebgu"]
+[ext_resource type="Texture2D" uid="uid://suvwlyjk8hdi" path="res://modules/lobby/ui/13_Shop_1_textures/Ellipse_32_34.png" id="16_oaq0g"]
+[ext_resource type="Texture2D" uid="uid://oi1yddscpwp6" path="res://modules/lobby/ui/13_Shop_1_textures/Rounded_Rectangle_1029_copy_36.png" id="17_vcclj"]
+[ext_resource type="Texture2D" uid="uid://01hdjjn66mh5" path="res://modules/lobby/ui/13_Shop_1_textures/Shape_684_39.png" id="18_6uduv"]
+[ext_resource type="Texture2D" uid="uid://cgt6danxfto57" path="res://modules/lobby/ui/13_Shop_1_textures/Shape_688_40.png" id="19_t67t4"]
+[ext_resource type="Texture2D" uid="uid://ii7u2yxk4h15" path="res://modules/lobby/ui/13_Shop_1_textures/Shape_689_41.png" id="20_5ytvr"]
+[ext_resource type="Texture2D" uid="uid://dbc0rus4qk3cf" path="res://modules/lobby/ui/13_Shop_1_textures/Shape_687_42.png" id="21_t2okb"]
+[ext_resource type="Texture2D" uid="uid://806sxk3sbhg1" path="res://modules/lobby/ui/13_Shop_1_textures/Shape_690_43.png" id="22_kryc3"]
+[ext_resource type="Texture2D" uid="uid://c2eeo7dbedcbk" path="res://modules/lobby/ui/13_Shop_1_textures/Shape_686_44.png" id="23_lcmtr"]
+[ext_resource type="Texture2D" uid="uid://ul0rjtldryt3" path="res://modules/lobby/ui/13_Shop_1_textures/Shape_685_45.png" id="24_yn000"]
+[ext_resource type="Texture2D" uid="uid://dcu12355eofma" path="res://modules/lobby/ui/13_Shop_1_textures/bg_55.png" id="25_2jqx6"]
+[ext_resource type="Texture2D" uid="uid://bftu2db05kruj" path="res://modules/lobby/ui/13_Shop_1_textures/gradient_56.png" id="26_si5rc"]
+[ext_resource type="Texture2D" uid="uid://bf46y2dj7jwlk" path="res://modules/lobby/ui/13_Shop_1_textures/in_57.png" id="27_2bffa"]
+[ext_resource type="Texture2D" uid="uid://5t6vmwrl6bc4" path="res://modules/lobby/ui/13_Shop_1_textures/glow_59.png" id="28_wpsl0"]
+[ext_resource type="Texture2D" uid="uid://dli5ybuy6en3q" path="res://modules/lobby/ui/13_Shop_1_textures/effect_60.png" id="29_wkyvj"]
+[ext_resource type="Texture2D" uid="uid://rvshwmdhh4qa" path="res://modules/lobby/ui/13_Shop_1_textures/bg_62.png" id="30_2jwcu"]
+[ext_resource type="Texture2D" uid="uid://rd68016qoftd" path="res://modules/lobby/ui/13_Shop_1_textures/icon_63.png" id="31_skpsa"]
+[ext_resource type="Texture2D" uid="uid://d2r0bayhjtk0j" path="res://modules/lobby/ui/13_Shop_1_textures/icon_70.png" id="32_83kvd"]
+[ext_resource type="Texture2D" uid="uid://dfnols7exl58k" path="res://modules/lobby/ui/13_Shop_1_textures/icon_73.png" id="33_h80ln"]
+[ext_resource type="Texture2D" uid="uid://bxqwfnjnwfcxl" path="res://modules/lobby/ui/13_Shop_1_textures/icon_76.png" id="34_o3lth"]
+[ext_resource type="Texture2D" uid="uid://c4ccwtfkyld6w" path="res://modules/lobby/ui/13_Shop_1_textures/icon_79.png" id="35_i4otw"]
+[ext_resource type="Texture2D" uid="uid://dfh6ysmkqj222" path="res://modules/lobby/ui/13_Shop_1_textures/icon_82.png" id="36_nshwj"]
+[ext_resource type="Texture2D" uid="uid://c2cvh8devi6se" path="res://modules/lobby/ui/13_Shop_1_textures/effect_92.png" id="37_ih2vh"]
+[ext_resource type="Texture2D" uid="uid://b7fb4x08841j7" path="res://modules/lobby/ui/13_Shop_1_textures/Shape_684_copy_2_94.png" id="38_tyk4x"]
+[ext_resource type="Texture2D" uid="uid://by0wmk030m1ex" path="res://modules/lobby/ui/13_Shop_1_textures/Shape_685_copy_95.png" id="39_2wqyb"]
+[ext_resource type="Texture2D" uid="uid://bkygoyqp4wn3w" path="res://modules/lobby/ui/13_Shop_1_textures/Shape_684_copy_3_96.png" id="40_lxtbs"]
+[ext_resource type="Texture2D" uid="uid://ccdlrxrvo64jg" path="res://modules/lobby/ui/13_Shop_1_textures/Shape_684_102.png" id="41_mcol0"]
+[ext_resource type="Texture2D" uid="uid://4lx3nnt1puwv" path="res://modules/lobby/ui/13_Shop_1_textures/Shape_688_103.png" id="42_22v4y"]
+[ext_resource type="Texture2D" uid="uid://bmtq2mlkwdrqx" path="res://modules/lobby/ui/13_Shop_1_textures/Shape_689_104.png" id="43_bqsl1"]
+[ext_resource type="Texture2D" uid="uid://ficojyydpv7s" path="res://modules/lobby/ui/13_Shop_1_textures/Shape_687_105.png" id="44_3i3bl"]
+[ext_resource type="Texture2D" uid="uid://dwyfufr8bydbq" path="res://modules/lobby/ui/13_Shop_1_textures/Shape_690_106.png" id="45_d3xb7"]
+[ext_resource type="Texture2D" uid="uid://ccnvg1rks3jm3" path="res://modules/lobby/ui/13_Shop_1_textures/Shape_686_107.png" id="46_g56j0"]
+[ext_resource type="Texture2D" uid="uid://ba6ys7qenw0o8" path="res://modules/lobby/ui/13_Shop_1_textures/Shape_685_108.png" id="47_xa7vc"]
+[ext_resource type="Texture2D" uid="uid://cae4ywa7nob64" path="res://modules/lobby/ui/13_Shop_1_textures/Shape_684_copy_114.png" id="48_wlv2a"]
+[ext_resource type="Texture2D" uid="uid://nqbmgafv2tud" path="res://modules/lobby/ui/13_Shop_1_textures/Rectangle_515_115.png" id="49_m0u8e"]
+[ext_resource type="Texture2D" uid="uid://dw1eaghdjrgow" path="res://modules/lobby/ui/13_Shop_1_textures/bg_123.png" id="50_dy5rp"]
+[ext_resource type="Texture2D" uid="uid://cycohljrqogh7" path="res://modules/lobby/ui/13_Shop_1_textures/bg_129.png" id="51_7emox"]
+[ext_resource type="Texture2D" uid="uid://duqh8oxpfjpyy" path="res://modules/lobby/ui/13_Shop_1_textures/bg_135.png" id="52_lqau7"]
+[ext_resource type="Texture2D" uid="uid://dd4j75e5df1gy" path="res://modules/lobby/ui/13_Shop_1_textures/icon_136.png" id="53_3i00n"]
+[ext_resource type="Texture2D" uid="uid://dj7nq0opky7iy" path="res://modules/lobby/ui/13_Shop_1_textures/Rectangle_1226_143.png" id="54_pfj6t"]
+[ext_resource type="Texture2D" uid="uid://dwgtpjwvp7fjl" path="res://modules/lobby/ui/13_Shop_1_textures/fill_144.png" id="55_e3srx"]
+[ext_resource type="Script" uid="uid://b4v110cogpd5r" path="res://core/ui/anim_button.gd" id="56_2ngxe"]
+[ext_resource type="Texture2D" uid="uid://ds0osrqguegjb" path="res://modules/lobby/ui/13_Shop_1_textures/icon_148.png" id="56_w7n0m"]
+[ext_resource type="Texture2D" uid="uid://fj6uat1xmrqw" path="res://modules/lobby/ui/13_Shop_1_textures/Rectangle_1226_159.png" id="57_8wsk1"]
+[ext_resource type="Texture2D" uid="uid://b2vj2fo4dpswv" path="res://modules/lobby/ui/13_Shop_1_textures/fill_160.png" id="58_5usmd"]
+[ext_resource type="Texture2D" uid="uid://bkm2dkb3c16vl" path="res://modules/lobby/ui/13_Shop_1_textures/icon_164.png" id="59_xpqjx"]
+[ext_resource type="Texture2D" uid="uid://dp1ijo8njhnfn" path="res://modules/lobby/ui/13_Shop_1_textures/icon_173.png" id="60_abx6d"]
+[ext_resource type="Texture2D" uid="uid://bmmv660oresux" path="res://modules/lobby/ui/13_Shop_1_textures/Rectangle_1226_178.png" id="61_mkm8l"]
+[ext_resource type="Texture2D" uid="uid://dncxn3ntmc2oi" path="res://modules/lobby/ui/13_Shop_1_textures/fill_179.png" id="62_sl0kk"]
+[ext_resource type="Texture2D" uid="uid://dnrcd7oilranp" path="res://modules/lobby/ui/13_Shop_1_textures/icon_182.png" id="63_u13xg"]
+[ext_resource type="Texture2D" uid="uid://b3l7bbpfpy6ob" path="res://modules/lobby/ui/13_Shop_1_textures/icon_191.png" id="64_vrnje"]
+[ext_resource type="Texture2D" uid="uid://b4tpwafjirgw8" path="res://modules/lobby/ui/13_Shop_1_textures/Rectangle_1226_196.png" id="65_pipi8"]
+[ext_resource type="Texture2D" uid="uid://bn1gke60ljpca" path="res://modules/lobby/ui/13_Shop_1_textures/fill_197.png" id="66_ujpqu"]
+[ext_resource type="Texture2D" uid="uid://dr55kigubylgh" path="res://modules/lobby/ui/13_Shop_1_textures/icon_200.png" id="67_ai3oe"]
+[ext_resource type="Texture2D" uid="uid://ikb7svkiqyda" path="res://modules/lobby/ui/13_Shop_1_textures/icon_209.png" id="68_2mvl6"]
+[ext_resource type="Texture2D" uid="uid://df7k5acgo5txh" path="res://modules/lobby/ui/13_Shop_1_textures/Rectangle_1226_214.png" id="69_h0ady"]
+[ext_resource type="Texture2D" uid="uid://gfa5e473a6t7" path="res://modules/lobby/ui/13_Shop_1_textures/fill_215.png" id="70_0pyh4"]
+[ext_resource type="Texture2D" uid="uid://22yt25qdw456" path="res://modules/lobby/ui/13_Shop_1_textures/icon_218.png" id="71_ao6fy"]
+[ext_resource type="Texture2D" uid="uid://7v41ktwxllcr" path="res://modules/lobby/ui/13_Shop_1_textures/icon_227.png" id="72_ljni2"]
+[ext_resource type="Texture2D" uid="uid://cwhrao2bp02xm" path="res://modules/lobby/ui/13_Shop_1_textures/Rectangle_1226_232.png" id="73_mya3f"]
+[ext_resource type="Texture2D" uid="uid://c0an2tsqcwysa" path="res://modules/lobby/ui/13_Shop_1_textures/Rounded_Rectangle_644_copy_2_234.png" id="74_t1cfn"]
+[ext_resource type="Texture2D" uid="uid://bvuirjhb42f6n" path="res://modules/lobby/ui/13_Shop_1_textures/Rounded_Rectangle_644_copy_4_235.png" id="75_rlba4"]
+[ext_resource type="Texture2D" uid="uid://7j3tl4876nq3" path="res://modules/lobby/ui/13_Shop_1_textures/Rounded_Rectangle_644_copy_7_236.png" id="76_jfh0x"]
+[ext_resource type="Texture2D" uid="uid://dnnd3dwom882m" path="res://modules/lobby/ui/13_Shop_1_textures/Rounded_Rectangle_644_copy_4_237.png" id="77_6ffp2"]
+[ext_resource type="Texture2D" uid="uid://bycd31x0lk5jg" path="res://modules/lobby/ui/13_Shop_1_textures/new_241.png" id="78_34ydo"]
+[ext_resource type="Texture2D" uid="uid://bn7diulrwke83" path="res://modules/lobby/ui/13_Shop_1_textures/new_copy_242.png" id="79_bsd42"]
+[ext_resource type="Texture2D" uid="uid://bygoewcd18jtn" path="res://modules/lobby/ui/13_Shop_1_textures/bg_245.png" id="80_42snf"]
+[ext_resource type="Texture2D" uid="uid://b3d6fkpdscn4t" path="res://modules/lobby/ui/13_Shop_1_textures/bg_251.png" id="81_a5dcj"]
+[ext_resource type="Texture2D" uid="uid://dca1yy5aqjoyv" path="res://modules/lobby/ui/13_Shop_1_textures/Shape_517_252.png" id="82_bjpwt"]
+[ext_resource type="Texture2D" uid="uid://qc55ksl7ala2" path="res://modules/lobby/ui/13_Shop_1_textures/Layer_1_253.png" id="83_lrmri"]
+[ext_resource type="Texture2D" uid="uid://dk4jc3o5wq6cr" path="res://modules/lobby/ui/13_Shop_1_textures/Rectangle_1226_254.png" id="84_eij23"]
+[ext_resource type="Texture2D" uid="uid://klkkx8uk4us4" path="res://modules/lobby/ui/13_Shop_1_textures/bg_260.png" id="85_5hjga"]
+[ext_resource type="Texture2D" uid="uid://dngbnip2gt1gs" path="res://modules/lobby/ui/13_Shop_1_textures/Shape_2_copy_261.png" id="86_7nff2"]
+[ext_resource type="Texture2D" uid="uid://qrdwb5hxhjod" path="res://modules/lobby/ui/13_Shop_1_textures/Shape_2_copy_2_262.png" id="87_auiut"]
+[ext_resource type="Texture2D" uid="uid://xiny1ewly734" path="res://modules/lobby/ui/13_Shop_1_textures/icon_264.png" id="88_r5p78"]
+[ext_resource type="Texture2D" uid="uid://eqo05h42ihap" path="res://modules/lobby/ui/13_Shop_1_textures/tab_267.png" id="89_lugns"]
+[ext_resource type="Texture2D" uid="uid://dlqo5yesskuwq" path="res://modules/lobby/ui/13_Shop_1_textures/tab_268.png" id="90_sjggp"]
+[ext_resource type="Texture2D" uid="uid://bssi7yq3bc1bx" path="res://modules/lobby/ui/13_Shop_1_textures/tab_270.png" id="91_2pwym"]
+[ext_resource type="Texture2D" uid="uid://d081fbn3ygurq" path="res://modules/lobby/ui/13_Shop_1_textures/Shape_652_273.png" id="92_qtwop"]
+[ext_resource type="Texture2D" uid="uid://dwrrj4gd4yq4n" path="res://modules/lobby/ui/13_Shop_1_textures/Shape_652_copy_274.png" id="93_adx0a"]
+[ext_resource type="Texture2D" uid="uid://cl5rtrp4nv230" path="res://modules/lobby/ui/13_Shop_1_textures/Shape_660_276.png" id="94_f7oc4"]
+[ext_resource type="Texture2D" uid="uid://dea1wlnu7qddh" path="res://modules/lobby/ui/13_Shop_1_textures/Shape_660_279.png" id="95_ybb4x"]
+[ext_resource type="Texture2D" uid="uid://pyv41s5oaqwq" path="res://modules/lobby/ui/13_Shop_1_textures/Shape_660_282.png" id="96_07frc"]
+[ext_resource type="Texture2D" uid="uid://dx2qsmgi4fede" path="res://modules/lobby/ui/13_Shop_1_textures/bg_292.png" id="97_xbp8h"]
+[ext_resource type="Texture2D" uid="uid://gymywhkkt3d6" path="res://modules/lobby/ui/13_Shop_1_textures/icon_294.png" id="98_o4nub"]
+[ext_resource type="Texture2D" uid="uid://cumsecuc07plo" path="res://modules/lobby/ui/13_Shop_1_textures/bg_297.png" id="99_3yaxl"]
+[ext_resource type="Texture2D" uid="uid://bn5qb270fpi00" path="res://modules/lobby/ui/13_Shop_1_textures/icon_301.png" id="100_tfsme"]
+[ext_resource type="Texture2D" uid="uid://b8e4v04dxamur" path="res://modules/lobby/ui/13_Shop_1_textures/Rounded_Rectangle_960_302.png" id="101_arsu5"]
+[ext_resource type="Texture2D" uid="uid://d0tcbdchsvemj" path="res://modules/lobby/ui/13_Shop_1_textures/Rounded_Rectangle_960_copy_303.png" id="102_dc4ju"]
+[ext_resource type="Texture2D" uid="uid://dg24lem585j38" path="res://modules/lobby/ui/13_Shop_1_textures/close_305.png" id="103_6rcdb"]
+[ext_resource type="Texture2D" uid="uid://cncrf6t7bhwxe" path="res://modules/lobby/ui/13_Shop_1_textures/bg_309.png" id="104_udy5g"]
+[ext_resource type="Texture2D" uid="uid://ofr7j7abxbp1" path="res://modules/lobby/ui/13_Shop_1_textures/Rounded_Rectangle_960_310.png" id="105_x5h00"]
+[ext_resource type="Texture2D" uid="uid://uojn42qu6iwg" path="res://modules/lobby/ui/13_Shop_1_textures/Rounded_Rectangle_960_copy_311.png" id="106_ph8ju"]
+[ext_resource type="Texture2D" uid="uid://bl87c5wkn7v6e" path="res://modules/lobby/ui/13_Shop_1_textures/close_313.png" id="107_sep65"]
+[ext_resource type="Texture2D" uid="uid://b5da0wn6orgnh" path="res://modules/lobby/ui/13_Shop_1_textures/icon_319.png" id="108_5ncn5"]
+[ext_resource type="Texture2D" uid="uid://dhnlrfh0c2rlw" path="res://modules/lobby/ui/13_Shop_1_textures/bg_321.png" id="109_kcj0u"]
+[ext_resource type="Texture2D" uid="uid://crwp25dtrdj8a" path="res://modules/lobby/ui/13_Shop_1_textures/icon_325.png" id="110_mftrc"]
+[ext_resource type="Texture2D" uid="uid://chb2xpeqpcrgh" path="res://modules/lobby/ui/13_Shop_1_textures/Rounded_Rectangle_960_326.png" id="111_ho16n"]
+[ext_resource type="Texture2D" uid="uid://c07q62ogmacng" path="res://modules/lobby/ui/13_Shop_1_textures/Rounded_Rectangle_960_copy_327.png" id="112_ghkid"]
+[ext_resource type="Texture2D" uid="uid://88v85y3fev8f" path="res://modules/lobby/ui/13_Shop_1_textures/close_329.png" id="113_be6d0"]
+
+[node name="Activity" type="Activity" unique_id=1603593714]
+custom_minimum_size = Vector2(1080, 2340)
+offset_right = 1080.0
+offset_bottom = 2340.0
+script = ExtResource("1_lobby")
+metadata/_edit_vertical_guides_ = [1080.0, -1.0]
+metadata/_edit_horizontal_guides_ = [-1.0, 2340.0]
+
+[node name="Color_Fill_1" type="TextureRect" parent="." unique_id=485812974]
+layout_mode = 0
+offset_right = 1080.0
+offset_bottom = 2340.0
+texture = ExtResource("2_d3wpg")
+stretch_mode = 5
+
+[node name="bg" type="TextureRect" parent="." unique_id=2133691818]
+layout_mode = 0
+offset_left = -1.0
+offset_top = 110.0
+offset_right = 1081.0
+offset_bottom = 2341.0
+texture = ExtResource("3_71mye")
+stretch_mode = 5
+
+[node name="pass_section" type="Control" parent="." unique_id=29875167]
+anchors_preset = 0
+offset_left = -39.0
+offset_top = 292.0
+offset_right = 1051.0
+offset_bottom = 798.0
+
+[node name="pass_price" type="TextureButton" parent="pass_section" unique_id=907466556]
+layout_mode = 0
+offset_left = 911.0
+offset_top = 222.0
+offset_right = 912.0
+offset_bottom = 245.0
+
+[node name="price_label" type="Control" parent="pass_section/pass_price" unique_id=1634665215]
+anchors_preset = 0
+offset_right = 1.0
+offset_bottom = 23.0
+
+[node name="$4_99" type="Label" parent="pass_section/pass_price/price_label" unique_id=256968216]
+layout_mode = 0
+offset_right = 1.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 50
+text = "$4.99"
+
+[node name="time" type="Control" parent="pass_section" unique_id=175089757]
+anchors_preset = 0
+offset_left = 896.0
+offset_top = 59.0
+offset_right = 1086.0
+offset_bottom = 111.0
+
+[node name="bg" type="TextureRect" parent="pass_section/time" unique_id=440520351]
+layout_mode = 0
+offset_left = 8.0
+offset_top = 9.0
+offset_right = 190.0
+offset_bottom = 52.0
+texture = ExtResource("14_73mi3")
+stretch_mode = 5
+
+[node name="clock_icon" type="Control" parent="pass_section/time" unique_id=1942455923]
+anchors_preset = 0
+offset_right = 44.0
+offset_bottom = 51.0
+
+[node name="icon" type="TextureRect" parent="pass_section/time/clock_icon" unique_id=190239971]
+layout_mode = 0
+offset_right = 44.0
+offset_bottom = 51.0
+texture = ExtResource("15_oebgu")
+stretch_mode = 5
+
+[node name="time_label" type="Control" parent="pass_section/time" unique_id=1361257597]
+anchors_preset = 0
+offset_left = 59.0
+offset_top = 18.0
+offset_right = 60.0
+offset_bottom = 41.0
+
+[node name="14d_23h" type="Label" parent="pass_section/time/time_label" unique_id=567611328]
+layout_mode = 0
+offset_right = 1.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 51
+text = "14d 23h"
+
+[node name="info" type="Control" parent="pass_section" unique_id=1479433060]
+anchors_preset = 0
+offset_left = 96.0
+offset_top = 232.0
+offset_right = 152.0
+offset_bottom = 287.0
+
+[node name="Group_7513" type="Control" parent="pass_section/info" unique_id=823570252]
+anchors_preset = 0
+offset_right = 56.0
+offset_bottom = 55.0
+
+[node name="Ellipse_32" type="TextureRect" parent="pass_section/info/Group_7513" unique_id=1105819132]
+layout_mode = 0
+offset_right = 56.0
+offset_bottom = 55.0
+texture = ExtResource("16_oaq0g")
+stretch_mode = 5
+
+[node name="icon" type="Control" parent="pass_section/info" unique_id=356429714]
+anchors_preset = 0
+offset_left = 20.0
+offset_top = 8.0
+offset_right = 35.0
+offset_bottom = 45.0
+
+[node name="Rounded_Rectangle_1029_copy" type="TextureRect" parent="pass_section/info/icon" unique_id=1814091466]
+layout_mode = 0
+offset_right = 15.0
+offset_bottom = 37.0
+texture = ExtResource("17_vcclj")
+stretch_mode = 5
+
+[node name="value_badge" type="Control" parent="pass_section" unique_id=443569117]
+anchors_preset = 0
+offset_left = 40.0
+offset_top = 33.0
+offset_right = 210.0
+offset_bottom = 205.0
+
+[node name="frame" type="Control" parent="pass_section/value_badge" unique_id=1080567019]
+anchors_preset = 0
+offset_right = 170.0
+offset_bottom = 172.0
+
+[node name="frame_1" type="TextureRect" parent="pass_section/value_badge/frame" unique_id=1385822810]
+layout_mode = 0
+offset_left = 12.0
+offset_top = 17.0
+offset_right = 137.0
+offset_bottom = 142.0
+texture = ExtResource("18_6uduv")
+stretch_mode = 5
+
+[node name="frame_5" type="TextureRect" parent="pass_section/value_badge/frame" unique_id=1291334797]
+layout_mode = 0
+offset_right = 123.0
+offset_bottom = 127.0
+texture = ExtResource("19_t67t4")
+stretch_mode = 5
+
+[node name="frame_6" type="TextureRect" parent="pass_section/value_badge/frame" unique_id=1340385376]
+layout_mode = 0
+offset_left = 28.0
+offset_top = 15.0
+offset_right = 75.0
+offset_bottom = 51.0
+texture = ExtResource("20_5ytvr")
+stretch_mode = 5
+
+[node name="frame_4" type="TextureRect" parent="pass_section/value_badge/frame" unique_id=2119274610]
+layout_mode = 0
+offset_left = 28.0
+offset_top = 35.0
+offset_right = 168.0
+offset_bottom = 166.0
+texture = ExtResource("21_t2okb")
+stretch_mode = 5
+
+[node name="frame_7" type="TextureRect" parent="pass_section/value_badge/frame" unique_id=1771872447]
+layout_mode = 0
+offset_left = 74.0
+offset_top = 91.0
+offset_right = 140.0
+offset_bottom = 144.0
+texture = ExtResource("22_kryc3")
+stretch_mode = 5
+
+[node name="frame_3" type="TextureRect" parent="pass_section/value_badge/frame" unique_id=235830857]
+layout_mode = 0
+offset_left = 18.0
+offset_top = 23.0
+offset_right = 131.0
+offset_bottom = 136.0
+texture = ExtResource("23_lcmtr")
+stretch_mode = 5
+
+[node name="frame_2" type="TextureRect" parent="pass_section/value_badge/frame" unique_id=1947586132]
+layout_mode = 0
+offset_left = 26.0
+offset_top = 36.0
+offset_right = 170.0
+offset_bottom = 172.0
+texture = ExtResource("24_yn000")
+stretch_mode = 5
+
+[node name="number" type="Control" parent="pass_section/value_badge" unique_id=1911611636]
+anchors_preset = 0
+offset_left = 30.0
+offset_top = 38.0
+offset_right = 31.0
+offset_bottom = 61.0
+
+[node name="number_label" type="Control" parent="pass_section/value_badge/number" unique_id=21064278]
+anchors_preset = 0
+offset_right = 1.0
+offset_bottom = 23.0
+
+[node name="x15" type="Label" parent="pass_section/value_badge/number/number_label" unique_id=1556622233]
+layout_mode = 0
+offset_right = 1.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 50
+text = "x15"
+
+[node name="badge_text" type="Control" parent="pass_section/value_badge" unique_id=716719116]
+anchors_preset = 0
+offset_left = 41.0
+offset_top = 89.0
+offset_right = 42.0
+offset_bottom = 112.0
+
+[node name="text" type="Control" parent="pass_section/value_badge/badge_text" unique_id=35679768]
+anchors_preset = 0
+offset_right = 1.0
+offset_bottom = 23.0
+
+[node name="Value" type="Label" parent="pass_section/value_badge/badge_text/text" unique_id=95223816]
+layout_mode = 0
+offset_right = 1.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(0.95685, 0.99606, 0.33334, 1)
+theme_override_font_sizes/font_size = 28
+text = "Value"
+
+[node name="bg" type="Control" parent="pass_section" unique_id=127237176]
+anchors_preset = 0
+offset_top = 65.0
+offset_right = 1090.0
+offset_bottom = 506.0
+
+[node name="bg" type="TextureRect" parent="pass_section/bg" unique_id=1100261333]
+layout_mode = 0
+offset_left = 68.0
+offset_right = 1090.0
+offset_bottom = 252.0
+texture = ExtResource("4_a7h2i")
+stretch_mode = 5
+
+[node name="gradient" type="TextureRect" parent="pass_section/bg" unique_id=2056700096]
+layout_mode = 0
+offset_left = 72.0
+offset_top = 4.0
+offset_right = 1086.0
+offset_bottom = 248.0
+texture = ExtResource("5_u2op2")
+stretch_mode = 5
+
+[node name="in" type="TextureRect" parent="pass_section/bg" unique_id=300686586]
+layout_mode = 0
+offset_left = 85.0
+offset_top = 17.0
+offset_right = 1073.0
+offset_bottom = 235.0
+texture = ExtResource("6_ccfjc")
+stretch_mode = 5
+
+[node name="Shape_1752" type="TextureRect" parent="pass_section/bg" unique_id=1655832245]
+layout_mode = 0
+offset_top = 82.0
+offset_right = 1081.0
+offset_bottom = 441.0
+texture = ExtResource("7_1bvoi")
+stretch_mode = 5
+
+[node name="glow" type="TextureRect" parent="pass_section" unique_id=1616695397]
+layout_mode = 0
+offset_left = 110.0
+offset_top = 40.0
+offset_right = 415.0
+offset_bottom = 345.0
+texture = ExtResource("8_ygc4g")
+stretch_mode = 5
+
+[node name="effect" type="TextureRect" parent="pass_section" unique_id=806141453]
+layout_mode = 0
+offset_left = 64.0
+offset_right = 460.0
+offset_bottom = 383.0
+texture = ExtResource("9_ro0eg")
+stretch_mode = 5
+
+[node name="gem" type="Control" parent="pass_section" unique_id=633985892]
+anchors_preset = 0
+offset_left = 109.0
+offset_top = 196.0
+offset_right = 163.0
+offset_bottom = 253.0
+
+[node name="gem_icon" type="TextureRect" parent="pass_section/gem" unique_id=1603879560]
+layout_mode = 0
+offset_right = 54.0
+offset_bottom = 57.0
+texture = ExtResource("10_hjq3q")
+stretch_mode = 5
+
+[node name="ticket" type="Control" parent="pass_section" unique_id=309919163]
+anchors_preset = 0
+offset_left = 145.0
+offset_top = 97.0
+offset_right = 384.0
+offset_bottom = 277.0
+
+[node name="ticket_icon_outer" type="Control" parent="pass_section/ticket" unique_id=39457067]
+anchors_preset = 0
+offset_right = 239.0
+offset_bottom = 180.0
+
+[node name="icon" type="Control" parent="pass_section/ticket/ticket_icon_outer" unique_id=657547177]
+anchors_preset = 0
+offset_right = 239.0
+offset_bottom = 180.0
+
+[node name="decoration_star" type="Control" parent="pass_section" unique_id=632225895]
+anchors_preset = 0
+offset_left = 345.0
+offset_top = 229.0
+offset_right = 401.0
+offset_bottom = 280.0
+
+[node name="Group_7542" type="TextureRect" parent="pass_section/decoration_star" unique_id=1111612407]
+layout_mode = 0
+offset_right = 56.0
+offset_bottom = 51.0
+texture = ExtResource("12_8713q")
+stretch_mode = 5
+
+[node name="decoration_badge" type="TextureRect" parent="pass_section" unique_id=1297425451]
+layout_mode = 0
+offset_left = 147.0
+offset_top = 101.0
+offset_right = 405.0
+offset_bottom = 288.0
+texture = ExtResource("13_1xkli")
+stretch_mode = 5
+
+[node name="Unlock_Season_Exclusive__Reward!" type="Label" parent="pass_section" unique_id=1308194833]
+layout_mode = 0
+offset_left = 437.0
+offset_top = 195.0
+offset_right = 438.0
+offset_bottom = 218.0
+theme_override_colors/font_color = Color(0.5647, 0.25491, 0.09412, 1)
+theme_override_font_sizes/font_size = 58
+text = "Unlock Season Exclusive 
+Reward!"
+
+[node name="pass_title" type="Control" parent="pass_section" unique_id=1334736919]
+anchors_preset = 0
+offset_left = 437.0
+offset_top = 126.0
+offset_right = 438.0
+offset_bottom = 149.0
+
+[node name="super_pass_label" type="Control" parent="pass_section/pass_title" unique_id=940645675]
+anchors_preset = 0
+offset_right = 1.0
+offset_bottom = 23.0
+
+[node name="Super_Pass" type="Label" parent="pass_section/pass_title/super_pass_label" unique_id=1803867886]
+layout_mode = 0
+offset_right = 1.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 96
+text = "Super Pass"
+
+[node name="chest" type="TextureButton" parent="." unique_id=863995255]
+layout_mode = 0
+offset_left = -269.0
+offset_top = 477.0
+offset_right = 1345.0
+offset_bottom = 1213.0
+
+[node name="bg" type="Control" parent="chest" unique_id=1566469435]
+anchors_preset = 0
+offset_right = 1614.0
+offset_bottom = 736.0
+
+[node name="bg" type="TextureRect" parent="chest/bg" unique_id=434383790]
+layout_mode = 0
+offset_left = 298.0
+offset_top = 184.0
+offset_right = 1320.0
+offset_bottom = 507.0
+texture = ExtResource("25_2jqx6")
+stretch_mode = 5
+
+[node name="gradient" type="TextureRect" parent="chest/bg" unique_id=437233328]
+layout_mode = 0
+offset_left = 302.0
+offset_top = 188.0
+offset_right = 1316.0
+offset_bottom = 503.0
+texture = ExtResource("26_si5rc")
+stretch_mode = 5
+
+[node name="in" type="TextureRect" parent="chest/bg" unique_id=662337515]
+layout_mode = 0
+offset_left = 315.0
+offset_top = 201.0
+offset_right = 1303.0
+offset_bottom = 488.0
+texture = ExtResource("27_2bffa")
+stretch_mode = 5
+
+[node name="glow" type="TextureRect" parent="chest/bg" unique_id=1129843311]
+layout_mode = 0
+offset_left = 161.0
+offset_top = 148.0
+offset_right = 1216.0
+offset_bottom = 505.0
+texture = ExtResource("28_wpsl0")
+stretch_mode = 5
+
+[node name="effect" type="TextureRect" parent="chest/bg" unique_id=481683292]
+layout_mode = 0
+offset_left = 56.0
+offset_top = 181.0
+offset_right = 1329.0
+offset_bottom = 445.0
+texture = ExtResource("29_wkyvj")
+stretch_mode = 5
+
+[node name="time" type="Control" parent="chest" unique_id=182634864]
+anchors_preset = 0
+offset_left = 1126.0
+offset_top = 179.0
+offset_right = 1316.0
+offset_bottom = 230.0
+
+[node name="bg" type="TextureRect" parent="chest/time" unique_id=257081867]
+layout_mode = 0
+offset_left = 8.0
+offset_top = 8.0
+offset_right = 190.0
+offset_bottom = 51.0
+texture = ExtResource("30_2jwcu")
+stretch_mode = 5
+
+[node name="clock" type="Control" parent="chest/time" unique_id=94352335]
+anchors_preset = 0
+offset_right = 44.0
+offset_bottom = 51.0
+
+[node name="clock" type="Control" parent="chest/time/clock" unique_id=252162415]
+anchors_preset = 0
+offset_right = 44.0
+offset_bottom = 51.0
+
+[node name="icon" type="TextureRect" parent="chest/time/clock/clock" unique_id=2027787676]
+layout_mode = 0
+offset_right = 44.0
+offset_bottom = 51.0
+texture = ExtResource("31_skpsa")
+stretch_mode = 5
+
+[node name="text" type="Control" parent="chest/time" unique_id=1904721419]
+anchors_preset = 0
+offset_left = 67.0
+offset_top = 17.0
+offset_right = 68.0
+offset_bottom = 40.0
+
+[node name="text" type="Control" parent="chest/time/text" unique_id=400779529]
+anchors_preset = 0
+offset_right = 1.0
+offset_bottom = 23.0
+
+[node name="3d_23h" type="Label" parent="chest/time/text/text" unique_id=1257457503]
+layout_mode = 0
+offset_right = 1.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 51
+text = "3d 23h"
+
+[node name="img" type="Control" parent="chest" unique_id=166587795]
+anchors_preset = 0
+offset_left = 341.0
+offset_top = 263.0
+offset_right = 1148.0
+offset_bottom = 478.0
+
+[node name="icon" type="Control" parent="chest/img" unique_id=366491418]
+anchors_preset = 0
+offset_top = 56.0
+offset_right = 130.0
+offset_bottom = 172.0
+
+[node name="icon" type="Control" parent="chest/img/icon" unique_id=2041127339]
+anchors_preset = 0
+offset_right = 130.0
+offset_bottom = 116.0
+
+[node name="icon" type="TextureRect" parent="chest/img/icon/icon" unique_id=1079029330]
+layout_mode = 0
+offset_right = 130.0
+offset_bottom = 116.0
+texture = ExtResource("32_83kvd")
+stretch_mode = 5
+
+[node name="reward_icon_1" type="Control" parent="chest/img" unique_id=13403630]
+anchors_preset = 0
+offset_left = 115.0
+offset_top = 38.0
+offset_right = 297.0
+offset_bottom = 182.0
+
+[node name="icon" type="Control" parent="chest/img/reward_icon_1" unique_id=1830470108]
+anchors_preset = 0
+offset_right = 182.0
+offset_bottom = 144.0
+
+[node name="icon" type="TextureRect" parent="chest/img/reward_icon_1/icon" unique_id=1655066342]
+layout_mode = 0
+offset_right = 182.0
+offset_bottom = 144.0
+texture = ExtResource("33_h80ln")
+stretch_mode = 5
+
+[node name="reward_icon_2" type="Control" parent="chest/img" unique_id=1717753632]
+anchors_preset = 0
+offset_left = 601.0
+offset_top = 52.0
+offset_right = 744.0
+offset_bottom = 171.0
+
+[node name="icon" type="Control" parent="chest/img/reward_icon_2" unique_id=803723537]
+anchors_preset = 0
+offset_right = 143.0
+offset_bottom = 119.0
+
+[node name="icon" type="TextureRect" parent="chest/img/reward_icon_2/icon" unique_id=1335853610]
+layout_mode = 0
+offset_right = 143.0
+offset_bottom = 119.0
+texture = ExtResource("34_o3lth")
+stretch_mode = 5
+
+[node name="reward_icon_3" type="Control" parent="chest/img" unique_id=684604909]
+anchors_preset = 0
+offset_left = 449.0
+offset_top = 34.0
+offset_right = 628.0
+offset_bottom = 177.0
+
+[node name="icon" type="Control" parent="chest/img/reward_icon_3" unique_id=702757620]
+anchors_preset = 0
+offset_right = 179.0
+offset_bottom = 143.0
+
+[node name="icon" type="TextureRect" parent="chest/img/reward_icon_3/icon" unique_id=2042138098]
+layout_mode = 0
+offset_right = 179.0
+offset_bottom = 143.0
+texture = ExtResource("35_i4otw")
+stretch_mode = 5
+
+[node name="reward_icon_4" type="Control" parent="chest/img" unique_id=648265141]
+anchors_preset = 0
+offset_left = 254.0
+offset_top = 4.0
+offset_right = 490.0
+offset_bottom = 189.0
+
+[node name="icon" type="Control" parent="chest/img/reward_icon_4" unique_id=1963812362]
+anchors_preset = 0
+offset_right = 236.0
+offset_bottom = 185.0
+
+[node name="icon" type="TextureRect" parent="chest/img/reward_icon_4/icon" unique_id=1741924429]
+layout_mode = 0
+offset_right = 236.0
+offset_bottom = 185.0
+texture = ExtResource("36_nshwj")
+stretch_mode = 5
+
+[node name="text" type="Control" parent="chest/img" unique_id=2138260947]
+anchors_preset = 0
+offset_left = 35.0
+offset_top = 154.0
+offset_right = 667.0
+offset_bottom = 187.0
+
+[node name="text" type="Control" parent="chest/img/text" unique_id=1426049713]
+anchors_preset = 0
+offset_right = 632.0
+offset_bottom = 33.0
+
+[node name="x7" type="Label" parent="chest/img/text/text" unique_id=87772940]
+layout_mode = 0
+offset_right = 1.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 54
+text = "x7"
+
+[node name="_Label_29418" type="Label" parent="chest/img/text/text" unique_id=13247885]
+layout_mode = 0
+offset_left = 631.0
+offset_right = 632.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 54
+text = "x7"
+
+[node name="x5" type="Label" parent="chest/img/text/text" unique_id=1537834513]
+layout_mode = 0
+offset_left = 131.0
+offset_top = 8.0
+offset_right = 132.0
+offset_bottom = 31.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 54
+text = "x5"
+
+[node name="_Label_29419" type="Label" parent="chest/img/text/text" unique_id=611738295]
+layout_mode = 0
+offset_left = 504.0
+offset_top = 8.0
+offset_right = 505.0
+offset_bottom = 31.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 54
+text = "x5"
+
+[node name="x3" type="Label" parent="chest/img/text/text" unique_id=1317542534]
+layout_mode = 0
+offset_left = 306.0
+offset_top = 10.0
+offset_right = 307.0
+offset_bottom = 33.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 59
+text = "x3"
+
+[node name="chest_glow_effect" type="TextureRect" parent="chest/img" unique_id=1363975863]
+layout_mode = 0
+offset_left = 79.0
+offset_right = 807.0
+offset_bottom = 215.0
+texture = ExtResource("37_ih2vh")
+stretch_mode = 5
+
+[node name="Title_Ribbon_Red" type="Control" parent="chest" unique_id=1825686155]
+anchors_preset = 0
+offset_left = 544.0
+offset_top = 164.0
+offset_right = 1074.0
+offset_bottom = 242.0
+
+[node name="ribbon" type="Control" parent="chest/Title_Ribbon_Red" unique_id=607987040]
+anchors_preset = 0
+offset_right = 530.0
+offset_bottom = 78.0
+
+[node name="ribbon_left" type="TextureRect" parent="chest/Title_Ribbon_Red/ribbon" unique_id=1363300097]
+layout_mode = 0
+offset_top = 12.0
+offset_right = 530.0
+offset_bottom = 78.0
+texture = ExtResource("38_tyk4x")
+stretch_mode = 5
+
+[node name="ribbon_middle" type="TextureRect" parent="chest/Title_Ribbon_Red/ribbon" unique_id=23514091]
+layout_mode = 0
+offset_left = 28.0
+offset_top = 61.0
+offset_right = 502.0
+offset_bottom = 77.0
+texture = ExtResource("39_2wqyb")
+stretch_mode = 5
+
+[node name="ribbon_right" type="TextureRect" parent="chest/Title_Ribbon_Red/ribbon" unique_id=455688631]
+layout_mode = 0
+offset_left = 23.0
+offset_right = 509.0
+offset_bottom = 66.0
+texture = ExtResource("40_lxtbs")
+stretch_mode = 5
+
+[node name="text" type="Control" parent="chest/Title_Ribbon_Red" unique_id=1552568558]
+anchors_preset = 0
+offset_left = 112.0
+offset_top = 17.0
+offset_right = 113.0
+offset_bottom = 40.0
+
+[node name="text" type="Control" parent="chest/Title_Ribbon_Red/text" unique_id=1750413911]
+anchors_preset = 0
+offset_right = 1.0
+offset_bottom = 23.0
+
+[node name="Special_Chest_Pack" type="Label" parent="chest/Title_Ribbon_Red/text/text" unique_id=123717998]
+layout_mode = 0
+offset_right = 1.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 12
+text = "Special Chest Pack"
+
+[node name="value_badge" type="Control" parent="chest" unique_id=1051354239]
+anchors_preset = 0
+offset_left = 270.0
+offset_top = 152.0
+offset_right = 440.0
+offset_bottom = 324.0
+
+[node name="frame" type="Control" parent="chest/value_badge" unique_id=1294841904]
+anchors_preset = 0
+offset_right = 170.0
+offset_bottom = 172.0
+
+[node name="frame_1" type="TextureRect" parent="chest/value_badge/frame" unique_id=1022952453]
+layout_mode = 0
+offset_left = 12.0
+offset_top = 17.0
+offset_right = 137.0
+offset_bottom = 142.0
+texture = ExtResource("41_mcol0")
+stretch_mode = 5
+
+[node name="frame_5" type="TextureRect" parent="chest/value_badge/frame" unique_id=1877129897]
+layout_mode = 0
+offset_right = 123.0
+offset_bottom = 127.0
+texture = ExtResource("42_22v4y")
+stretch_mode = 5
+
+[node name="frame_6" type="TextureRect" parent="chest/value_badge/frame" unique_id=29102604]
+layout_mode = 0
+offset_left = 28.0
+offset_top = 14.0
+offset_right = 75.0
+offset_bottom = 51.0
+texture = ExtResource("43_bqsl1")
+stretch_mode = 5
+
+[node name="frame_4" type="TextureRect" parent="chest/value_badge/frame" unique_id=1534677716]
+layout_mode = 0
+offset_left = 28.0
+offset_top = 34.0
+offset_right = 168.0
+offset_bottom = 165.0
+texture = ExtResource("44_3i3bl")
+stretch_mode = 5
+
+[node name="frame_7" type="TextureRect" parent="chest/value_badge/frame" unique_id=1326039066]
+layout_mode = 0
+offset_left = 74.0
+offset_top = 90.0
+offset_right = 140.0
+offset_bottom = 144.0
+texture = ExtResource("45_d3xb7")
+stretch_mode = 5
+
+[node name="frame_3" type="TextureRect" parent="chest/value_badge/frame" unique_id=101622288]
+layout_mode = 0
+offset_left = 18.0
+offset_top = 23.0
+offset_right = 131.0
+offset_bottom = 136.0
+texture = ExtResource("46_g56j0")
+stretch_mode = 5
+
+[node name="frame_2" type="TextureRect" parent="chest/value_badge/frame" unique_id=40595495]
+layout_mode = 0
+offset_left = 26.0
+offset_top = 36.0
+offset_right = 170.0
+offset_bottom = 172.0
+texture = ExtResource("47_xa7vc")
+stretch_mode = 5
+
+[node name="text" type="Control" parent="chest/value_badge" unique_id=942672183]
+anchors_preset = 0
+offset_left = 31.0
+offset_top = 55.0
+offset_right = 32.0
+offset_bottom = 78.0
+
+[node name="text" type="Control" parent="chest/value_badge/text" unique_id=2091252533]
+anchors_preset = 0
+offset_right = 1.0
+offset_bottom = 23.0
+
+[node name="Best" type="Label" parent="chest/value_badge/text/text" unique_id=1525909468]
+layout_mode = 0
+offset_right = 1.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(0.95685, 0.99606, 0.33334, 1)
+theme_override_font_sizes/font_size = 36
+text = "Best"
+
+[node name="next_label" type="Control" parent="chest" unique_id=1687703760]
+anchors_preset = 0
+offset_left = 294.0
+offset_top = 456.0
+offset_right = 484.0
+offset_bottom = 512.0
+
+[node name="bg" type="Control" parent="chest/next_label" unique_id=51416590]
+anchors_preset = 0
+offset_right = 190.0
+offset_bottom = 56.0
+
+[node name="ribbon_bg" type="TextureRect" parent="chest/next_label/bg" unique_id=510396815]
+layout_mode = 0
+offset_left = 4.0
+offset_top = 5.0
+offset_right = 186.0
+offset_bottom = 51.0
+texture = ExtResource("48_wlv2a")
+stretch_mode = 5
+
+[node name="tag_bg" type="TextureRect" parent="chest/next_label/bg" unique_id=553105556]
+layout_mode = 0
+offset_right = 190.0
+offset_bottom = 56.0
+texture = ExtResource("49_m0u8e")
+stretch_mode = 5
+
+[node name="Limited" type="Label" parent="chest/next_label" unique_id=1695954070]
+layout_mode = 0
+offset_left = 22.0
+offset_top = 18.0
+offset_right = 23.0
+offset_bottom = 41.0
+theme_override_colors/font_color = Color(0.01526, 0.11241, 0.24314, 1)
+theme_override_font_sizes/font_size = 38
+text = "Limeted"
+
+[node name="text" type="Control" parent="chest" unique_id=240772462]
+anchors_preset = 0
+offset_left = 1115.0
+offset_top = 410.0
+offset_right = 1116.0
+offset_bottom = 433.0
+
+[node name="text" type="Control" parent="chest/text" unique_id=1509546890]
+anchors_preset = 0
+offset_right = 1.0
+offset_bottom = 23.0
+
+[node name="$19_99" type="Label" parent="chest/text/text" unique_id=862367827]
+layout_mode = 0
+offset_right = 1.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 50
+text = "$19.99"
+
+[node name="subtitle" type="Control" parent="." unique_id=531355259]
+anchors_preset = 0
+offset_left = 45.0
+offset_top = 268.0
+offset_right = 1035.0
+offset_bottom = 334.0
+
+[node name="bg" type="Control" parent="subtitle" unique_id=1148431770]
+anchors_preset = 0
+offset_right = 990.0
+offset_bottom = 66.0
+
+[node name="bg" type="TextureRect" parent="subtitle/bg" unique_id=1878815920]
+layout_mode = 0
+offset_right = 990.0
+offset_bottom = 66.0
+texture = ExtResource("50_dy5rp")
+stretch_mode = 5
+
+[node name="text" type="Control" parent="subtitle" unique_id=1563279270]
+anchors_preset = 0
+offset_left = 434.0
+offset_top = 23.0
+offset_right = 435.0
+offset_bottom = 46.0
+
+[node name="text" type="Control" parent="subtitle/text" unique_id=551523517]
+anchors_preset = 0
+offset_right = 1.0
+offset_bottom = 23.0
+
+[node name="Offers" type="Label" parent="subtitle/text/text" unique_id=704499316]
+layout_mode = 0
+offset_right = 1.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(0.78039, 1, 0.99998, 1)
+theme_override_font_sizes/font_size = 37
+text = "Offers"
+
+[node name="daily" type="Control" parent="." unique_id=1517940801]
+anchors_preset = 0
+offset_right = 1052.0
+offset_bottom = 2038.0
+
+[node name="subtitle" type="Control" parent="daily" unique_id=1162536107]
+anchors_preset = 0
+offset_left = 45.0
+offset_top = 1028.0
+offset_right = 1035.0
+offset_bottom = 1094.0
+
+[node name="bg" type="Control" parent="daily/subtitle" unique_id=2032177798]
+anchors_preset = 0
+offset_right = 990.0
+offset_bottom = 66.0
+
+[node name="bg" type="TextureRect" parent="daily/subtitle/bg" unique_id=1272999896]
+layout_mode = 0
+offset_right = 990.0
+offset_bottom = 66.0
+texture = ExtResource("51_7emox")
+stretch_mode = 5
+
+[node name="text" type="Control" parent="daily/subtitle" unique_id=1259476528]
+anchors_preset = 0
+offset_left = 389.0
+offset_top = 23.0
+offset_right = 390.0
+offset_bottom = 46.0
+
+[node name="text" type="Control" parent="daily/subtitle/text" unique_id=999905045]
+anchors_preset = 0
+offset_right = 1.0
+offset_bottom = 23.0
+
+[node name="Daily_Deals" type="Label" parent="daily/subtitle/text/text" unique_id=632928069]
+layout_mode = 0
+offset_right = 1.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(0.78039, 1, 0.99998, 1)
+theme_override_font_sizes/font_size = 37
+text = "Daily Deals"
+
+[node name="time" type="Control" parent="daily" unique_id=1885801226]
+anchors_preset = 0
+offset_left = 411.0
+offset_top = 1097.0
+offset_right = 670.0
+offset_bottom = 1148.0
+
+[node name="bg" type="TextureRect" parent="daily/time" unique_id=5666718]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 8.0
+offset_right = 259.0
+offset_bottom = 51.0
+texture = ExtResource("52_lqau7")
+stretch_mode = 5
+
+[node name="clock" type="Control" parent="daily/time" unique_id=609627080]
+anchors_preset = 0
+offset_right = 44.0
+offset_bottom = 51.0
+
+[node name="clock" type="Control" parent="daily/time/clock" unique_id=767029233]
+anchors_preset = 0
+offset_right = 44.0
+offset_bottom = 51.0
+
+[node name="icon" type="TextureRect" parent="daily/time/clock/clock" unique_id=952007101]
+layout_mode = 0
+offset_right = 44.0
+offset_bottom = 51.0
+texture = ExtResource("53_3i00n")
+stretch_mode = 5
+
+[node name="text" type="Control" parent="daily/time" unique_id=1274348404]
+anchors_preset = 0
+offset_left = 68.0
+offset_top = 17.0
+offset_right = 69.0
+offset_bottom = 40.0
+
+[node name="text" type="Control" parent="daily/time/text" unique_id=1405703341]
+anchors_preset = 0
+offset_right = 1.0
+offset_bottom = 23.0
+
+[node name="12h_6m_59s_" type="Label" parent="daily/time/text/text" unique_id=351574173]
+layout_mode = 0
+offset_right = 1.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 51
+text = "12h 6m 59s "
+
+[node name="product" type="TextureButton" parent="daily" unique_id=1940904730]
+layout_mode = 0
+offset_right = 358.0
+offset_bottom = 1597.0
+
+[node name="bg" type="Control" parent="daily/product" unique_id=1192373194]
+anchors_preset = 0
+offset_right = 358.0
+offset_bottom = 1597.0
+mouse_filter = 2
+
+[node name="Rectangle_1226" type="TextureRect" parent="daily/product/bg" unique_id=1069097845]
+layout_mode = 0
+offset_left = 28.0
+offset_top = 1178.0
+offset_right = 358.0
+offset_bottom = 1597.0
+mouse_filter = 2
+texture = ExtResource("54_pfj6t")
+stretch_mode = 5
+
+[node name="inside" type="Control" parent="daily/product/bg" unique_id=1589647929]
+anchors_preset = 0
+offset_right = 337.0
+offset_bottom = 1510.0
+mouse_filter = 2
+
+[node name="fill" type="TextureRect" parent="daily/product/bg/inside" unique_id=1756834994]
+layout_mode = 0
+offset_left = 49.0
+offset_top = 1199.0
+offset_right = 337.0
+offset_bottom = 1510.0
+mouse_filter = 2
+texture = ExtResource("55_e3srx")
+stretch_mode = 5
+
+[node name="line" type="Control" parent="daily/product/bg/inside" unique_id=1026301185]
+anchors_preset = 0
+mouse_filter = 2
+
+[node name="icon" type="Control" parent="daily/product" unique_id=967006725]
+anchors_preset = 0
+offset_left = 112.0
+offset_top = 1267.0
+offset_right = 274.0
+offset_bottom = 1433.0
+
+[node name="icon" type="Control" parent="daily/product/icon" unique_id=1832698883]
+anchors_preset = 0
+offset_right = 162.0
+offset_bottom = 166.0
+
+[node name="icon" type="TextureRect" parent="daily/product/icon/icon" unique_id=1982077780]
+layout_mode = 0
+offset_right = 162.0
+offset_bottom = 166.0
+texture = ExtResource("56_w7n0m")
+stretch_mode = 5
+
+[node name="text" type="Control" parent="daily/product" unique_id=741596465]
+anchors_preset = 0
+offset_left = 260.0
+offset_top = 1218.0
+offset_right = 261.0
+offset_bottom = 1241.0
+
+[node name="text" type="Control" parent="daily/product/text" unique_id=671839450]
+anchors_preset = 0
+offset_right = 1.0
+offset_bottom = 23.0
+
+[node name="x1" type="Label" parent="daily/product/text/text" unique_id=1809426756]
+layout_mode = 0
+offset_right = 1.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 75
+text = "x1"
+
+[node name="free_badge" type="Control" parent="daily/product" unique_id=867139980]
+anchors_preset = 0
+offset_left = 143.0
+offset_top = 1531.0
+offset_right = 144.0
+offset_bottom = 1554.0
+
+[node name="text" type="Control" parent="daily/product/free_badge" unique_id=955465067]
+anchors_preset = 0
+offset_right = 1.0
+offset_bottom = 23.0
+
+[node name="Free" type="Label" parent="daily/product/free_badge/text" unique_id=546457580]
+layout_mode = 0
+offset_right = 1.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(0.66308, 1, 0.57255, 1)
+theme_override_font_sizes/font_size = 46
+text = "Free"
+
+[node name="Lucky_Clover" type="Label" parent="daily/product" unique_id=132896222]
+layout_mode = 0
+offset_left = 104.0
+offset_top = 1464.0
+offset_right = 105.0
+offset_bottom = 1487.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 41
+text = "Lucky Clover"
+
+[node name="product_clover" type="TextureButton" parent="daily" unique_id=315819281]
+layout_mode = 0
+offset_left = 362.0
+offset_top = 1167.0
+offset_right = 702.0
+offset_bottom = 1597.0
+pivot_offset = Vector2(170, 215)
+mouse_default_cursor_shape = 2
+script = ExtResource("56_2ngxe")
+
+[node name="bg" type="Control" parent="daily/product_clover" unique_id=443005532]
+anchors_preset = 0
+offset_left = -362.0
+offset_top = -1168.0
+offset_right = 343.0
+offset_bottom = 429.0
+mouse_filter = 2
+
+[node name="Rectangle_1226" type="TextureRect" parent="daily/product_clover/bg" unique_id=615803939]
+layout_mode = 0
+offset_left = 375.0
+offset_top = 1178.0
+offset_right = 705.0
+offset_bottom = 1597.0
+texture = ExtResource("57_8wsk1")
+stretch_mode = 5
+
+[node name="inside" type="Control" parent="daily/product_clover/bg" unique_id=1827000281]
+anchors_preset = 0
+offset_right = 685.0
+offset_bottom = 1510.0
+pivot_offset_ratio = Vector2(1, 0)
+offset_transform_pivot_ratio = Vector2(1, 1)
+mouse_filter = 2
+
+[node name="fill" type="TextureRect" parent="daily/product_clover/bg/inside" unique_id=101235924]
+layout_mode = 0
+offset_left = 395.0
+offset_top = 1199.0
+offset_right = 685.0
+offset_bottom = 1510.0
+texture = ExtResource("58_5usmd")
+stretch_mode = 5
+
+[node name="line" type="Control" parent="daily/product_clover/bg/inside" unique_id=1070951341]
+anchors_preset = 0
+
+[node name="icon" type="Control" parent="daily/product_clover" unique_id=688997771]
+anchors_preset = 0
+offset_left = 114.0
+offset_top = 102.0
+offset_right = 241.0
+offset_bottom = 262.0
+mouse_filter = 2
+
+[node name="icon" type="Control" parent="daily/product_clover/icon" unique_id=1027938736]
+anchors_preset = 0
+offset_right = 127.0
+offset_bottom = 160.0
+mouse_filter = 2
+
+[node name="icon" type="TextureRect" parent="daily/product_clover/icon/icon" unique_id=569982102]
+layout_mode = 0
+offset_right = 127.0
+offset_bottom = 160.0
+texture = ExtResource("59_xpqjx")
+stretch_mode = 5
+
+[node name="text" type="Control" parent="daily/product_clover" unique_id=1925472533]
+anchors_preset = 0
+offset_left = 245.0
+offset_top = 50.0
+offset_right = 246.0
+offset_bottom = 73.0
+mouse_filter = 2
+
+[node name="text" type="Control" parent="daily/product_clover/text" unique_id=1459125753]
+anchors_preset = 0
+offset_right = 1.0
+offset_bottom = 23.0
+mouse_filter = 2
+
+[node name="x5" type="Label" parent="daily/product_clover/text/text" unique_id=590219365]
+layout_mode = 0
+offset_right = 1.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 75
+text = "x5"
+
+[node name="price_tag" type="Control" parent="daily/product_clover" unique_id=1270481568]
+anchors_preset = 0
+offset_left = 183.0
+offset_top = 363.0
+offset_right = 184.0
+offset_bottom = 386.0
+mouse_filter = 2
+
+[node name="text" type="Control" parent="daily/product_clover/price_tag" unique_id=57916028]
+anchors_preset = 0
+offset_right = 1.0
+offset_bottom = 23.0
+mouse_filter = 2
+
+[node name="50" type="Label" parent="daily/product_clover/price_tag/text" unique_id=1178079839]
+layout_mode = 0
+offset_right = 1.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 46
+text = "50"
+
+[node name="currency_icon" type="Control" parent="daily/product_clover" unique_id=1257367835]
+anchors_preset = 0
+offset_left = 121.0
+offset_top = 361.0
+offset_right = 170.0
+offset_bottom = 402.0
+mouse_filter = 2
+
+[node name="icon" type="Control" parent="daily/product_clover/currency_icon" unique_id=1058200603]
+anchors_preset = 0
+offset_right = 49.0
+offset_bottom = 41.0
+mouse_filter = 2
+
+[node name="icon" type="TextureRect" parent="daily/product_clover/currency_icon/icon" unique_id=490793273]
+layout_mode = 0
+offset_right = 49.0
+offset_bottom = 41.0
+mouse_filter = 2
+texture = ExtResource("60_abx6d")
+stretch_mode = 5
+
+[node name="Tears_of_God" type="Label" parent="daily/product_clover" unique_id=1118366902]
+layout_mode = 0
+offset_left = 19.0
+offset_top = 296.0
+offset_right = 338.0
+offset_bottom = 353.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 41
+text = "Tears of God"
+
+[node name="product_tears" type="TextureButton" parent="daily" unique_id=1999558402]
+layout_mode = 0
+offset_left = 722.0
+offset_top = 1178.0
+offset_right = 1052.0
+offset_bottom = 1597.0
+pivot_offset = Vector2(165, 209.5)
+mouse_default_cursor_shape = 2
+script = ExtResource("56_2ngxe")
+
+[node name="bg" type="Control" parent="daily/product_tears" unique_id=258928372]
+anchors_preset = 0
+offset_right = 330.0
+offset_bottom = 419.0
+mouse_filter = 2
+
+[node name="Rectangle_1226" type="TextureRect" parent="daily/product_tears/bg" unique_id=1378388371]
+layout_mode = 0
+offset_right = 330.0
+offset_bottom = 419.0
+mouse_filter = 2
+texture = ExtResource("61_mkm8l")
+stretch_mode = 5
+
+[node name="inside" type="Control" parent="daily/product_tears/bg" unique_id=1640810285]
+anchors_preset = 0
+offset_left = 21.0
+offset_top = 21.0
+offset_right = 309.0
+offset_bottom = 332.0
+mouse_filter = 2
+
+[node name="fill" type="TextureRect" parent="daily/product_tears/bg/inside" unique_id=639277759]
+layout_mode = 0
+offset_right = 288.0
+offset_bottom = 311.0
+mouse_filter = 2
+texture = ExtResource("62_sl0kk")
+stretch_mode = 5
+
+[node name="icon" type="Control" parent="daily/product_tears" unique_id=647337741]
+anchors_preset = 0
+offset_left = 74.0
+offset_top = 92.0
+offset_right = 248.0
+offset_bottom = 260.0
+mouse_filter = 2
+
+[node name="icon" type="Control" parent="daily/product_tears/icon" unique_id=1335443371]
+anchors_preset = 0
+offset_right = 174.0
+offset_bottom = 168.0
+mouse_filter = 2
+
+[node name="icon" type="TextureRect" parent="daily/product_tears/icon/icon" unique_id=1339331325]
+layout_mode = 0
+offset_right = 174.0
+offset_bottom = 168.0
+texture = ExtResource("63_u13xg")
+stretch_mode = 5
+
+[node name="text" type="Control" parent="daily/product_tears" unique_id=1229440099]
+anchors_preset = 0
+offset_left = 204.0
+offset_top = 39.0
+offset_right = 205.0
+offset_bottom = 62.0
+mouse_filter = 2
+
+[node name="text" type="Control" parent="daily/product_tears/text" unique_id=474036287]
+anchors_preset = 0
+offset_right = 1.0
+offset_bottom = 23.0
+mouse_filter = 2
+
+[node name="x10" type="Label" parent="daily/product_tears/text/text" unique_id=421924553]
+layout_mode = 0
+offset_right = 1.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 75
+text = "x10"
+
+[node name="price_tag" type="Control" parent="daily/product_tears" unique_id=79286746]
+anchors_preset = 0
+offset_left = 170.0
+offset_top = 353.0
+offset_right = 171.0
+offset_bottom = 376.0
+mouse_filter = 2
+
+[node name="text" type="Control" parent="daily/product_tears/price_tag" unique_id=988957641]
+anchors_preset = 0
+offset_right = 1.0
+offset_bottom = 23.0
+mouse_filter = 2
+
+[node name="30" type="Label" parent="daily/product_tears/price_tag/text" unique_id=1230477009]
+layout_mode = 0
+offset_right = 1.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 46
+text = "30"
+
+[node name="currency_icon" type="Control" parent="daily/product_tears" unique_id=929028449]
+anchors_preset = 0
+offset_left = 108.0
+offset_top = 351.0
+offset_right = 157.0
+offset_bottom = 392.0
+mouse_filter = 2
+
+[node name="icon" type="Control" parent="daily/product_tears/currency_icon" unique_id=1731042106]
+anchors_preset = 0
+offset_right = 49.0
+offset_bottom = 41.0
+mouse_filter = 2
+
+[node name="icon" type="TextureRect" parent="daily/product_tears/currency_icon/icon" unique_id=111969899]
+layout_mode = 0
+offset_right = 49.0
+offset_bottom = 41.0
+mouse_filter = 2
+texture = ExtResource("64_vrnje")
+stretch_mode = 5
+
+[node name="Meat" type="Label" parent="daily/product_tears" unique_id=1975177601]
+layout_mode = 0
+offset_left = 129.0
+offset_top = 288.0
+offset_right = 130.0
+offset_bottom = 311.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 41
+text = "Meat"
+
+[node name="product_meat" type="TextureButton" parent="daily" unique_id=946183628]
+layout_mode = 0
+offset_left = 28.0
+offset_top = 1619.0
+offset_right = 358.0
+offset_bottom = 2038.0
+pivot_offset = Vector2(165, 209.5)
+mouse_default_cursor_shape = 2
+script = ExtResource("56_2ngxe")
+
+[node name="bg" type="Control" parent="daily/product_meat" unique_id=1415234134]
+anchors_preset = 0
+offset_right = 330.0
+offset_bottom = 419.0
+mouse_filter = 2
+
+[node name="Rectangle_1226" type="TextureRect" parent="daily/product_meat/bg" unique_id=402960333]
+layout_mode = 0
+offset_right = 330.0
+offset_bottom = 419.0
+texture = ExtResource("65_pipi8")
+stretch_mode = 5
+
+[node name="inside" type="Control" parent="daily/product_meat/bg" unique_id=1247057099]
+anchors_preset = 0
+offset_left = 21.0
+offset_top = 20.0
+offset_right = 309.0
+offset_bottom = 331.0
+
+[node name="fill" type="TextureRect" parent="daily/product_meat/bg/inside" unique_id=236916980]
+layout_mode = 0
+offset_right = 288.0
+offset_bottom = 311.0
+texture = ExtResource("66_ujpqu")
+stretch_mode = 5
+
+[node name="icon" type="Control" parent="daily/product_meat" unique_id=609362774]
+anchors_preset = 0
+offset_left = 106.0
+offset_top = 91.0
+offset_right = 224.0
+offset_bottom = 252.0
+mouse_filter = 2
+
+[node name="icon" type="Control" parent="daily/product_meat/icon" unique_id=1954095970]
+anchors_preset = 0
+offset_right = 118.0
+offset_bottom = 161.0
+
+[node name="icon" type="TextureRect" parent="daily/product_meat/icon/icon" unique_id=607527036]
+layout_mode = 0
+offset_right = 118.0
+offset_bottom = 161.0
+texture = ExtResource("67_ai3oe")
+stretch_mode = 5
+
+[node name="text" type="Control" parent="daily/product_meat" unique_id=2083722600]
+anchors_preset = 0
+offset_left = 232.0
+offset_top = 39.0
+offset_right = 233.0
+offset_bottom = 62.0
+mouse_filter = 2
+
+[node name="text" type="Control" parent="daily/product_meat/text" unique_id=448496702]
+anchors_preset = 0
+offset_right = 1.0
+offset_bottom = 23.0
+
+[node name="x5" type="Label" parent="daily/product_meat/text/text" unique_id=860296974]
+layout_mode = 0
+offset_right = 1.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 75
+text = "x5"
+
+[node name="price_tag" type="Control" parent="daily/product_meat" unique_id=1668203524]
+anchors_preset = 0
+offset_left = 170.0
+offset_top = 352.0
+offset_right = 171.0
+offset_bottom = 375.0
+mouse_filter = 2
+
+[node name="text" type="Control" parent="daily/product_meat/price_tag" unique_id=904662639]
+anchors_preset = 0
+offset_right = 1.0
+offset_bottom = 23.0
+
+[node name="12" type="Label" parent="daily/product_meat/price_tag/text" unique_id=1914825645]
+layout_mode = 0
+offset_right = 1.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 46
+text = "12"
+
+[node name="currency_icon" type="Control" parent="daily/product_meat" unique_id=255773596]
+anchors_preset = 0
+offset_left = 108.0
+offset_top = 350.0
+offset_right = 157.0
+offset_bottom = 391.0
+mouse_filter = 2
+
+[node name="icon" type="Control" parent="daily/product_meat/currency_icon" unique_id=1418515709]
+anchors_preset = 0
+offset_right = 49.0
+offset_bottom = 41.0
+
+[node name="icon" type="TextureRect" parent="daily/product_meat/currency_icon/icon" unique_id=1286338551]
+layout_mode = 0
+offset_right = 49.0
+offset_bottom = 41.0
+texture = ExtResource("68_2mvl6")
+stretch_mode = 5
+
+[node name="Energy" type="Label" parent="daily/product_meat" unique_id=1345256491]
+layout_mode = 0
+offset_left = 116.0
+offset_top = 287.0
+offset_right = 117.0
+offset_bottom = 310.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 41
+text = "Energy"
+
+[node name="product_gold" type="TextureButton" parent="daily" unique_id=312733508]
+layout_mode = 0
+offset_left = 375.0
+offset_top = 1619.0
+offset_right = 705.0
+offset_bottom = 2038.0
+pivot_offset = Vector2(165, 209.5)
+mouse_default_cursor_shape = 2
+script = ExtResource("56_2ngxe")
+
+[node name="bg" type="Control" parent="daily/product_gold" unique_id=1707403809]
+anchors_preset = 0
+offset_right = 330.0
+offset_bottom = 419.0
+mouse_filter = 2
+
+[node name="Rectangle_1226" type="TextureRect" parent="daily/product_gold/bg" unique_id=1902979181]
+layout_mode = 0
+offset_right = 330.0
+offset_bottom = 419.0
+texture = ExtResource("69_h0ady")
+stretch_mode = 5
+
+[node name="inside" type="Control" parent="daily/product_gold/bg" unique_id=431085775]
+anchors_preset = 0
+offset_left = 20.0
+offset_top = 20.0
+offset_right = 310.0
+offset_bottom = 331.0
+
+[node name="fill" type="TextureRect" parent="daily/product_gold/bg/inside" unique_id=766975334]
+layout_mode = 0
+offset_right = 290.0
+offset_bottom = 311.0
+texture = ExtResource("70_0pyh4")
+stretch_mode = 5
+
+[node name="icon" type="Control" parent="daily/product_gold" unique_id=149625318]
+anchors_preset = 0
+offset_left = 94.0
+offset_top = 96.0
+offset_right = 236.0
+offset_bottom = 247.0
+mouse_filter = 2
+
+[node name="icon" type="Control" parent="daily/product_gold/icon" unique_id=954408003]
+anchors_preset = 0
+offset_right = 142.0
+offset_bottom = 151.0
+
+[node name="icon" type="TextureRect" parent="daily/product_gold/icon/icon" unique_id=2104456924]
+layout_mode = 0
+offset_right = 142.0
+offset_bottom = 151.0
+texture = ExtResource("71_ao6fy")
+stretch_mode = 5
+
+[node name="text" type="Control" parent="daily/product_gold" unique_id=804186656]
+anchors_preset = 0
+offset_left = 170.0
+offset_top = 38.0
+offset_right = 171.0
+offset_bottom = 61.0
+mouse_filter = 2
+
+[node name="text" type="Control" parent="daily/product_gold/text" unique_id=986740886]
+anchors_preset = 0
+offset_right = 1.0
+offset_bottom = 23.0
+
+[node name="2000" type="Label" parent="daily/product_gold/text/text" unique_id=2077014516]
+layout_mode = 0
+offset_right = 1.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 75
+text = "2000"
+
+[node name="price_tag" type="Control" parent="daily/product_gold" unique_id=654278176]
+anchors_preset = 0
+offset_left = 170.0
+offset_top = 352.0
+offset_right = 171.0
+offset_bottom = 375.0
+mouse_filter = 2
+
+[node name="text" type="Control" parent="daily/product_gold/price_tag" unique_id=1128924609]
+anchors_preset = 0
+offset_right = 1.0
+offset_bottom = 23.0
+
+[node name="30" type="Label" parent="daily/product_gold/price_tag/text" unique_id=571136021]
+layout_mode = 0
+offset_right = 1.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 46
+text = "30"
+
+[node name="currency_icon" type="Control" parent="daily/product_gold" unique_id=1739347877]
+anchors_preset = 0
+offset_left = 108.0
+offset_top = 350.0
+offset_right = 157.0
+offset_bottom = 391.0
+mouse_filter = 2
+
+[node name="icon" type="Control" parent="daily/product_gold/currency_icon" unique_id=958305969]
+anchors_preset = 0
+offset_right = 49.0
+offset_bottom = 41.0
+
+[node name="icon" type="TextureRect" parent="daily/product_gold/currency_icon/icon" unique_id=829323377]
+layout_mode = 0
+offset_right = 49.0
+offset_bottom = 41.0
+texture = ExtResource("72_ljni2")
+stretch_mode = 5
+
+[node name="Gold" type="Label" parent="daily/product_gold" unique_id=1067940987]
+layout_mode = 0
+offset_left = 132.0
+offset_top = 285.0
+offset_right = 133.0
+offset_bottom = 308.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 41
+text = "Gold"
+
+[node name="product_locked" type="Control" parent="daily" unique_id=674115637]
+visible = false
+anchors_preset = 0
+offset_left = 722.0
+offset_top = 1619.0
+offset_right = 1052.0
+offset_bottom = 2038.0
+
+[node name="bg" type="Control" parent="daily/product_locked" unique_id=85063200]
+anchors_preset = 0
+offset_right = 330.0
+offset_bottom = 419.0
+
+[node name="Rectangle_1226" type="TextureRect" parent="daily/product_locked/bg" unique_id=314729296]
+layout_mode = 0
+offset_right = 330.0
+offset_bottom = 419.0
+texture = ExtResource("73_mya3f")
+stretch_mode = 5
+
+[node name="lock" type="Control" parent="daily/product_locked" unique_id=1531778038]
+anchors_preset = 0
+offset_left = 118.0
+offset_top = 142.0
+offset_right = 210.0
+offset_bottom = 270.0
+
+[node name="lock_icons" type="Control" parent="daily/product_locked/lock" unique_id=1538906532]
+anchors_preset = 0
+offset_right = 92.0
+offset_bottom = 128.0
+
+[node name="lock_bar_1" type="TextureRect" parent="daily/product_locked/lock/lock_icons" unique_id=1352997240]
+layout_mode = 0
+offset_left = 2.0
+offset_top = 7.0
+offset_right = 90.0
+offset_bottom = 128.0
+texture = ExtResource("74_t1cfn")
+stretch_mode = 5
+
+[node name="lock_bar_2" type="TextureRect" parent="daily/product_locked/lock/lock_icons" unique_id=940458382]
+layout_mode = 0
+offset_left = 2.0
+offset_right = 90.0
+offset_bottom = 120.0
+texture = ExtResource("75_rlba4")
+stretch_mode = 5
+
+[node name="lock_bar_3" type="TextureRect" parent="daily/product_locked/lock/lock_icons" unique_id=1287280232]
+layout_mode = 0
+offset_top = 75.0
+offset_right = 92.0
+offset_bottom = 122.0
+texture = ExtResource("76_jfh0x")
+stretch_mode = 5
+
+[node name="lock_body" type="TextureRect" parent="daily/product_locked/lock/lock_icons" unique_id=1202900801]
+layout_mode = 0
+offset_left = 33.0
+offset_top = 59.0
+offset_right = 60.0
+offset_bottom = 96.0
+texture = ExtResource("77_6ffp2")
+stretch_mode = 5
+
+[node name="red_dot" type="Control" parent="daily" unique_id=305952101]
+anchors_preset = 0
+offset_left = 326.0
+offset_top = 1180.0
+offset_right = 357.0
+offset_bottom = 1211.0
+
+[node name="new_badge" type="TextureRect" parent="daily/red_dot" unique_id=908632554]
+layout_mode = 0
+offset_right = 31.0
+offset_bottom = 31.0
+texture = ExtResource("78_34ydo")
+stretch_mode = 5
+
+[node name="new_badge_glow" type="TextureRect" parent="daily/red_dot" unique_id=153146908]
+layout_mode = 0
+offset_left = 5.0
+offset_top = 5.0
+offset_right = 31.0
+offset_bottom = 31.0
+texture = ExtResource("79_bsd42")
+stretch_mode = 5
+
+[node name="resources_title" type="Control" parent="." unique_id=778021950]
+anchors_preset = 0
+offset_left = 45.0
+offset_top = 2085.0
+offset_right = 1035.0
+offset_bottom = 2151.0
+
+[node name="bg" type="Control" parent="resources_title" unique_id=1813873927]
+anchors_preset = 0
+offset_right = 990.0
+offset_bottom = 66.0
+
+[node name="bg" type="TextureRect" parent="resources_title/bg" unique_id=1654931485]
+layout_mode = 0
+offset_right = 990.0
+offset_bottom = 66.0
+texture = ExtResource("80_42snf")
+stretch_mode = 5
+
+[node name="text" type="Control" parent="resources_title" unique_id=554875240]
+anchors_preset = 0
+offset_left = 403.0
+offset_top = 23.0
+offset_right = 404.0
+offset_bottom = 46.0
+
+[node name="text" type="Control" parent="resources_title/text" unique_id=1378880060]
+anchors_preset = 0
+offset_right = 1.0
+offset_bottom = 23.0
+
+[node name="Resources" type="Label" parent="resources_title/text/text" unique_id=1756140691]
+layout_mode = 0
+offset_right = 1.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(0.78039, 1, 0.99998, 1)
+theme_override_font_sizes/font_size = 37
+text = "Resources"
+
+[node name="roof" type="Control" parent="." unique_id=621290491]
+anchors_preset = 0
+offset_left = -172.0
+offset_top = -4.0
+offset_right = 1254.0
+offset_bottom = 314.0
+
+[node name="img" type="Control" parent="roof" unique_id=404795102]
+anchors_preset = 0
+offset_right = 1426.0
+offset_bottom = 318.0
+
+[node name="bg" type="TextureRect" parent="roof/img" unique_id=1196407418]
+layout_mode = 0
+offset_top = 4.0
+offset_right = 1426.0
+offset_bottom = 231.0
+texture = ExtResource("81_a5dcj")
+stretch_mode = 5
+
+[node name="Shape_517" type="TextureRect" parent="roof/img" unique_id=690310741]
+layout_mode = 0
+offset_left = 315.0
+offset_right = 1110.0
+offset_bottom = 248.0
+texture = ExtResource("82_bjpwt")
+stretch_mode = 5
+
+[node name="Layer_1" type="TextureRect" parent="roof/img" unique_id=127677567]
+layout_mode = 0
+offset_left = 172.0
+offset_top = 4.0
+offset_right = 1252.0
+offset_bottom = 318.0
+texture = ExtResource("83_lrmri")
+stretch_mode = 5
+
+[node name="Rectangle_1226" type="TextureRect" parent="roof/img" unique_id=2021110762]
+layout_mode = 0
+offset_left = 171.0
+offset_right = 1253.0
+offset_bottom = 165.0
+texture = ExtResource("84_eij23")
+stretch_mode = 5
+
+[node name="text" type="Control" parent="." unique_id=17862385]
+anchors_preset = 0
+offset_left = 468.0
+offset_top = 136.0
+offset_right = 469.0
+offset_bottom = 159.0
+
+[node name="text" type="Control" parent="text" unique_id=796360050]
+anchors_preset = 0
+offset_right = 1.0
+offset_bottom = 23.0
+
+[node name="Shop" type="Label" parent="text/text" unique_id=720231476]
+layout_mode = 0
+offset_right = 1.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 57
+text = "Shop"
+
+[node name="top_bar_image" type="TextureRect" parent="." unique_id=813020209]
+layout_mode = 0
+offset_left = -1.0
+offset_top = 2216.0
+offset_right = 1081.0
+offset_bottom = 2341.0
+texture = ExtResource("85_5hjga")
+stretch_mode = 5
+
+[node name="top_btn_back" type="TextureButton" parent="." unique_id=358324498]
+layout_mode = 0
+offset_left = -53.0
+offset_top = 2139.0
+offset_right = 179.0
+offset_bottom = 2281.0
+
+[node name="btn" type="Control" parent="top_btn_back" unique_id=1195963141]
+anchors_preset = 0
+offset_right = 232.0
+offset_bottom = 142.0
+
+[node name="Shape_2_copy" type="TextureRect" parent="top_btn_back/btn" unique_id=1634104284]
+layout_mode = 0
+offset_top = 11.0
+offset_right = 229.0
+offset_bottom = 142.0
+texture = ExtResource("86_7nff2")
+stretch_mode = 5
+
+[node name="Shape_2_copy_2" type="TextureRect" parent="top_btn_back/btn" unique_id=1202911299]
+layout_mode = 0
+offset_left = 2.0
+offset_right = 232.0
+offset_bottom = 132.0
+texture = ExtResource("87_auiut")
+stretch_mode = 5
+
+[node name="icon" type="Control" parent="top_btn_back" unique_id=899946620]
+anchors_preset = 0
+offset_left = 85.0
+offset_top = 35.0
+offset_right = 171.0
+offset_bottom = 109.0
+
+[node name="icon" type="TextureRect" parent="top_btn_back/icon" unique_id=1200173285]
+layout_mode = 0
+offset_right = 86.0
+offset_bottom = 74.0
+texture = ExtResource("88_r5p78")
+stretch_mode = 5
+
+[node name="tab" type="Control" parent="." unique_id=1952107156]
+visible = false
+anchors_preset = 0
+offset_right = 1027.0
+offset_bottom = 2282.0
+
+[node name="tab" type="Control" parent="tab" unique_id=250282643]
+anchors_preset = 0
+offset_left = 218.0
+offset_top = 2149.0
+offset_right = 1027.0
+offset_bottom = 2282.0
+
+[node name="normal" type="Control" parent="tab/tab" unique_id=1954734531]
+anchors_preset = 0
+offset_left = 277.0
+offset_right = 809.0
+offset_bottom = 133.0
+
+[node name="tab" type="TextureRect" parent="tab/tab/normal" unique_id=353154298]
+layout_mode = 0
+offset_right = 253.0
+offset_bottom = 133.0
+texture = ExtResource("89_lugns")
+stretch_mode = 5
+
+[node name="tab_bg" type="TextureRect" parent="tab/tab/normal" unique_id=1089100062]
+layout_mode = 0
+offset_left = 279.0
+offset_right = 532.0
+offset_bottom = 133.0
+texture = ExtResource("90_sjggp")
+stretch_mode = 5
+
+[node name="focus" type="Control" parent="tab/tab" unique_id=95427822]
+anchors_preset = 0
+offset_right = 252.0
+offset_bottom = 133.0
+
+[node name="tab" type="TextureRect" parent="tab/tab/focus" unique_id=1815778460]
+layout_mode = 0
+offset_right = 252.0
+offset_bottom = 133.0
+texture = ExtResource("91_2pwym")
+stretch_mode = 5
+
+[node name="icon" type="Control" parent="tab" unique_id=1096420526]
+anchors_preset = 0
+offset_left = 316.0
+offset_top = 2124.0
+offset_right = 386.0
+offset_bottom = 2217.0
+
+[node name="tab_icon_offers" type="TextureButton" parent="tab/icon" unique_id=687638248]
+layout_mode = 0
+offset_right = 70.0
+offset_bottom = 93.0
+
+[node name="offers_icon_group" type="Control" parent="tab/icon/tab_icon_offers" unique_id=1786414361]
+anchors_preset = 0
+offset_top = 7.0
+offset_right = 63.0
+offset_bottom = 93.0
+
+[node name="icon_deco_1" type="TextureRect" parent="tab/icon/tab_icon_offers/offers_icon_group" unique_id=1582402670]
+layout_mode = 0
+offset_top = 1.0
+offset_right = 63.0
+offset_bottom = 86.0
+texture = ExtResource("92_qtwop")
+stretch_mode = 5
+
+[node name="icon_deco_2" type="TextureRect" parent="tab/icon/tab_icon_offers/offers_icon_group" unique_id=1971278635]
+layout_mode = 0
+offset_right = 60.0
+offset_bottom = 81.0
+texture = ExtResource("93_adx0a")
+stretch_mode = 5
+
+[node name="offers_icon_star" type="TextureRect" parent="tab/icon/tab_icon_offers" unique_id=148059061]
+layout_mode = 0
+offset_left = 43.0
+offset_right = 70.0
+offset_bottom = 27.0
+texture = ExtResource("94_f7oc4")
+stretch_mode = 5
+
+[node name="tab_icon_daily" type="TextureButton" parent="tab" unique_id=1590419232]
+layout_mode = 0
+offset_left = 585.0
+offset_top = 2138.0
+offset_right = 658.0
+offset_bottom = 2214.0
+
+[node name="daily_icon_group" type="Control" parent="tab/tab_icon_daily" unique_id=396564098]
+anchors_preset = 0
+offset_right = 73.0
+offset_bottom = 76.0
+
+[node name="icon_calendar" type="TextureRect" parent="tab/tab_icon_daily/daily_icon_group" unique_id=670449560]
+layout_mode = 0
+offset_right = 73.0
+offset_bottom = 76.0
+texture = ExtResource("95_ybb4x")
+stretch_mode = 5
+
+[node name="tab_icon_resources" type="TextureButton" parent="tab" unique_id=1626542205]
+layout_mode = 0
+offset_left = 857.0
+offset_top = 2148.0
+offset_right = 943.0
+offset_bottom = 2215.0
+
+[node name="resources_icon_group" type="Control" parent="tab/tab_icon_resources" unique_id=595564379]
+anchors_preset = 0
+offset_right = 86.0
+offset_bottom = 67.0
+
+[node name="icon_resources" type="TextureRect" parent="tab/tab_icon_resources/resources_icon_group" unique_id=898239502]
+layout_mode = 0
+offset_right = 86.0
+offset_bottom = 67.0
+texture = ExtResource("96_07frc")
+stretch_mode = 5
+
+[node name="text" type="Control" parent="tab" unique_id=372350079]
+anchors_preset = 0
+offset_left = 292.0
+offset_top = 2234.0
+offset_right = 293.0
+offset_bottom = 2257.0
+
+[node name="text" type="Control" parent="tab/text" unique_id=922117935]
+anchors_preset = 0
+offset_right = 1.0
+offset_bottom = 23.0
+
+[node name="Offers" type="Label" parent="tab/text/text" unique_id=354917090]
+layout_mode = 0
+offset_right = 1.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 36
+text = "Offers"
+
+[node name="tab_group" type="Control" parent="tab" unique_id=691753935]
+anchors_preset = 0
+offset_left = 579.0
+offset_top = 2232.0
+offset_right = 821.0
+offset_bottom = 2259.0
+
+[node name="text" type="Control" parent="tab/tab_group" unique_id=1372697988]
+anchors_preset = 0
+offset_right = 242.0
+offset_bottom = 27.0
+
+[node name="Daily" type="Label" parent="tab/tab_group/text" unique_id=542120842]
+layout_mode = 0
+offset_right = 1.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 36
+text = "Daily"
+
+[node name="Resources" type="Label" parent="tab/tab_group/text" unique_id=1066153246]
+layout_mode = 0
+offset_left = 241.0
+offset_top = 4.0
+offset_right = 242.0
+offset_bottom = 27.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 36
+text = "Resources"
+
+[node name="red_dot" type="Control" parent="tab" unique_id=1133627303]
+anchors_preset = 0
+offset_right = 473.0
+offset_bottom = 2190.0
+
+[node name="bg" type="TextureRect" parent="tab/red_dot" unique_id=426619999]
+layout_mode = 0
+offset_left = 423.0
+offset_top = 2140.0
+offset_right = 473.0
+offset_bottom = 2190.0
+texture = ExtResource("97_xbp8h")
+stretch_mode = 5
+
+[node name="text" type="Control" parent="tab/red_dot" unique_id=973796034]
+anchors_preset = 0
+
+[node name="dot_icon" type="TextureRect" parent="tab/red_dot" unique_id=59703031]
+layout_mode = 0
+offset_left = 439.0
+offset_top = 2149.0
+offset_right = 458.0
+offset_bottom = 2182.0
+texture = ExtResource("98_o4nub")
+stretch_mode = 5
+
+[node name="Resource" type="Control" parent="." unique_id=261140381]
+anchors_preset = 0
+offset_left = 31.0
+offset_top = 21.0
+offset_right = 833.0
+offset_bottom = 99.0
+
+[node name="gem" type="Control" parent="Resource" unique_id=1449857836]
+anchors_preset = 0
+offset_left = 555.0
+offset_top = 5.0
+offset_right = 802.0
+offset_bottom = 73.0
+
+[node name="bg" type="TextureRect" parent="Resource/gem" unique_id=809244011]
+layout_mode = 0
+offset_left = 26.0
+offset_top = 5.0
+offset_right = 219.0
+offset_bottom = 63.0
+texture = ExtResource("99_3yaxl")
+stretch_mode = 5
+
+[node name="text" type="Control" parent="Resource/gem" unique_id=1669638944]
+anchors_preset = 0
+offset_left = 102.0
+offset_top = 22.0
+offset_right = 103.0
+offset_bottom = 45.0
+
+[node name="text" type="Control" parent="Resource/gem/text" unique_id=1653928576]
+anchors_preset = 0
+offset_right = 1.0
+offset_bottom = 23.0
+
+[node name="120" type="Label" parent="Resource/gem/text/text" unique_id=1848884278]
+layout_mode = 0
+offset_right = 1.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 26
+text = "120"
+
+[node name="icon" type="TextureRect" parent="Resource/gem" unique_id=2119393034]
+layout_mode = 0
+offset_right = 77.0
+offset_bottom = 68.0
+texture = ExtResource("100_tfsme")
+stretch_mode = 5
+
+[node name="add_button" type="TextureButton" parent="Resource/gem" unique_id=1028048342]
+layout_mode = 0
+offset_left = 191.0
+offset_top = 5.0
+offset_right = 247.0
+offset_bottom = 61.0
+
+[node name="Group_1" type="Control" parent="Resource/gem/add_button" unique_id=1833992921]
+anchors_preset = 0
+offset_right = 56.0
+offset_bottom = 56.0
+
+[node name="Rounded_Rectangle_960" type="TextureRect" parent="Resource/gem/add_button/Group_1" unique_id=1640314637]
+layout_mode = 0
+offset_top = 4.0
+offset_right = 56.0
+offset_bottom = 56.0
+texture = ExtResource("101_arsu5")
+stretch_mode = 5
+
+[node name="Rounded_Rectangle_960_copy" type="TextureRect" parent="Resource/gem/add_button/Group_1" unique_id=114206452]
+layout_mode = 0
+offset_right = 56.0
+offset_bottom = 51.0
+texture = ExtResource("102_dc4ju")
+stretch_mode = 5
+
+[node name="icon" type="Control" parent="Resource/gem/add_button" unique_id=722556477]
+anchors_preset = 0
+offset_left = 13.0
+offset_top = 10.0
+offset_right = 43.0
+offset_bottom = 40.0
+
+[node name="close" type="TextureRect" parent="Resource/gem/add_button/icon" unique_id=69564066]
+layout_mode = 0
+offset_right = 30.0
+offset_bottom = 30.0
+texture = ExtResource("103_6rcdb")
+stretch_mode = 5
+
+[node name="energy" type="Control" parent="Resource" unique_id=1329097245]
+anchors_preset = 0
+offset_right = 537.0
+offset_bottom = 78.0
+
+[node name="gold" type="Control" parent="Resource/energy" unique_id=1751849252]
+anchors_preset = 0
+offset_left = 251.0
+offset_top = 2.0
+offset_right = 537.0
+offset_bottom = 76.0
+
+[node name="bg" type="TextureRect" parent="Resource/energy/gold" unique_id=1592059357]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 8.0
+offset_right = 263.0
+offset_bottom = 66.0
+texture = ExtResource("104_udy5g")
+stretch_mode = 5
+
+[node name="add_button" type="TextureButton" parent="Resource/energy/gold" unique_id=1696834652]
+layout_mode = 0
+offset_left = 230.0
+offset_top = 8.0
+offset_right = 286.0
+offset_bottom = 64.0
+
+[node name="Group_1" type="Control" parent="Resource/energy/gold/add_button" unique_id=351139434]
+anchors_preset = 0
+offset_right = 56.0
+offset_bottom = 56.0
+
+[node name="Rounded_Rectangle_960" type="TextureRect" parent="Resource/energy/gold/add_button/Group_1" unique_id=381541741]
+layout_mode = 0
+offset_top = 4.0
+offset_right = 56.0
+offset_bottom = 56.0
+texture = ExtResource("105_x5h00")
+stretch_mode = 5
+
+[node name="Rounded_Rectangle_960_copy" type="TextureRect" parent="Resource/energy/gold/add_button/Group_1" unique_id=1057831788]
+layout_mode = 0
+offset_right = 56.0
+offset_bottom = 51.0
+texture = ExtResource("106_ph8ju")
+stretch_mode = 5
+
+[node name="icon" type="Control" parent="Resource/energy/gold/add_button" unique_id=974695788]
+anchors_preset = 0
+offset_left = 13.0
+offset_top = 10.0
+offset_right = 43.0
+offset_bottom = 40.0
+
+[node name="close" type="TextureRect" parent="Resource/energy/gold/add_button/icon" unique_id=850689133]
+layout_mode = 0
+offset_right = 30.0
+offset_bottom = 30.0
+texture = ExtResource("107_sep65")
+stretch_mode = 5
+
+[node name="text" type="Control" parent="Resource/energy/gold" unique_id=1694298690]
+anchors_preset = 0
+offset_left = 90.0
+offset_top = 25.0
+offset_right = 91.0
+offset_bottom = 48.0
+
+[node name="text" type="Control" parent="Resource/energy/gold/text" unique_id=335894984]
+anchors_preset = 0
+offset_right = 1.0
+offset_bottom = 23.0
+
+[node name="349810" type="Label" parent="Resource/energy/gold/text/text" unique_id=1790962869]
+layout_mode = 0
+offset_right = 1.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 26
+text = "349810"
+
+[node name="icon" type="TextureRect" parent="Resource/energy/gold" unique_id=1412730103]
+layout_mode = 0
+offset_right = 66.0
+offset_bottom = 74.0
+texture = ExtResource("108_5ncn5")
+stretch_mode = 5
+
+[node name="bg" type="TextureRect" parent="Resource/energy" unique_id=2072761938]
+layout_mode = 0
+offset_left = 12.0
+offset_top = 10.0
+offset_right = 205.0
+offset_bottom = 68.0
+texture = ExtResource("109_kcj0u")
+stretch_mode = 5
+
+[node name="text" type="Control" parent="Resource/energy" unique_id=312158820]
+anchors_preset = 0
+offset_left = 80.0
+offset_top = 26.0
+offset_right = 81.0
+offset_bottom = 49.0
+
+[node name="text" type="Control" parent="Resource/energy/text" unique_id=1669876952]
+anchors_preset = 0
+offset_right = 1.0
+offset_bottom = 23.0
+
+[node name="5_5" type="Label" parent="Resource/energy/text/text" unique_id=864138278]
+layout_mode = 0
+offset_right = 1.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 26
+text = "5/5"
+
+[node name="icon" type="TextureRect" parent="Resource/energy" unique_id=1190648889]
+layout_mode = 0
+offset_right = 57.0
+offset_bottom = 78.0
+texture = ExtResource("110_mftrc")
+stretch_mode = 5
+
+[node name="add_button" type="TextureButton" parent="Resource/energy" unique_id=150973837]
+layout_mode = 0
+offset_left = 162.0
+offset_top = 10.0
+offset_right = 218.0
+offset_bottom = 66.0
+
+[node name="Group_1" type="Control" parent="Resource/energy/add_button" unique_id=355321177]
+anchors_preset = 0
+offset_right = 56.0
+offset_bottom = 56.0
+
+[node name="Rounded_Rectangle_960" type="TextureRect" parent="Resource/energy/add_button/Group_1" unique_id=1248664188]
+layout_mode = 0
+offset_top = 4.0
+offset_right = 56.0
+offset_bottom = 56.0
+texture = ExtResource("111_ho16n")
+stretch_mode = 5
+
+[node name="Rounded_Rectangle_960_copy" type="TextureRect" parent="Resource/energy/add_button/Group_1" unique_id=2133125969]
+layout_mode = 0
+offset_right = 56.0
+offset_bottom = 51.0
+texture = ExtResource("112_ghkid")
+stretch_mode = 5
+
+[node name="icon" type="Control" parent="Resource/energy/add_button" unique_id=1128460960]
+anchors_preset = 0
+offset_left = 13.0
+offset_top = 10.0
+offset_right = 43.0
+offset_bottom = 40.0
+
+[node name="close" type="TextureRect" parent="Resource/energy/add_button/icon" unique_id=991690405]
+layout_mode = 0
+offset_right = 30.0
+offset_bottom = 30.0
+texture = ExtResource("113_be6d0")
+stretch_mode = 5

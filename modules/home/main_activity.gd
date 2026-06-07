@@ -310,7 +310,8 @@ func _on_flag_reorder() -> void:
 	# FLAG_REORDER_TO_FRONT: 先跳 detail 再 REORDER 回到 main
 	print("[MainActivity] 测试 FLAG_REORDER_TO_FRONT")
 	# 先跳到 detail
-	var it = Intent.new(); it.action = "detail"
+	var it = Intent.new(); 
+	it.action = "detail"
 	it.extras = {"id": 500, "from": "reorder_test"}
 	start_activity(it)
 	show_toast(Context.make_toast("已跳 detail，在 detail 中按 REORDER 返回 main", 3.0))

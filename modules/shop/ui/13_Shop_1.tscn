@@ -1,0 +1,2431 @@
+[gd_scene format=3 uid="uid://dhpysbk1ie7b1"]
+
+[ext_resource type="Texture2D" uid="uid://66ec21xtcqx3" path="res://modules/shop/ui/13_Shop_1_textures/Color_Fill_1_0.png" id="1_ol2dc"]
+[ext_resource type="Texture2D" uid="uid://b0lk2icfonbvl" path="res://modules/shop/ui/13_Shop_1_textures/bg_1.png" id="2_u10n2"]
+[ext_resource type="Texture2D" uid="uid://eog88irmef2a" path="res://modules/shop/ui/13_Shop_1_textures/bg_2.png" id="3_h8lln"]
+[ext_resource type="Texture2D" uid="uid://dlorhw4rqk1uf" path="res://modules/shop/ui/13_Shop_1_textures/gradient_3.png" id="4_hug1f"]
+[ext_resource type="Texture2D" uid="uid://de51llikhekaw" path="res://modules/shop/ui/13_Shop_1_textures/in_4.png" id="5_31fj2"]
+[ext_resource type="Texture2D" uid="uid://b55kngrcv8qfe" path="res://modules/shop/ui/13_Shop_1_textures/Shape_1752_5.png" id="6_kpfnj"]
+[ext_resource type="Texture2D" uid="uid://bx58begdx5bui" path="res://modules/shop/ui/13_Shop_1_textures/glow_7.png" id="7_ma6of"]
+[ext_resource type="Texture2D" uid="uid://do4orhsjnm7vs" path="res://modules/shop/ui/13_Shop_1_textures/effect_8.png" id="8_ipkrf"]
+[ext_resource type="Texture2D" uid="uid://bbeh4f2kdhjq5" path="res://modules/shop/ui/13_Shop_1_textures/Group_7543_9.png" id="9_salk3"]
+[ext_resource type="Texture2D" uid="uid://capjbjj7uls83" path="res://modules/shop/ui/13_Shop_1_textures/icon_11.png" id="10_tk6qa"]
+[ext_resource type="Texture2D" uid="uid://tun6uqu5qc7v" path="res://modules/shop/ui/13_Shop_1_textures/Group_7542_15.png" id="11_liped"]
+[ext_resource type="Texture2D" uid="uid://ba7t2v3ytt7yl" path="res://modules/shop/ui/13_Shop_1_textures/effect_17.png" id="12_fij4x"]
+[ext_resource type="Texture2D" uid="uid://dtlymfdcqt5cv" path="res://modules/shop/ui/13_Shop_1_textures/bg_26.png" id="13_sds88"]
+[ext_resource type="Texture2D" uid="uid://da4t5d2ca8jtc" path="res://modules/shop/ui/13_Shop_1_textures/icon_27.png" id="14_5obbt"]
+[ext_resource type="Texture2D" uid="uid://2c765gn8siwk" path="res://modules/shop/ui/13_Shop_1_textures/Ellipse_32_34.png" id="15_ngw53"]
+[ext_resource type="Texture2D" uid="uid://cu7ljpct0iuc4" path="res://modules/shop/ui/13_Shop_1_textures/Rounded_Rectangle_1029_copy_36.png" id="16_gjbu7"]
+[ext_resource type="Texture2D" uid="uid://1hq37vgnttml" path="res://modules/shop/ui/13_Shop_1_textures/Shape_684_39.png" id="17_jffih"]
+[ext_resource type="Texture2D" uid="uid://b5osxi6keu6ja" path="res://modules/shop/ui/13_Shop_1_textures/Shape_688_40.png" id="18_g6aqp"]
+[ext_resource type="Texture2D" uid="uid://de5idlykcwob7" path="res://modules/shop/ui/13_Shop_1_textures/Shape_689_41.png" id="19_cni8y"]
+[ext_resource type="Texture2D" uid="uid://lgulc6djap2c" path="res://modules/shop/ui/13_Shop_1_textures/Shape_687_42.png" id="20_ckhra"]
+[ext_resource type="Texture2D" uid="uid://cw0dadlynp0kt" path="res://modules/shop/ui/13_Shop_1_textures/Shape_690_43.png" id="21_d2tps"]
+[ext_resource type="Texture2D" uid="uid://bmjg6wc7ws8my" path="res://modules/shop/ui/13_Shop_1_textures/Shape_686_44.png" id="22_2qpe6"]
+[ext_resource type="Texture2D" uid="uid://cxmtv2ga3yb6l" path="res://modules/shop/ui/13_Shop_1_textures/Shape_685_45.png" id="23_10lo5"]
+[ext_resource type="Texture2D" uid="uid://bpqfep8kpryqv" path="res://modules/shop/ui/13_Shop_1_textures/bg_55.png" id="24_ksq6v"]
+[ext_resource type="Texture2D" uid="uid://be7m61ls4q35a" path="res://modules/shop/ui/13_Shop_1_textures/gradient_56.png" id="25_s8h7e"]
+[ext_resource type="Texture2D" uid="uid://yrgckhps1tgx" path="res://modules/shop/ui/13_Shop_1_textures/in_57.png" id="26_i643i"]
+[ext_resource type="Texture2D" uid="uid://b6jx7gd2n6rap" path="res://modules/shop/ui/13_Shop_1_textures/glow_59.png" id="28_sxjb8"]
+[ext_resource type="Texture2D" uid="uid://bfn1hpk2kr16" path="res://modules/shop/ui/13_Shop_1_textures/effect_60.png" id="29_r5k2y"]
+[ext_resource type="Texture2D" uid="uid://cblfrfomye7v" path="res://modules/shop/ui/13_Shop_1_textures/bg_62.png" id="30_ica6v"]
+[ext_resource type="Texture2D" uid="uid://bbtdgyxxa0v83" path="res://modules/shop/ui/13_Shop_1_textures/icon_63.png" id="31_amfdh"]
+[ext_resource type="Texture2D" uid="uid://bnsjhudkssbfy" path="res://modules/shop/ui/13_Shop_1_textures/icon_70.png" id="32_xgc32"]
+[ext_resource type="Texture2D" uid="uid://bhylk5uico51" path="res://modules/shop/ui/13_Shop_1_textures/icon_73.png" id="33_buoyx"]
+[ext_resource type="Texture2D" uid="uid://diajomyr7oq7u" path="res://modules/shop/ui/13_Shop_1_textures/icon_76.png" id="34_8fad0"]
+[ext_resource type="Texture2D" uid="uid://dxp83ehqhawsn" path="res://modules/shop/ui/13_Shop_1_textures/icon_79.png" id="35_mgldn"]
+[ext_resource type="Texture2D" uid="uid://vdj2x5n7lrqg" path="res://modules/shop/ui/13_Shop_1_textures/icon_82.png" id="36_kr8rb"]
+[ext_resource type="Texture2D" uid="uid://ch4tl6hykd67k" path="res://modules/shop/ui/13_Shop_1_textures/effect_92.png" id="37_c3nfk"]
+[ext_resource type="Texture2D" uid="uid://beynr26s4578y" path="res://modules/shop/ui/13_Shop_1_textures/Shape_684_copy_2_94.png" id="38_dvgmw"]
+[ext_resource type="Texture2D" uid="uid://6ovup2ft3wpy" path="res://modules/shop/ui/13_Shop_1_textures/Shape_685_copy_95.png" id="39_jyc42"]
+[ext_resource type="Texture2D" uid="uid://dcnmuwp6bdfdv" path="res://modules/shop/ui/13_Shop_1_textures/Shape_684_copy_3_96.png" id="40_hfbp3"]
+[ext_resource type="Texture2D" uid="uid://cjfcun85g4707" path="res://modules/shop/ui/13_Shop_1_textures/Shape_684_102.png" id="41_mttlp"]
+[ext_resource type="Texture2D" uid="uid://xnn0eaehlvk4" path="res://modules/shop/ui/13_Shop_1_textures/Shape_688_103.png" id="42_3c13c"]
+[ext_resource type="Texture2D" uid="uid://mha28e5dcanh" path="res://modules/shop/ui/13_Shop_1_textures/Shape_689_104.png" id="43_mup3r"]
+[ext_resource type="Texture2D" uid="uid://bwvifnhtu02yk" path="res://modules/shop/ui/13_Shop_1_textures/Shape_687_105.png" id="44_c7f1l"]
+[ext_resource type="Texture2D" uid="uid://d0k7hs7y74bju" path="res://modules/shop/ui/13_Shop_1_textures/Shape_690_106.png" id="45_ppuup"]
+[ext_resource type="Texture2D" uid="uid://drlqjeuqr86ly" path="res://modules/shop/ui/13_Shop_1_textures/Shape_686_107.png" id="46_ouso0"]
+[ext_resource type="Texture2D" uid="uid://phbs43wiefv1" path="res://modules/shop/ui/13_Shop_1_textures/Shape_685_108.png" id="47_pn3vf"]
+[ext_resource type="Texture2D" uid="uid://b8aocmg7doamb" path="res://modules/shop/ui/13_Shop_1_textures/Shape_684_copy_114.png" id="48_m7qst"]
+[ext_resource type="Texture2D" uid="uid://dl4qpvd3nmxpn" path="res://modules/shop/ui/13_Shop_1_textures/Rectangle_515_115.png" id="49_svx0t"]
+[ext_resource type="Texture2D" uid="uid://ialq824iqbl2" path="res://modules/shop/ui/13_Shop_1_textures/bg_123.png" id="50_kh6ek"]
+[ext_resource type="Texture2D" uid="uid://gexvlpd0wwru" path="res://modules/shop/ui/13_Shop_1_textures/bg_129.png" id="51_423k8"]
+[ext_resource type="Texture2D" uid="uid://b70on7cfuovvc" path="res://modules/shop/ui/13_Shop_1_textures/bg_135.png" id="52_w1wwd"]
+[ext_resource type="Texture2D" uid="uid://bjfd7oapd0vcn" path="res://modules/shop/ui/13_Shop_1_textures/icon_136.png" id="53_ww21e"]
+[ext_resource type="Texture2D" uid="uid://cro0nydhyd3rl" path="res://modules/shop/ui/13_Shop_1_textures/Rectangle_1226_143.png" id="54_rq41d"]
+[ext_resource type="Texture2D" uid="uid://cugbiuos6shtl" path="res://modules/shop/ui/13_Shop_1_textures/fill_144.png" id="55_ndqda"]
+[ext_resource type="Texture2D" uid="uid://d0h6bpvc0k810" path="res://modules/shop/ui/13_Shop_1_textures/icon_148.png" id="56_xgoge"]
+[ext_resource type="Texture2D" uid="uid://drqa57xsi83wb" path="res://modules/shop/ui/13_Shop_1_textures/Rectangle_1226_159.png" id="57_an3mk"]
+[ext_resource type="Texture2D" uid="uid://xsxqot1w3688" path="res://modules/shop/ui/13_Shop_1_textures/fill_160.png" id="58_trne6"]
+[ext_resource type="Texture2D" uid="uid://cvbucknxj4d0i" path="res://modules/shop/ui/13_Shop_1_textures/icon_164.png" id="59_2lp4s"]
+[ext_resource type="Texture2D" uid="uid://dqdwedsj3a06g" path="res://modules/shop/ui/13_Shop_1_textures/icon_173.png" id="60_1nvk0"]
+[ext_resource type="Texture2D" uid="uid://b6dks4fx6ld08" path="res://modules/shop/ui/13_Shop_1_textures/Rectangle_1226_178.png" id="61_6s12j"]
+[ext_resource type="Texture2D" uid="uid://bmfvrgpp4lwon" path="res://modules/shop/ui/13_Shop_1_textures/fill_179.png" id="62_fuwdm"]
+[ext_resource type="Texture2D" uid="uid://b658jhuucrfs1" path="res://modules/shop/ui/13_Shop_1_textures/icon_182.png" id="63_t2kpw"]
+[ext_resource type="Texture2D" uid="uid://bkgd4xbcpwn22" path="res://modules/shop/ui/13_Shop_1_textures/icon_191.png" id="64_0hchr"]
+[ext_resource type="Texture2D" uid="uid://bcadfwop5a77t" path="res://modules/shop/ui/13_Shop_1_textures/Rectangle_1226_196.png" id="65_h2j8w"]
+[ext_resource type="Texture2D" uid="uid://uw07n8rn782i" path="res://modules/shop/ui/13_Shop_1_textures/fill_197.png" id="66_508yh"]
+[ext_resource type="Texture2D" uid="uid://5s5nrntgtjeg" path="res://modules/shop/ui/13_Shop_1_textures/icon_200.png" id="67_n7dcg"]
+[ext_resource type="Texture2D" uid="uid://blbng0lr5tg4d" path="res://modules/shop/ui/13_Shop_1_textures/icon_209.png" id="68_aqp0w"]
+[ext_resource type="Texture2D" uid="uid://ca457rh5b5t8r" path="res://modules/shop/ui/13_Shop_1_textures/Rectangle_1226_214.png" id="69_s8aub"]
+[ext_resource type="Texture2D" uid="uid://bhxmipl157s88" path="res://modules/shop/ui/13_Shop_1_textures/fill_215.png" id="70_bt7bq"]
+[ext_resource type="Texture2D" uid="uid://yjombl13b5s2" path="res://modules/shop/ui/13_Shop_1_textures/icon_218.png" id="71_0iwyj"]
+[ext_resource type="Texture2D" uid="uid://5hsgiep0nrlk" path="res://modules/shop/ui/13_Shop_1_textures/icon_227.png" id="72_yihkg"]
+[ext_resource type="Texture2D" uid="uid://dfqfxj5irt7yy" path="res://modules/shop/ui/13_Shop_1_textures/Rectangle_1226_232.png" id="73_n7atf"]
+[ext_resource type="Texture2D" uid="uid://j8klphn8dx1f" path="res://modules/shop/ui/13_Shop_1_textures/Rounded_Rectangle_644_copy_2_234.png" id="74_ta1hg"]
+[ext_resource type="Texture2D" uid="uid://cdugivbxp1atb" path="res://modules/shop/ui/13_Shop_1_textures/Rounded_Rectangle_644_copy_4_235.png" id="75_5i77u"]
+[ext_resource type="Texture2D" uid="uid://dyggb1aot46g5" path="res://modules/shop/ui/13_Shop_1_textures/Rounded_Rectangle_644_copy_7_236.png" id="76_ke82u"]
+[ext_resource type="Texture2D" uid="uid://b84kaba6cau8w" path="res://modules/shop/ui/13_Shop_1_textures/Rounded_Rectangle_644_copy_4_237.png" id="77_dvasg"]
+[ext_resource type="Texture2D" uid="uid://ct6rw14jjpjed" path="res://modules/shop/ui/13_Shop_1_textures/new_241.png" id="78_djl4e"]
+[ext_resource type="Texture2D" uid="uid://m2us7daos471" path="res://modules/shop/ui/13_Shop_1_textures/new_copy_242.png" id="79_usdmf"]
+[ext_resource type="Texture2D" uid="uid://dj4bd18pubwwi" path="res://modules/shop/ui/13_Shop_1_textures/bg_245.png" id="80_yyot4"]
+[ext_resource type="Texture2D" uid="uid://bixyhflpfmn4n" path="res://modules/shop/ui/13_Shop_1_textures/bg_251.png" id="81_3gksi"]
+[ext_resource type="Texture2D" uid="uid://cwqsjl54tl2td" path="res://modules/shop/ui/13_Shop_1_textures/Shape_517_252.png" id="82_d2e4k"]
+[ext_resource type="Texture2D" uid="uid://ch18upeuf8vgx" path="res://modules/shop/ui/13_Shop_1_textures/Layer_1_253.png" id="83_fdehe"]
+[ext_resource type="Texture2D" uid="uid://dcdh04yvemirb" path="res://modules/shop/ui/13_Shop_1_textures/Rectangle_1226_254.png" id="84_0ml6l"]
+[ext_resource type="Texture2D" uid="uid://b6pahg1i542t5" path="res://modules/shop/ui/13_Shop_1_textures/bg_260.png" id="85_hs3iu"]
+[ext_resource type="Texture2D" uid="uid://b8vdjwd3ds2s1" path="res://modules/shop/ui/13_Shop_1_textures/Shape_2_copy_261.png" id="86_nar5m"]
+[ext_resource type="Texture2D" uid="uid://b4hlbkwb51cbw" path="res://modules/shop/ui/13_Shop_1_textures/Shape_2_copy_2_262.png" id="87_tis6v"]
+[ext_resource type="Texture2D" uid="uid://c1qc4nnib80km" path="res://modules/shop/ui/13_Shop_1_textures/icon_264.png" id="88_rlnj2"]
+[ext_resource type="Texture2D" uid="uid://d3faf23p0pcnv" path="res://modules/shop/ui/13_Shop_1_textures/tab_267.png" id="89_fq0ec"]
+[ext_resource type="Texture2D" uid="uid://bjrvhhr6alyqt" path="res://modules/shop/ui/13_Shop_1_textures/tab_268.png" id="90_ps08s"]
+[ext_resource type="Texture2D" uid="uid://b0dlrmg87qof2" path="res://modules/shop/ui/13_Shop_1_textures/tab_270.png" id="91_yrukc"]
+[ext_resource type="Texture2D" uid="uid://buymyagmfvhjs" path="res://modules/shop/ui/13_Shop_1_textures/Shape_652_273.png" id="92_q6edj"]
+[ext_resource type="Texture2D" uid="uid://8tqstp7up5nu" path="res://modules/shop/ui/13_Shop_1_textures/Shape_652_copy_274.png" id="93_nk6uc"]
+[ext_resource type="Texture2D" uid="uid://b3nvp3h4jl8ow" path="res://modules/shop/ui/13_Shop_1_textures/Shape_660_276.png" id="94_sodur"]
+[ext_resource type="Texture2D" uid="uid://d0a3u2npvi4m1" path="res://modules/shop/ui/13_Shop_1_textures/Shape_660_279.png" id="95_n5y71"]
+[ext_resource type="Texture2D" uid="uid://b231qn7f85lu8" path="res://modules/shop/ui/13_Shop_1_textures/Shape_660_282.png" id="96_vqn50"]
+[ext_resource type="Texture2D" uid="uid://b6t6h5ciiwlm3" path="res://modules/shop/ui/13_Shop_1_textures/bg_292.png" id="97_215hq"]
+[ext_resource type="Texture2D" uid="uid://dat5taffm5m4p" path="res://modules/shop/ui/13_Shop_1_textures/icon_294.png" id="98_dtpuc"]
+[ext_resource type="Texture2D" uid="uid://b1tc55hyl0ssi" path="res://modules/shop/ui/13_Shop_1_textures/bg_297.png" id="99_pkpkj"]
+[ext_resource type="Texture2D" uid="uid://qs4jammaqxcb" path="res://modules/shop/ui/13_Shop_1_textures/icon_301.png" id="100_xksgw"]
+[ext_resource type="Texture2D" uid="uid://c2bghnl6lox2v" path="res://modules/shop/ui/13_Shop_1_textures/Rounded_Rectangle_960_302.png" id="101_a4eub"]
+[ext_resource type="Texture2D" uid="uid://dquvmywqa6crm" path="res://modules/shop/ui/13_Shop_1_textures/Rounded_Rectangle_960_copy_303.png" id="102_3eioe"]
+[ext_resource type="Texture2D" uid="uid://cv1hbrgh4yfpq" path="res://modules/shop/ui/13_Shop_1_textures/close_305.png" id="103_tw3sj"]
+[ext_resource type="Texture2D" uid="uid://bxno4udn3ktqt" path="res://modules/shop/ui/13_Shop_1_textures/bg_309.png" id="104_b2uxk"]
+[ext_resource type="Texture2D" uid="uid://ike38dcjqh5a" path="res://modules/shop/ui/13_Shop_1_textures/Rounded_Rectangle_960_310.png" id="105_45d4s"]
+[ext_resource type="Texture2D" uid="uid://coq5rd3y2yptm" path="res://modules/shop/ui/13_Shop_1_textures/Rounded_Rectangle_960_copy_311.png" id="106_0bwwc"]
+[ext_resource type="Texture2D" uid="uid://c7thwkuns4nwt" path="res://modules/shop/ui/13_Shop_1_textures/close_313.png" id="107_36077"]
+[ext_resource type="Texture2D" uid="uid://b83hd0mwgarju" path="res://modules/shop/ui/13_Shop_1_textures/icon_319.png" id="108_eyi6g"]
+[ext_resource type="Texture2D" uid="uid://mpo5t3walyrv" path="res://modules/shop/ui/13_Shop_1_textures/bg_321.png" id="109_i0yd2"]
+[ext_resource type="Texture2D" uid="uid://bg6f4pilj83qw" path="res://modules/shop/ui/13_Shop_1_textures/icon_325.png" id="110_ovghj"]
+[ext_resource type="Texture2D" uid="uid://cvsta1paf7nfm" path="res://modules/shop/ui/13_Shop_1_textures/Rounded_Rectangle_960_326.png" id="111_ds26n"]
+[ext_resource type="Texture2D" uid="uid://bv2qfvlsi6ycq" path="res://modules/shop/ui/13_Shop_1_textures/Rounded_Rectangle_960_copy_327.png" id="112_bvb7f"]
+[ext_resource type="Texture2D" uid="uid://calvt5v68nsq8" path="res://modules/shop/ui/13_Shop_1_textures/close_329.png" id="113_lgago"]
+
+[node name="PsdRoot" type="Control" unique_id=1519882233]
+custom_minimum_size = Vector2(1080, 2340)
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1080.0
+offset_bottom = 2340.0
+
+[node name="Color_Fill_1" type="TextureRect" parent="." unique_id=923907663]
+layout_mode = 0
+offset_right = 1080.0
+offset_bottom = 2340.0
+texture = ExtResource("1_ol2dc")
+stretch_mode = 5
+
+[node name="bg" type="TextureRect" parent="." unique_id=1464485382]
+layout_mode = 0
+offset_left = -1.0
+offset_top = 110.0
+offset_right = 1081.0
+offset_bottom = 2341.0
+texture = ExtResource("2_u10n2")
+stretch_mode = 5
+
+[node name="pass" type="Control" parent="." unique_id=1347603581]
+anchors_preset = 0
+offset_left = -39.0
+offset_top = 292.0
+offset_right = 1051.0
+offset_bottom = 798.0
+
+[node name="pass" type="Control" parent="pass" unique_id=1075033623]
+anchors_preset = 0
+offset_right = 1090.0
+offset_bottom = 506.0
+
+[node name="bg" type="Control" parent="pass/pass" unique_id=1123256836]
+anchors_preset = 0
+offset_top = 65.0
+offset_right = 1090.0
+offset_bottom = 506.0
+
+[node name="bg" type="TextureRect" parent="pass/pass/bg" unique_id=860771915]
+layout_mode = 0
+offset_left = 68.0
+offset_right = 1090.0
+offset_bottom = 252.0
+texture = ExtResource("3_h8lln")
+stretch_mode = 5
+
+[node name="gradient" type="TextureRect" parent="pass/pass/bg" unique_id=296020521]
+layout_mode = 0
+offset_left = 72.0
+offset_top = 4.0
+offset_right = 1086.0
+offset_bottom = 248.0
+texture = ExtResource("4_hug1f")
+stretch_mode = 5
+
+[node name="in" type="TextureRect" parent="pass/pass/bg" unique_id=454724833]
+layout_mode = 0
+offset_left = 85.0
+offset_top = 17.0
+offset_right = 1073.0
+offset_bottom = 235.0
+texture = ExtResource("5_31fj2")
+stretch_mode = 5
+
+[node name="Shape_1752" type="TextureRect" parent="pass/pass/bg" unique_id=1759867515]
+layout_mode = 0
+offset_top = 82.0
+offset_right = 1081.0
+offset_bottom = 441.0
+texture = ExtResource("6_kpfnj")
+stretch_mode = 5
+
+[node name="glow" type="TextureRect" parent="pass/pass" unique_id=1231741967]
+layout_mode = 0
+offset_left = 110.0
+offset_top = 40.0
+offset_right = 415.0
+offset_bottom = 345.0
+texture = ExtResource("7_ma6of")
+stretch_mode = 5
+
+[node name="effect" type="TextureRect" parent="pass/pass" unique_id=926874286]
+layout_mode = 0
+offset_left = 64.0
+offset_right = 460.0
+offset_bottom = 383.0
+texture = ExtResource("8_ipkrf")
+stretch_mode = 5
+
+[node name="gem" type="Control" parent="pass/pass" unique_id=1369480164]
+anchors_preset = 0
+offset_left = 109.0
+offset_top = 196.0
+offset_right = 163.0
+offset_bottom = 253.0
+
+[node name="Group_7543" type="TextureRect" parent="pass/pass/gem" unique_id=1079305298]
+layout_mode = 0
+offset_right = 54.0
+offset_bottom = 57.0
+texture = ExtResource("9_salk3")
+stretch_mode = 5
+
+[node name="ticket" type="Control" parent="pass/pass" unique_id=208328566]
+anchors_preset = 0
+offset_left = 145.0
+offset_top = 97.0
+offset_right = 384.0
+offset_bottom = 277.0
+
+[node name="icon" type="Control" parent="pass/pass/ticket" unique_id=803951031]
+anchors_preset = 0
+offset_right = 239.0
+offset_bottom = 180.0
+
+[node name="icon" type="Control" parent="pass/pass/ticket/icon" unique_id=811943113]
+anchors_preset = 0
+offset_right = 239.0
+offset_bottom = 180.0
+
+[node name="icon" type="TextureRect" parent="pass/pass/ticket/icon/icon" unique_id=896577244]
+layout_mode = 0
+offset_right = 239.0
+offset_bottom = 180.0
+texture = ExtResource("10_tk6qa")
+stretch_mode = 5
+
+[node name="@Control@24651" type="Control" parent="pass/pass" unique_id=53380525]
+anchors_preset = 0
+offset_left = 345.0
+offset_top = 229.0
+offset_right = 401.0
+offset_bottom = 280.0
+
+[node name="Group_7542" type="TextureRect" parent="pass/pass/@Control@24651" unique_id=1442621066]
+layout_mode = 0
+offset_right = 56.0
+offset_bottom = 51.0
+texture = ExtResource("11_liped")
+stretch_mode = 5
+
+[node name="@TextureRect@24652" type="TextureRect" parent="pass/pass" unique_id=1572766288]
+layout_mode = 0
+offset_left = 147.0
+offset_top = 101.0
+offset_right = 405.0
+offset_bottom = 288.0
+texture = ExtResource("12_fij4x")
+stretch_mode = 5
+
+[node name="Unlock_Season_Exclusive__Reward!" type="Label" parent="pass/pass" unique_id=715339950]
+layout_mode = 0
+offset_left = 437.0
+offset_top = 195.0
+offset_right = 438.0
+offset_bottom = 218.0
+theme_override_colors/font_color = Color(0.5647, 0.25491, 0.09412, 1)
+theme_override_font_sizes/font_size = 58
+text = "Unlock Season Exclusive Reward!"
+
+[node name="text" type="Control" parent="pass/pass" unique_id=499124017]
+anchors_preset = 0
+offset_left = 437.0
+offset_top = 126.0
+offset_right = 438.0
+offset_bottom = 149.0
+
+[node name="text" type="Control" parent="pass/pass/text" unique_id=777030042]
+anchors_preset = 0
+offset_right = 1.0
+offset_bottom = 23.0
+
+[node name="Super_Pass" type="Label" parent="pass/pass/text/text" unique_id=1143531040]
+layout_mode = 0
+offset_right = 1.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 96
+text = "Super Pass"
+
+[node name="text" type="Control" parent="pass" unique_id=770381266]
+anchors_preset = 0
+offset_left = 911.0
+offset_top = 222.0
+offset_right = 912.0
+offset_bottom = 245.0
+
+[node name="text" type="Control" parent="pass/text" unique_id=368792234]
+anchors_preset = 0
+offset_right = 1.0
+offset_bottom = 23.0
+
+[node name="$4_99" type="Label" parent="pass/text/text" unique_id=1648639416]
+layout_mode = 0
+offset_right = 1.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 50
+text = "$4.99"
+
+[node name="time" type="Control" parent="pass" unique_id=549910963]
+anchors_preset = 0
+offset_left = 896.0
+offset_top = 59.0
+offset_right = 1086.0
+offset_bottom = 111.0
+
+[node name="bg" type="TextureRect" parent="pass/time" unique_id=1390889105]
+layout_mode = 0
+offset_left = 8.0
+offset_top = 9.0
+offset_right = 190.0
+offset_bottom = 52.0
+texture = ExtResource("13_sds88")
+stretch_mode = 5
+
+[node name="clock" type="Control" parent="pass/time" unique_id=1950579672]
+anchors_preset = 0
+offset_right = 44.0
+offset_bottom = 51.0
+
+[node name="clock" type="Control" parent="pass/time/clock" unique_id=1302411723]
+anchors_preset = 0
+offset_right = 44.0
+offset_bottom = 51.0
+
+[node name="icon" type="TextureRect" parent="pass/time/clock/clock" unique_id=2104744132]
+layout_mode = 0
+offset_right = 44.0
+offset_bottom = 51.0
+texture = ExtResource("14_5obbt")
+stretch_mode = 5
+
+[node name="text" type="Control" parent="pass/time" unique_id=1826764758]
+anchors_preset = 0
+offset_left = 59.0
+offset_top = 18.0
+offset_right = 60.0
+offset_bottom = 41.0
+
+[node name="text" type="Control" parent="pass/time/text" unique_id=1435836891]
+anchors_preset = 0
+offset_right = 1.0
+offset_bottom = 23.0
+
+[node name="14d_23h" type="Label" parent="pass/time/text/text" unique_id=343133067]
+layout_mode = 0
+offset_right = 1.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 51
+text = "14d 23h"
+
+[node name="info" type="Control" parent="pass" unique_id=920487690]
+anchors_preset = 0
+offset_left = 96.0
+offset_top = 232.0
+offset_right = 152.0
+offset_bottom = 287.0
+
+[node name="Group_7513" type="Control" parent="pass/info" unique_id=431070145]
+anchors_preset = 0
+offset_right = 56.0
+offset_bottom = 55.0
+
+[node name="Ellipse_32" type="TextureRect" parent="pass/info/Group_7513" unique_id=198404865]
+layout_mode = 0
+offset_right = 56.0
+offset_bottom = 55.0
+texture = ExtResource("15_ngw53")
+stretch_mode = 5
+
+[node name="icon" type="Control" parent="pass/info" unique_id=2071704083]
+anchors_preset = 0
+offset_left = 20.0
+offset_top = 8.0
+offset_right = 35.0
+offset_bottom = 45.0
+
+[node name="Rounded_Rectangle_1029_copy" type="TextureRect" parent="pass/info/icon" unique_id=1152808349]
+layout_mode = 0
+offset_right = 15.0
+offset_bottom = 37.0
+texture = ExtResource("16_gjbu7")
+stretch_mode = 5
+
+[node name="vlaue_badge" type="Control" parent="pass" unique_id=1243328635]
+anchors_preset = 0
+offset_left = 40.0
+offset_top = 33.0
+offset_right = 210.0
+offset_bottom = 205.0
+
+[node name="frame" type="Control" parent="pass/vlaue_badge" unique_id=1217958178]
+anchors_preset = 0
+offset_right = 170.0
+offset_bottom = 172.0
+
+[node name="Shape_684" type="TextureRect" parent="pass/vlaue_badge/frame" unique_id=1232321682]
+layout_mode = 0
+offset_left = 12.0
+offset_top = 17.0
+offset_right = 137.0
+offset_bottom = 142.0
+texture = ExtResource("17_jffih")
+stretch_mode = 5
+
+[node name="Shape_688" type="TextureRect" parent="pass/vlaue_badge/frame" unique_id=977929728]
+layout_mode = 0
+offset_right = 123.0
+offset_bottom = 127.0
+texture = ExtResource("18_g6aqp")
+stretch_mode = 5
+
+[node name="Shape_689" type="TextureRect" parent="pass/vlaue_badge/frame" unique_id=830812260]
+layout_mode = 0
+offset_left = 28.0
+offset_top = 15.0
+offset_right = 75.0
+offset_bottom = 51.0
+texture = ExtResource("19_cni8y")
+stretch_mode = 5
+
+[node name="Shape_687" type="TextureRect" parent="pass/vlaue_badge/frame" unique_id=2088339285]
+layout_mode = 0
+offset_left = 28.0
+offset_top = 35.0
+offset_right = 168.0
+offset_bottom = 166.0
+texture = ExtResource("20_ckhra")
+stretch_mode = 5
+
+[node name="Shape_690" type="TextureRect" parent="pass/vlaue_badge/frame" unique_id=978365319]
+layout_mode = 0
+offset_left = 74.0
+offset_top = 91.0
+offset_right = 140.0
+offset_bottom = 144.0
+texture = ExtResource("21_d2tps")
+stretch_mode = 5
+
+[node name="Shape_686" type="TextureRect" parent="pass/vlaue_badge/frame" unique_id=235507290]
+layout_mode = 0
+offset_left = 18.0
+offset_top = 23.0
+offset_right = 131.0
+offset_bottom = 136.0
+texture = ExtResource("22_2qpe6")
+stretch_mode = 5
+
+[node name="Shape_685" type="TextureRect" parent="pass/vlaue_badge/frame" unique_id=1898383995]
+layout_mode = 0
+offset_left = 26.0
+offset_top = 36.0
+offset_right = 170.0
+offset_bottom = 172.0
+texture = ExtResource("23_10lo5")
+stretch_mode = 5
+
+[node name="number" type="Control" parent="pass/vlaue_badge" unique_id=928250366]
+anchors_preset = 0
+offset_left = 30.0
+offset_top = 38.0
+offset_right = 31.0
+offset_bottom = 61.0
+
+[node name="text" type="Control" parent="pass/vlaue_badge/number" unique_id=1886754803]
+anchors_preset = 0
+offset_right = 1.0
+offset_bottom = 23.0
+
+[node name="x15" type="Label" parent="pass/vlaue_badge/number/text" unique_id=721750445]
+layout_mode = 0
+offset_right = 1.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 50
+text = "x15"
+
+[node name="text" type="Control" parent="pass/vlaue_badge" unique_id=921245844]
+anchors_preset = 0
+offset_left = 41.0
+offset_top = 89.0
+offset_right = 42.0
+offset_bottom = 112.0
+
+[node name="text" type="Control" parent="pass/vlaue_badge/text" unique_id=2120082246]
+anchors_preset = 0
+offset_right = 1.0
+offset_bottom = 23.0
+
+[node name="Value" type="Label" parent="pass/vlaue_badge/text/text" unique_id=623050758]
+layout_mode = 0
+offset_right = 1.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(0.95685, 0.99606, 0.33334, 1)
+theme_override_font_sizes/font_size = 28
+text = "Value"
+
+[node name="chest" type="Control" parent="." unique_id=2003224660]
+anchors_preset = 0
+offset_left = -269.0
+offset_top = 477.0
+offset_right = 1345.0
+offset_bottom = 1213.0
+
+[node name="bg" type="Control" parent="chest" unique_id=989411060]
+anchors_preset = 0
+offset_right = 1614.0
+offset_bottom = 736.0
+
+[node name="bg" type="TextureRect" parent="chest/bg" unique_id=2073879145]
+layout_mode = 0
+offset_left = 298.0
+offset_top = 184.0
+offset_right = 1320.0
+offset_bottom = 507.0
+texture = ExtResource("24_ksq6v")
+stretch_mode = 5
+
+[node name="gradient" type="TextureRect" parent="chest/bg" unique_id=1652541169]
+layout_mode = 0
+offset_left = 302.0
+offset_top = 188.0
+offset_right = 1316.0
+offset_bottom = 503.0
+texture = ExtResource("25_s8h7e")
+stretch_mode = 5
+
+[node name="in" type="TextureRect" parent="chest/bg" unique_id=348202170]
+layout_mode = 0
+offset_left = 315.0
+offset_top = 201.0
+offset_right = 1303.0
+offset_bottom = 488.0
+texture = ExtResource("26_i643i")
+stretch_mode = 5
+
+[node name="glow" type="TextureRect" parent="chest/bg" unique_id=2110858150]
+layout_mode = 0
+offset_left = 161.0
+offset_top = 148.0
+offset_right = 1216.0
+offset_bottom = 505.0
+texture = ExtResource("28_sxjb8")
+stretch_mode = 5
+
+[node name="effect" type="TextureRect" parent="chest/bg" unique_id=1786924322]
+layout_mode = 0
+offset_left = 56.0
+offset_top = 181.0
+offset_right = 1329.0
+offset_bottom = 445.0
+texture = ExtResource("29_r5k2y")
+stretch_mode = 5
+
+[node name="time" type="Control" parent="chest" unique_id=707911419]
+anchors_preset = 0
+offset_left = 1126.0
+offset_top = 179.0
+offset_right = 1316.0
+offset_bottom = 230.0
+
+[node name="bg" type="TextureRect" parent="chest/time" unique_id=920956502]
+layout_mode = 0
+offset_left = 8.0
+offset_top = 8.0
+offset_right = 190.0
+offset_bottom = 51.0
+texture = ExtResource("30_ica6v")
+stretch_mode = 5
+
+[node name="clock" type="Control" parent="chest/time" unique_id=618818447]
+anchors_preset = 0
+offset_right = 44.0
+offset_bottom = 51.0
+
+[node name="clock" type="Control" parent="chest/time/clock" unique_id=1686635986]
+anchors_preset = 0
+offset_right = 44.0
+offset_bottom = 51.0
+
+[node name="icon" type="TextureRect" parent="chest/time/clock/clock" unique_id=209843051]
+layout_mode = 0
+offset_right = 44.0
+offset_bottom = 51.0
+texture = ExtResource("31_amfdh")
+stretch_mode = 5
+
+[node name="text" type="Control" parent="chest/time" unique_id=361097854]
+anchors_preset = 0
+offset_left = 67.0
+offset_top = 17.0
+offset_right = 68.0
+offset_bottom = 40.0
+
+[node name="text" type="Control" parent="chest/time/text" unique_id=1902134829]
+anchors_preset = 0
+offset_right = 1.0
+offset_bottom = 23.0
+
+[node name="3d_23h" type="Label" parent="chest/time/text/text" unique_id=1418809584]
+layout_mode = 0
+offset_right = 1.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 51
+text = "3d 23h"
+
+[node name="img" type="Control" parent="chest" unique_id=1713939261]
+anchors_preset = 0
+offset_left = 341.0
+offset_top = 263.0
+offset_right = 1148.0
+offset_bottom = 478.0
+
+[node name="icon" type="Control" parent="chest/img" unique_id=482874697]
+anchors_preset = 0
+offset_top = 56.0
+offset_right = 130.0
+offset_bottom = 172.0
+
+[node name="icon" type="Control" parent="chest/img/icon" unique_id=649218842]
+anchors_preset = 0
+offset_right = 130.0
+offset_bottom = 116.0
+
+[node name="icon" type="TextureRect" parent="chest/img/icon/icon" unique_id=210061528]
+layout_mode = 0
+offset_right = 130.0
+offset_bottom = 116.0
+texture = ExtResource("32_xgc32")
+stretch_mode = 5
+
+[node name="@Control@24653" type="Control" parent="chest/img" unique_id=763175851]
+anchors_preset = 0
+offset_left = 115.0
+offset_top = 38.0
+offset_right = 297.0
+offset_bottom = 182.0
+
+[node name="icon" type="Control" parent="chest/img/@Control@24653" unique_id=537511242]
+anchors_preset = 0
+offset_right = 182.0
+offset_bottom = 144.0
+
+[node name="icon" type="TextureRect" parent="chest/img/@Control@24653/icon" unique_id=735035400]
+layout_mode = 0
+offset_right = 182.0
+offset_bottom = 144.0
+texture = ExtResource("33_buoyx")
+stretch_mode = 5
+
+[node name="@Control@24654" type="Control" parent="chest/img" unique_id=319157777]
+anchors_preset = 0
+offset_left = 601.0
+offset_top = 52.0
+offset_right = 744.0
+offset_bottom = 171.0
+
+[node name="icon" type="Control" parent="chest/img/@Control@24654" unique_id=883755842]
+anchors_preset = 0
+offset_right = 143.0
+offset_bottom = 119.0
+
+[node name="icon" type="TextureRect" parent="chest/img/@Control@24654/icon" unique_id=570977164]
+layout_mode = 0
+offset_right = 143.0
+offset_bottom = 119.0
+texture = ExtResource("34_8fad0")
+stretch_mode = 5
+
+[node name="@Control@24655" type="Control" parent="chest/img" unique_id=549897422]
+anchors_preset = 0
+offset_left = 449.0
+offset_top = 34.0
+offset_right = 628.0
+offset_bottom = 177.0
+
+[node name="icon" type="Control" parent="chest/img/@Control@24655" unique_id=1839896502]
+anchors_preset = 0
+offset_right = 179.0
+offset_bottom = 143.0
+
+[node name="icon" type="TextureRect" parent="chest/img/@Control@24655/icon" unique_id=1498616402]
+layout_mode = 0
+offset_right = 179.0
+offset_bottom = 143.0
+texture = ExtResource("35_mgldn")
+stretch_mode = 5
+
+[node name="@Control@24656" type="Control" parent="chest/img" unique_id=1079970029]
+anchors_preset = 0
+offset_left = 254.0
+offset_top = 4.0
+offset_right = 490.0
+offset_bottom = 189.0
+
+[node name="icon" type="Control" parent="chest/img/@Control@24656" unique_id=1659863289]
+anchors_preset = 0
+offset_right = 236.0
+offset_bottom = 185.0
+
+[node name="icon" type="TextureRect" parent="chest/img/@Control@24656/icon" unique_id=87575139]
+layout_mode = 0
+offset_right = 236.0
+offset_bottom = 185.0
+texture = ExtResource("36_kr8rb")
+stretch_mode = 5
+
+[node name="text" type="Control" parent="chest/img" unique_id=57517267]
+anchors_preset = 0
+offset_left = 35.0
+offset_top = 154.0
+offset_right = 667.0
+offset_bottom = 187.0
+
+[node name="text" type="Control" parent="chest/img/text" unique_id=446722213]
+anchors_preset = 0
+offset_right = 632.0
+offset_bottom = 33.0
+
+[node name="x7" type="Label" parent="chest/img/text/text" unique_id=1219222367]
+layout_mode = 0
+offset_right = 1.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 54
+text = "x7"
+
+[node name="@Label@24667" type="Label" parent="chest/img/text/text" unique_id=1174488271]
+layout_mode = 0
+offset_left = 631.0
+offset_right = 632.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 54
+text = "x7"
+
+[node name="x5" type="Label" parent="chest/img/text/text" unique_id=1874045960]
+layout_mode = 0
+offset_left = 131.0
+offset_top = 8.0
+offset_right = 132.0
+offset_bottom = 31.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 54
+text = "x5"
+
+[node name="@Label@24668" type="Label" parent="chest/img/text/text" unique_id=1662049580]
+layout_mode = 0
+offset_left = 504.0
+offset_top = 8.0
+offset_right = 505.0
+offset_bottom = 31.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 54
+text = "x5"
+
+[node name="x3" type="Label" parent="chest/img/text/text" unique_id=13543649]
+layout_mode = 0
+offset_left = 306.0
+offset_top = 10.0
+offset_right = 307.0
+offset_bottom = 33.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 59
+text = "x3"
+
+[node name="effect" type="TextureRect" parent="chest/img" unique_id=335721039]
+layout_mode = 0
+offset_left = 79.0
+offset_right = 807.0
+offset_bottom = 215.0
+texture = ExtResource("37_c3nfk")
+stretch_mode = 5
+
+[node name="Title_Ribbon_Red" type="Control" parent="chest" unique_id=367896563]
+anchors_preset = 0
+offset_left = 544.0
+offset_top = 164.0
+offset_right = 1074.0
+offset_bottom = 242.0
+
+[node name="ribbon" type="Control" parent="chest/Title_Ribbon_Red" unique_id=1205718885]
+anchors_preset = 0
+offset_right = 530.0
+offset_bottom = 78.0
+
+[node name="Shape_684_copy_2" type="TextureRect" parent="chest/Title_Ribbon_Red/ribbon" unique_id=454381928]
+layout_mode = 0
+offset_top = 12.0
+offset_right = 530.0
+offset_bottom = 78.0
+texture = ExtResource("38_dvgmw")
+stretch_mode = 5
+
+[node name="Shape_685_copy" type="TextureRect" parent="chest/Title_Ribbon_Red/ribbon" unique_id=1450031449]
+layout_mode = 0
+offset_left = 28.0
+offset_top = 61.0
+offset_right = 502.0
+offset_bottom = 77.0
+texture = ExtResource("39_jyc42")
+stretch_mode = 5
+
+[node name="Shape_684_copy_3" type="TextureRect" parent="chest/Title_Ribbon_Red/ribbon" unique_id=939865748]
+layout_mode = 0
+offset_left = 23.0
+offset_right = 509.0
+offset_bottom = 66.0
+texture = ExtResource("40_hfbp3")
+stretch_mode = 5
+
+[node name="text" type="Control" parent="chest/Title_Ribbon_Red" unique_id=1171890135]
+anchors_preset = 0
+offset_left = 112.0
+offset_top = 17.0
+offset_right = 113.0
+offset_bottom = 40.0
+
+[node name="text" type="Control" parent="chest/Title_Ribbon_Red/text" unique_id=1841233788]
+anchors_preset = 0
+offset_right = 1.0
+offset_bottom = 23.0
+
+[node name="Special_Chest_Pack" type="Label" parent="chest/Title_Ribbon_Red/text/text" unique_id=1307950004]
+layout_mode = 0
+offset_right = 1.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 12
+text = "Special Chest Pack"
+
+[node name="vlaue_badge" type="Control" parent="chest" unique_id=1264770704]
+anchors_preset = 0
+offset_left = 270.0
+offset_top = 152.0
+offset_right = 440.0
+offset_bottom = 324.0
+
+[node name="frame" type="Control" parent="chest/vlaue_badge" unique_id=184839371]
+anchors_preset = 0
+offset_right = 170.0
+offset_bottom = 172.0
+
+[node name="Shape_684" type="TextureRect" parent="chest/vlaue_badge/frame" unique_id=1337531484]
+layout_mode = 0
+offset_left = 12.0
+offset_top = 17.0
+offset_right = 137.0
+offset_bottom = 142.0
+texture = ExtResource("41_mttlp")
+stretch_mode = 5
+
+[node name="Shape_688" type="TextureRect" parent="chest/vlaue_badge/frame" unique_id=662510851]
+layout_mode = 0
+offset_right = 123.0
+offset_bottom = 127.0
+texture = ExtResource("42_3c13c")
+stretch_mode = 5
+
+[node name="Shape_689" type="TextureRect" parent="chest/vlaue_badge/frame" unique_id=790966457]
+layout_mode = 0
+offset_left = 28.0
+offset_top = 14.0
+offset_right = 75.0
+offset_bottom = 51.0
+texture = ExtResource("43_mup3r")
+stretch_mode = 5
+
+[node name="Shape_687" type="TextureRect" parent="chest/vlaue_badge/frame" unique_id=1705233127]
+layout_mode = 0
+offset_left = 28.0
+offset_top = 34.0
+offset_right = 168.0
+offset_bottom = 165.0
+texture = ExtResource("44_c7f1l")
+stretch_mode = 5
+
+[node name="Shape_690" type="TextureRect" parent="chest/vlaue_badge/frame" unique_id=29894059]
+layout_mode = 0
+offset_left = 74.0
+offset_top = 90.0
+offset_right = 140.0
+offset_bottom = 144.0
+texture = ExtResource("45_ppuup")
+stretch_mode = 5
+
+[node name="Shape_686" type="TextureRect" parent="chest/vlaue_badge/frame" unique_id=1412252828]
+layout_mode = 0
+offset_left = 18.0
+offset_top = 23.0
+offset_right = 131.0
+offset_bottom = 136.0
+texture = ExtResource("46_ouso0")
+stretch_mode = 5
+
+[node name="Shape_685" type="TextureRect" parent="chest/vlaue_badge/frame" unique_id=1664048763]
+layout_mode = 0
+offset_left = 26.0
+offset_top = 36.0
+offset_right = 170.0
+offset_bottom = 172.0
+texture = ExtResource("47_pn3vf")
+stretch_mode = 5
+
+[node name="text" type="Control" parent="chest/vlaue_badge" unique_id=1436959396]
+anchors_preset = 0
+offset_left = 31.0
+offset_top = 55.0
+offset_right = 32.0
+offset_bottom = 78.0
+
+[node name="text" type="Control" parent="chest/vlaue_badge/text" unique_id=2081530608]
+anchors_preset = 0
+offset_right = 1.0
+offset_bottom = 23.0
+
+[node name="Best" type="Label" parent="chest/vlaue_badge/text/text" unique_id=724118099]
+layout_mode = 0
+offset_right = 1.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(0.95685, 0.99606, 0.33334, 1)
+theme_override_font_sizes/font_size = 36
+text = "Best"
+
+[node name="next_label" type="Control" parent="chest" unique_id=136524837]
+anchors_preset = 0
+offset_left = 294.0
+offset_top = 456.0
+offset_right = 484.0
+offset_bottom = 512.0
+
+[node name="bg" type="Control" parent="chest/next_label" unique_id=247408888]
+anchors_preset = 0
+offset_right = 190.0
+offset_bottom = 56.0
+
+[node name="Shape_684_copy" type="TextureRect" parent="chest/next_label/bg" unique_id=1375905191]
+layout_mode = 0
+offset_left = 4.0
+offset_top = 5.0
+offset_right = 186.0
+offset_bottom = 51.0
+texture = ExtResource("48_m7qst")
+stretch_mode = 5
+
+[node name="Rectangle_515" type="TextureRect" parent="chest/next_label/bg" unique_id=484659544]
+layout_mode = 0
+offset_right = 190.0
+offset_bottom = 56.0
+texture = ExtResource("49_svx0t")
+stretch_mode = 5
+
+[node name="Limeted" type="Label" parent="chest/next_label" unique_id=1177762618]
+layout_mode = 0
+offset_left = 22.0
+offset_top = 18.0
+offset_right = 23.0
+offset_bottom = 41.0
+theme_override_colors/font_color = Color(0.01526, 0.11241, 0.24314, 1)
+theme_override_font_sizes/font_size = 38
+text = "Limeted"
+
+[node name="text" type="Control" parent="chest" unique_id=349171793]
+anchors_preset = 0
+offset_left = 1115.0
+offset_top = 410.0
+offset_right = 1116.0
+offset_bottom = 433.0
+
+[node name="text" type="Control" parent="chest/text" unique_id=1093126855]
+anchors_preset = 0
+offset_right = 1.0
+offset_bottom = 23.0
+
+[node name="$19_99" type="Label" parent="chest/text/text" unique_id=1110806511]
+layout_mode = 0
+offset_right = 1.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 50
+text = "$19.99"
+
+[node name="subtitle" type="Control" parent="." unique_id=1688120477]
+anchors_preset = 0
+offset_left = 45.0
+offset_top = 268.0
+offset_right = 1035.0
+offset_bottom = 334.0
+
+[node name="bg" type="Control" parent="subtitle" unique_id=1024262301]
+anchors_preset = 0
+offset_right = 990.0
+offset_bottom = 66.0
+
+[node name="bg" type="TextureRect" parent="subtitle/bg" unique_id=2137929132]
+layout_mode = 0
+offset_right = 990.0
+offset_bottom = 66.0
+texture = ExtResource("50_kh6ek")
+stretch_mode = 5
+
+[node name="text" type="Control" parent="subtitle" unique_id=23007202]
+anchors_preset = 0
+offset_left = 434.0
+offset_top = 23.0
+offset_right = 435.0
+offset_bottom = 46.0
+
+[node name="text" type="Control" parent="subtitle/text" unique_id=2033289668]
+anchors_preset = 0
+offset_right = 1.0
+offset_bottom = 23.0
+
+[node name="Offers" type="Label" parent="subtitle/text/text" unique_id=970644192]
+layout_mode = 0
+offset_right = 1.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(0.78039, 1, 0.99998, 1)
+theme_override_font_sizes/font_size = 37
+text = "Offers"
+
+[node name="daily" type="Control" parent="." unique_id=355062663]
+anchors_preset = 0
+offset_right = 1052.0
+offset_bottom = 2038.0
+
+[node name="subtitle" type="Control" parent="daily" unique_id=1966119827]
+anchors_preset = 0
+offset_left = 45.0
+offset_top = 1028.0
+offset_right = 1035.0
+offset_bottom = 1094.0
+
+[node name="bg" type="Control" parent="daily/subtitle" unique_id=1061167770]
+anchors_preset = 0
+offset_right = 990.0
+offset_bottom = 66.0
+
+[node name="bg" type="TextureRect" parent="daily/subtitle/bg" unique_id=1936899554]
+layout_mode = 0
+offset_right = 990.0
+offset_bottom = 66.0
+texture = ExtResource("51_423k8")
+stretch_mode = 5
+
+[node name="text" type="Control" parent="daily/subtitle" unique_id=1239070435]
+anchors_preset = 0
+offset_left = 389.0
+offset_top = 23.0
+offset_right = 390.0
+offset_bottom = 46.0
+
+[node name="text" type="Control" parent="daily/subtitle/text" unique_id=1452890518]
+anchors_preset = 0
+offset_right = 1.0
+offset_bottom = 23.0
+
+[node name="Daily_Deals" type="Label" parent="daily/subtitle/text/text" unique_id=1692169063]
+layout_mode = 0
+offset_right = 1.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(0.78039, 1, 0.99998, 1)
+theme_override_font_sizes/font_size = 37
+text = "Daily Deals"
+
+[node name="time" type="Control" parent="daily" unique_id=1886525513]
+anchors_preset = 0
+offset_left = 411.0
+offset_top = 1097.0
+offset_right = 670.0
+offset_bottom = 1148.0
+
+[node name="bg" type="TextureRect" parent="daily/time" unique_id=709832077]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 8.0
+offset_right = 259.0
+offset_bottom = 51.0
+texture = ExtResource("52_w1wwd")
+stretch_mode = 5
+
+[node name="clock" type="Control" parent="daily/time" unique_id=2089934999]
+anchors_preset = 0
+offset_right = 44.0
+offset_bottom = 51.0
+
+[node name="clock" type="Control" parent="daily/time/clock" unique_id=392201962]
+anchors_preset = 0
+offset_right = 44.0
+offset_bottom = 51.0
+
+[node name="icon" type="TextureRect" parent="daily/time/clock/clock" unique_id=985808202]
+layout_mode = 0
+offset_right = 44.0
+offset_bottom = 51.0
+texture = ExtResource("53_ww21e")
+stretch_mode = 5
+
+[node name="text" type="Control" parent="daily/time" unique_id=502356650]
+anchors_preset = 0
+offset_left = 68.0
+offset_top = 17.0
+offset_right = 69.0
+offset_bottom = 40.0
+
+[node name="text" type="Control" parent="daily/time/text" unique_id=1957906764]
+anchors_preset = 0
+offset_right = 1.0
+offset_bottom = 23.0
+
+[node name="12h_6m_59s_" type="Label" parent="daily/time/text/text" unique_id=1824654376]
+layout_mode = 0
+offset_right = 1.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 51
+text = "12h 6m 59s "
+
+[node name="product" type="Control" parent="daily" unique_id=1380736888]
+anchors_preset = 0
+offset_right = 358.0
+offset_bottom = 1597.0
+
+[node name="bg" type="Control" parent="daily/product" unique_id=1004060767]
+anchors_preset = 0
+offset_right = 358.0
+offset_bottom = 1597.0
+
+[node name="Rectangle_1226" type="TextureRect" parent="daily/product/bg" unique_id=1071677550]
+layout_mode = 0
+offset_left = 28.0
+offset_top = 1178.0
+offset_right = 358.0
+offset_bottom = 1597.0
+texture = ExtResource("54_rq41d")
+stretch_mode = 5
+
+[node name="inside" type="Control" parent="daily/product/bg" unique_id=1564100961]
+anchors_preset = 0
+offset_right = 337.0
+offset_bottom = 1510.0
+
+[node name="fill" type="TextureRect" parent="daily/product/bg/inside" unique_id=510081526]
+layout_mode = 0
+offset_left = 49.0
+offset_top = 1199.0
+offset_right = 337.0
+offset_bottom = 1510.0
+texture = ExtResource("55_ndqda")
+stretch_mode = 5
+
+[node name="line" type="Control" parent="daily/product/bg/inside" unique_id=771934934]
+anchors_preset = 0
+
+[node name="icon" type="Control" parent="daily/product" unique_id=193295639]
+anchors_preset = 0
+offset_left = 112.0
+offset_top = 1267.0
+offset_right = 274.0
+offset_bottom = 1433.0
+
+[node name="icon" type="Control" parent="daily/product/icon" unique_id=1022949406]
+anchors_preset = 0
+offset_right = 162.0
+offset_bottom = 166.0
+
+[node name="icon" type="TextureRect" parent="daily/product/icon/icon" unique_id=177519400]
+layout_mode = 0
+offset_right = 162.0
+offset_bottom = 166.0
+texture = ExtResource("56_xgoge")
+stretch_mode = 5
+
+[node name="text" type="Control" parent="daily/product" unique_id=1943758016]
+anchors_preset = 0
+offset_left = 260.0
+offset_top = 1218.0
+offset_right = 261.0
+offset_bottom = 1241.0
+
+[node name="text" type="Control" parent="daily/product/text" unique_id=1741226076]
+anchors_preset = 0
+offset_right = 1.0
+offset_bottom = 23.0
+
+[node name="x1" type="Label" parent="daily/product/text/text" unique_id=1021115890]
+layout_mode = 0
+offset_right = 1.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 75
+text = "x1"
+
+[node name="@Control@24657" type="Control" parent="daily/product" unique_id=1858662827]
+anchors_preset = 0
+offset_left = 143.0
+offset_top = 1531.0
+offset_right = 144.0
+offset_bottom = 1554.0
+
+[node name="text" type="Control" parent="daily/product/@Control@24657" unique_id=1625802078]
+anchors_preset = 0
+offset_right = 1.0
+offset_bottom = 23.0
+
+[node name="Free" type="Label" parent="daily/product/@Control@24657/text" unique_id=1459517112]
+layout_mode = 0
+offset_right = 1.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(0.66308, 1, 0.57255, 1)
+theme_override_font_sizes/font_size = 46
+text = "Free"
+
+[node name="Lucky_Clover" type="Label" parent="daily/product" unique_id=1862846366]
+layout_mode = 0
+offset_left = 104.0
+offset_top = 1464.0
+offset_right = 105.0
+offset_bottom = 1487.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 41
+text = "Lucky Clover"
+
+[node name="@Control@24645" type="Control" parent="daily" unique_id=1041202713]
+anchors_preset = 0
+offset_right = 705.0
+offset_bottom = 1597.0
+
+[node name="bg" type="Control" parent="daily/@Control@24645" unique_id=574602653]
+anchors_preset = 0
+offset_right = 705.0
+offset_bottom = 1597.0
+
+[node name="Rectangle_1226" type="TextureRect" parent="daily/@Control@24645/bg" unique_id=343092571]
+layout_mode = 0
+offset_left = 375.0
+offset_top = 1178.0
+offset_right = 705.0
+offset_bottom = 1597.0
+texture = ExtResource("57_an3mk")
+stretch_mode = 5
+
+[node name="inside" type="Control" parent="daily/@Control@24645/bg" unique_id=993029141]
+anchors_preset = 0
+offset_right = 1077.0
+offset_bottom = 2342.0
+
+[node name="fill" type="TextureRect" parent="daily/@Control@24645/bg/inside" unique_id=573950246]
+layout_mode = 0
+offset_left = 395.0
+offset_top = 1199.0
+offset_right = 685.0
+offset_bottom = 1510.0
+texture = ExtResource("58_trne6")
+stretch_mode = 5
+
+[node name="line" type="Control" parent="daily/@Control@24645/bg/inside" unique_id=1300006825]
+anchors_preset = 0
+
+[node name="icon" type="Control" parent="daily/@Control@24645" unique_id=1130565405]
+anchors_preset = 0
+offset_left = 476.0
+offset_top = 1270.0
+offset_right = 603.0
+offset_bottom = 1430.0
+
+[node name="icon" type="Control" parent="daily/@Control@24645/icon" unique_id=214943883]
+anchors_preset = 0
+offset_right = 127.0
+offset_bottom = 160.0
+
+[node name="icon" type="TextureRect" parent="daily/@Control@24645/icon/icon" unique_id=549532977]
+layout_mode = 0
+offset_right = 127.0
+offset_bottom = 160.0
+texture = ExtResource("59_2lp4s")
+stretch_mode = 5
+
+[node name="text" type="Control" parent="daily/@Control@24645" unique_id=893869978]
+anchors_preset = 0
+offset_left = 607.0
+offset_top = 1218.0
+offset_right = 608.0
+offset_bottom = 1241.0
+
+[node name="text" type="Control" parent="daily/@Control@24645/text" unique_id=1829212197]
+anchors_preset = 0
+offset_right = 1.0
+offset_bottom = 23.0
+
+[node name="x5" type="Label" parent="daily/@Control@24645/text/text" unique_id=1285894372]
+layout_mode = 0
+offset_right = 1.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 75
+text = "x5"
+
+[node name="@Control@24658" type="Control" parent="daily/@Control@24645" unique_id=165149948]
+anchors_preset = 0
+offset_left = 545.0
+offset_top = 1531.0
+offset_right = 546.0
+offset_bottom = 1554.0
+
+[node name="text" type="Control" parent="daily/@Control@24645/@Control@24658" unique_id=1098014700]
+anchors_preset = 0
+offset_right = 1.0
+offset_bottom = 23.0
+
+[node name="50" type="Label" parent="daily/@Control@24645/@Control@24658/text" unique_id=406792966]
+layout_mode = 0
+offset_right = 1.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 46
+text = "50"
+
+[node name="@Control@24659" type="Control" parent="daily/@Control@24645" unique_id=1839649358]
+anchors_preset = 0
+offset_left = 483.0
+offset_top = 1529.0
+offset_right = 532.0
+offset_bottom = 1570.0
+
+[node name="icon" type="Control" parent="daily/@Control@24645/@Control@24659" unique_id=684958761]
+anchors_preset = 0
+offset_right = 49.0
+offset_bottom = 41.0
+
+[node name="icon" type="TextureRect" parent="daily/@Control@24645/@Control@24659/icon" unique_id=2128873569]
+layout_mode = 0
+offset_right = 49.0
+offset_bottom = 41.0
+texture = ExtResource("60_1nvk0")
+stretch_mode = 5
+
+[node name="Tears_of_God" type="Label" parent="daily/@Control@24645" unique_id=668590156]
+layout_mode = 0
+offset_left = 450.0
+offset_top = 1464.0
+offset_right = 451.0
+offset_bottom = 1487.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 41
+text = "Tears of God"
+
+[node name="@Control@24646" type="Control" parent="daily" unique_id=1202592942]
+anchors_preset = 0
+offset_left = 722.0
+offset_top = 1178.0
+offset_right = 1052.0
+offset_bottom = 1597.0
+
+[node name="bg" type="Control" parent="daily/@Control@24646" unique_id=1844269382]
+anchors_preset = 0
+offset_right = 330.0
+offset_bottom = 419.0
+
+[node name="Rectangle_1226" type="TextureRect" parent="daily/@Control@24646/bg" unique_id=2119314607]
+layout_mode = 0
+offset_right = 330.0
+offset_bottom = 419.0
+texture = ExtResource("61_6s12j")
+stretch_mode = 5
+
+[node name="inside" type="Control" parent="daily/@Control@24646/bg" unique_id=2022900510]
+anchors_preset = 0
+offset_left = 21.0
+offset_top = 21.0
+offset_right = 309.0
+offset_bottom = 332.0
+
+[node name="fill" type="TextureRect" parent="daily/@Control@24646/bg/inside" unique_id=594708662]
+layout_mode = 0
+offset_right = 288.0
+offset_bottom = 311.0
+texture = ExtResource("62_fuwdm")
+stretch_mode = 5
+
+[node name="icon" type="Control" parent="daily/@Control@24646" unique_id=565896293]
+anchors_preset = 0
+offset_left = 74.0
+offset_top = 92.0
+offset_right = 248.0
+offset_bottom = 260.0
+
+[node name="icon" type="Control" parent="daily/@Control@24646/icon" unique_id=627349864]
+anchors_preset = 0
+offset_right = 174.0
+offset_bottom = 168.0
+
+[node name="icon" type="TextureRect" parent="daily/@Control@24646/icon/icon" unique_id=1507202392]
+layout_mode = 0
+offset_right = 174.0
+offset_bottom = 168.0
+texture = ExtResource("63_t2kpw")
+stretch_mode = 5
+
+[node name="text" type="Control" parent="daily/@Control@24646" unique_id=345741443]
+anchors_preset = 0
+offset_left = 204.0
+offset_top = 39.0
+offset_right = 205.0
+offset_bottom = 62.0
+
+[node name="text" type="Control" parent="daily/@Control@24646/text" unique_id=624903591]
+anchors_preset = 0
+offset_right = 1.0
+offset_bottom = 23.0
+
+[node name="x10" type="Label" parent="daily/@Control@24646/text/text" unique_id=921727611]
+layout_mode = 0
+offset_right = 1.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 75
+text = "x10"
+
+[node name="@Control@24660" type="Control" parent="daily/@Control@24646" unique_id=1983149787]
+anchors_preset = 0
+offset_left = 170.0
+offset_top = 353.0
+offset_right = 171.0
+offset_bottom = 376.0
+
+[node name="text" type="Control" parent="daily/@Control@24646/@Control@24660" unique_id=43541127]
+anchors_preset = 0
+offset_right = 1.0
+offset_bottom = 23.0
+
+[node name="30" type="Label" parent="daily/@Control@24646/@Control@24660/text" unique_id=1122869539]
+layout_mode = 0
+offset_right = 1.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 46
+text = "30"
+
+[node name="@Control@24661" type="Control" parent="daily/@Control@24646" unique_id=927696718]
+anchors_preset = 0
+offset_left = 108.0
+offset_top = 351.0
+offset_right = 157.0
+offset_bottom = 392.0
+
+[node name="icon" type="Control" parent="daily/@Control@24646/@Control@24661" unique_id=568573668]
+anchors_preset = 0
+offset_right = 49.0
+offset_bottom = 41.0
+
+[node name="icon" type="TextureRect" parent="daily/@Control@24646/@Control@24661/icon" unique_id=87489805]
+layout_mode = 0
+offset_right = 49.0
+offset_bottom = 41.0
+texture = ExtResource("64_0hchr")
+stretch_mode = 5
+
+[node name="Meat" type="Label" parent="daily/@Control@24646" unique_id=1834315240]
+layout_mode = 0
+offset_left = 129.0
+offset_top = 288.0
+offset_right = 130.0
+offset_bottom = 311.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 41
+text = "Meat"
+
+[node name="@Control@24647" type="Control" parent="daily" unique_id=1376656108]
+anchors_preset = 0
+offset_left = 28.0
+offset_top = 1619.0
+offset_right = 358.0
+offset_bottom = 2038.0
+
+[node name="bg" type="Control" parent="daily/@Control@24647" unique_id=349130150]
+anchors_preset = 0
+offset_right = 330.0
+offset_bottom = 419.0
+
+[node name="Rectangle_1226" type="TextureRect" parent="daily/@Control@24647/bg" unique_id=182625683]
+layout_mode = 0
+offset_right = 330.0
+offset_bottom = 419.0
+texture = ExtResource("65_h2j8w")
+stretch_mode = 5
+
+[node name="inside" type="Control" parent="daily/@Control@24647/bg" unique_id=199428949]
+anchors_preset = 0
+offset_left = 21.0
+offset_top = 20.0
+offset_right = 309.0
+offset_bottom = 331.0
+
+[node name="fill" type="TextureRect" parent="daily/@Control@24647/bg/inside" unique_id=1996222477]
+layout_mode = 0
+offset_right = 288.0
+offset_bottom = 311.0
+texture = ExtResource("66_508yh")
+stretch_mode = 5
+
+[node name="icon" type="Control" parent="daily/@Control@24647" unique_id=316153564]
+anchors_preset = 0
+offset_left = 106.0
+offset_top = 91.0
+offset_right = 224.0
+offset_bottom = 252.0
+
+[node name="icon" type="Control" parent="daily/@Control@24647/icon" unique_id=352317114]
+anchors_preset = 0
+offset_right = 118.0
+offset_bottom = 161.0
+
+[node name="icon" type="TextureRect" parent="daily/@Control@24647/icon/icon" unique_id=1141397349]
+layout_mode = 0
+offset_right = 118.0
+offset_bottom = 161.0
+texture = ExtResource("67_n7dcg")
+stretch_mode = 5
+
+[node name="text" type="Control" parent="daily/@Control@24647" unique_id=1805650938]
+anchors_preset = 0
+offset_left = 232.0
+offset_top = 39.0
+offset_right = 233.0
+offset_bottom = 62.0
+
+[node name="text" type="Control" parent="daily/@Control@24647/text" unique_id=1387338244]
+anchors_preset = 0
+offset_right = 1.0
+offset_bottom = 23.0
+
+[node name="x5" type="Label" parent="daily/@Control@24647/text/text" unique_id=581938330]
+layout_mode = 0
+offset_right = 1.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 75
+text = "x5"
+
+[node name="@Control@24662" type="Control" parent="daily/@Control@24647" unique_id=1466120749]
+anchors_preset = 0
+offset_left = 170.0
+offset_top = 352.0
+offset_right = 171.0
+offset_bottom = 375.0
+
+[node name="text" type="Control" parent="daily/@Control@24647/@Control@24662" unique_id=554124788]
+anchors_preset = 0
+offset_right = 1.0
+offset_bottom = 23.0
+
+[node name="12" type="Label" parent="daily/@Control@24647/@Control@24662/text" unique_id=1915240265]
+layout_mode = 0
+offset_right = 1.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 46
+text = "12"
+
+[node name="@Control@24663" type="Control" parent="daily/@Control@24647" unique_id=1229049101]
+anchors_preset = 0
+offset_left = 108.0
+offset_top = 350.0
+offset_right = 157.0
+offset_bottom = 391.0
+
+[node name="icon" type="Control" parent="daily/@Control@24647/@Control@24663" unique_id=1251408397]
+anchors_preset = 0
+offset_right = 49.0
+offset_bottom = 41.0
+
+[node name="icon" type="TextureRect" parent="daily/@Control@24647/@Control@24663/icon" unique_id=495576735]
+layout_mode = 0
+offset_right = 49.0
+offset_bottom = 41.0
+texture = ExtResource("68_aqp0w")
+stretch_mode = 5
+
+[node name="Energy" type="Label" parent="daily/@Control@24647" unique_id=1770006377]
+layout_mode = 0
+offset_left = 116.0
+offset_top = 287.0
+offset_right = 117.0
+offset_bottom = 310.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 41
+text = "Energy"
+
+[node name="@Control@24648" type="Control" parent="daily" unique_id=924693675]
+anchors_preset = 0
+offset_left = 375.0
+offset_top = 1619.0
+offset_right = 705.0
+offset_bottom = 2038.0
+
+[node name="bg" type="Control" parent="daily/@Control@24648" unique_id=1584159421]
+anchors_preset = 0
+offset_right = 330.0
+offset_bottom = 419.0
+
+[node name="Rectangle_1226" type="TextureRect" parent="daily/@Control@24648/bg" unique_id=1834142396]
+layout_mode = 0
+offset_right = 330.0
+offset_bottom = 419.0
+texture = ExtResource("69_s8aub")
+stretch_mode = 5
+
+[node name="inside" type="Control" parent="daily/@Control@24648/bg" unique_id=2017924953]
+anchors_preset = 0
+offset_left = 20.0
+offset_top = 20.0
+offset_right = 310.0
+offset_bottom = 331.0
+
+[node name="fill" type="TextureRect" parent="daily/@Control@24648/bg/inside" unique_id=1852577491]
+layout_mode = 0
+offset_right = 290.0
+offset_bottom = 311.0
+texture = ExtResource("70_bt7bq")
+stretch_mode = 5
+
+[node name="icon" type="Control" parent="daily/@Control@24648" unique_id=1618037725]
+anchors_preset = 0
+offset_left = 94.0
+offset_top = 96.0
+offset_right = 236.0
+offset_bottom = 247.0
+
+[node name="icon" type="Control" parent="daily/@Control@24648/icon" unique_id=1259908137]
+anchors_preset = 0
+offset_right = 142.0
+offset_bottom = 151.0
+
+[node name="icon" type="TextureRect" parent="daily/@Control@24648/icon/icon" unique_id=949753157]
+layout_mode = 0
+offset_right = 142.0
+offset_bottom = 151.0
+texture = ExtResource("71_0iwyj")
+stretch_mode = 5
+
+[node name="text" type="Control" parent="daily/@Control@24648" unique_id=2122945783]
+anchors_preset = 0
+offset_left = 170.0
+offset_top = 38.0
+offset_right = 171.0
+offset_bottom = 61.0
+
+[node name="text" type="Control" parent="daily/@Control@24648/text" unique_id=833674463]
+anchors_preset = 0
+offset_right = 1.0
+offset_bottom = 23.0
+
+[node name="2000" type="Label" parent="daily/@Control@24648/text/text" unique_id=1048108481]
+layout_mode = 0
+offset_right = 1.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 75
+text = "2000"
+
+[node name="@Control@24664" type="Control" parent="daily/@Control@24648" unique_id=498701242]
+anchors_preset = 0
+offset_left = 170.0
+offset_top = 352.0
+offset_right = 171.0
+offset_bottom = 375.0
+
+[node name="text" type="Control" parent="daily/@Control@24648/@Control@24664" unique_id=549612143]
+anchors_preset = 0
+offset_right = 1.0
+offset_bottom = 23.0
+
+[node name="30" type="Label" parent="daily/@Control@24648/@Control@24664/text" unique_id=476018076]
+layout_mode = 0
+offset_right = 1.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 46
+text = "30"
+
+[node name="@Control@24665" type="Control" parent="daily/@Control@24648" unique_id=1806079594]
+anchors_preset = 0
+offset_left = 108.0
+offset_top = 350.0
+offset_right = 157.0
+offset_bottom = 391.0
+
+[node name="icon" type="Control" parent="daily/@Control@24648/@Control@24665" unique_id=560211862]
+anchors_preset = 0
+offset_right = 49.0
+offset_bottom = 41.0
+
+[node name="icon" type="TextureRect" parent="daily/@Control@24648/@Control@24665/icon" unique_id=1936673689]
+layout_mode = 0
+offset_right = 49.0
+offset_bottom = 41.0
+texture = ExtResource("72_yihkg")
+stretch_mode = 5
+
+[node name="Gold" type="Label" parent="daily/@Control@24648" unique_id=39315826]
+layout_mode = 0
+offset_left = 132.0
+offset_top = 285.0
+offset_right = 133.0
+offset_bottom = 308.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 41
+text = "Gold"
+
+[node name="@Control@24649" type="Control" parent="daily" unique_id=1070612233]
+anchors_preset = 0
+offset_left = 722.0
+offset_top = 1619.0
+offset_right = 1052.0
+offset_bottom = 2038.0
+
+[node name="bg" type="Control" parent="daily/@Control@24649" unique_id=80506869]
+anchors_preset = 0
+offset_right = 330.0
+offset_bottom = 419.0
+
+[node name="Rectangle_1226" type="TextureRect" parent="daily/@Control@24649/bg" unique_id=720457495]
+layout_mode = 0
+offset_right = 330.0
+offset_bottom = 419.0
+texture = ExtResource("73_n7atf")
+stretch_mode = 5
+
+[node name="lock" type="Control" parent="daily/@Control@24649" unique_id=941226569]
+anchors_preset = 0
+offset_left = 118.0
+offset_top = 142.0
+offset_right = 210.0
+offset_bottom = 270.0
+
+[node name="Group_7538" type="Control" parent="daily/@Control@24649/lock" unique_id=1166858331]
+anchors_preset = 0
+offset_right = 92.0
+offset_bottom = 128.0
+
+[node name="Rounded_Rectangle_644_copy_2" type="TextureRect" parent="daily/@Control@24649/lock/Group_7538" unique_id=1784753840]
+layout_mode = 0
+offset_left = 2.0
+offset_top = 7.0
+offset_right = 90.0
+offset_bottom = 128.0
+texture = ExtResource("74_ta1hg")
+stretch_mode = 5
+
+[node name="Rounded_Rectangle_644_copy_4" type="TextureRect" parent="daily/@Control@24649/lock/Group_7538" unique_id=936160124]
+layout_mode = 0
+offset_left = 2.0
+offset_right = 90.0
+offset_bottom = 120.0
+texture = ExtResource("75_5i77u")
+stretch_mode = 5
+
+[node name="Rounded_Rectangle_644_copy_7" type="TextureRect" parent="daily/@Control@24649/lock/Group_7538" unique_id=1005327747]
+layout_mode = 0
+offset_top = 75.0
+offset_right = 92.0
+offset_bottom = 122.0
+texture = ExtResource("76_ke82u")
+stretch_mode = 5
+
+[node name="@TextureRect@24669" type="TextureRect" parent="daily/@Control@24649/lock/Group_7538" unique_id=1354249937]
+layout_mode = 0
+offset_left = 33.0
+offset_top = 59.0
+offset_right = 60.0
+offset_bottom = 96.0
+texture = ExtResource("77_dvasg")
+stretch_mode = 5
+
+[node name="red_dot" type="Control" parent="daily" unique_id=808109709]
+anchors_preset = 0
+offset_left = 326.0
+offset_top = 1180.0
+offset_right = 357.0
+offset_bottom = 1211.0
+
+[node name="new" type="TextureRect" parent="daily/red_dot" unique_id=322923173]
+layout_mode = 0
+offset_right = 31.0
+offset_bottom = 31.0
+texture = ExtResource("78_djl4e")
+stretch_mode = 5
+
+[node name="new_copy" type="TextureRect" parent="daily/red_dot" unique_id=1710849246]
+layout_mode = 0
+offset_left = 5.0
+offset_top = 5.0
+offset_right = 31.0
+offset_bottom = 31.0
+texture = ExtResource("79_usdmf")
+stretch_mode = 5
+
+[node name="@Control@24643" type="Control" parent="." unique_id=1120041766]
+anchors_preset = 0
+offset_left = 45.0
+offset_top = 2085.0
+offset_right = 1035.0
+offset_bottom = 2151.0
+
+[node name="bg" type="Control" parent="@Control@24643" unique_id=1922563907]
+anchors_preset = 0
+offset_right = 990.0
+offset_bottom = 66.0
+
+[node name="bg" type="TextureRect" parent="@Control@24643/bg" unique_id=373036150]
+layout_mode = 0
+offset_right = 990.0
+offset_bottom = 66.0
+texture = ExtResource("80_yyot4")
+stretch_mode = 5
+
+[node name="text" type="Control" parent="@Control@24643" unique_id=1557902325]
+anchors_preset = 0
+offset_left = 403.0
+offset_top = 23.0
+offset_right = 404.0
+offset_bottom = 46.0
+
+[node name="text" type="Control" parent="@Control@24643/text" unique_id=2102486306]
+anchors_preset = 0
+offset_right = 1.0
+offset_bottom = 23.0
+
+[node name="Resources" type="Label" parent="@Control@24643/text/text" unique_id=342494129]
+layout_mode = 0
+offset_right = 1.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(0.78039, 1, 0.99998, 1)
+theme_override_font_sizes/font_size = 37
+text = "Resources"
+
+[node name="roof" type="Control" parent="." unique_id=1005860458]
+anchors_preset = 0
+offset_left = -172.0
+offset_top = -4.0
+offset_right = 1254.0
+offset_bottom = 314.0
+
+[node name="img" type="Control" parent="roof" unique_id=1383456360]
+anchors_preset = 0
+offset_right = 1426.0
+offset_bottom = 318.0
+
+[node name="bg" type="TextureRect" parent="roof/img" unique_id=2056234982]
+layout_mode = 0
+offset_top = 4.0
+offset_right = 1426.0
+offset_bottom = 231.0
+texture = ExtResource("81_3gksi")
+stretch_mode = 5
+
+[node name="Shape_517" type="TextureRect" parent="roof/img" unique_id=1552879632]
+layout_mode = 0
+offset_left = 315.0
+offset_right = 1110.0
+offset_bottom = 248.0
+texture = ExtResource("82_d2e4k")
+stretch_mode = 5
+
+[node name="Layer_1" type="TextureRect" parent="roof/img" unique_id=7528738]
+layout_mode = 0
+offset_left = 172.0
+offset_top = 4.0
+offset_right = 1252.0
+offset_bottom = 318.0
+texture = ExtResource("83_fdehe")
+stretch_mode = 5
+
+[node name="Rectangle_1226" type="TextureRect" parent="roof/img" unique_id=460718376]
+layout_mode = 0
+offset_left = 171.0
+offset_right = 1253.0
+offset_bottom = 165.0
+texture = ExtResource("84_0ml6l")
+stretch_mode = 5
+
+[node name="text" type="Control" parent="." unique_id=1320224964]
+anchors_preset = 0
+offset_left = 468.0
+offset_top = 136.0
+offset_right = 469.0
+offset_bottom = 159.0
+
+[node name="text" type="Control" parent="text" unique_id=1025813324]
+anchors_preset = 0
+offset_right = 1.0
+offset_bottom = 23.0
+
+[node name="Shop" type="Label" parent="text/text" unique_id=335693496]
+layout_mode = 0
+offset_right = 1.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 57
+text = "Shop"
+
+[node name="@TextureRect@24644" type="TextureRect" parent="." unique_id=69238329]
+layout_mode = 0
+offset_left = -1.0
+offset_top = 2216.0
+offset_right = 1081.0
+offset_bottom = 2341.0
+texture = ExtResource("85_hs3iu")
+stretch_mode = 5
+
+[node name="top_btn_back" type="Control" parent="." unique_id=649727604]
+anchors_preset = 0
+offset_left = -53.0
+offset_top = 2139.0
+offset_right = 179.0
+offset_bottom = 2281.0
+
+[node name="btn" type="Control" parent="top_btn_back" unique_id=1480249714]
+anchors_preset = 0
+offset_right = 232.0
+offset_bottom = 142.0
+
+[node name="Shape_2_copy" type="TextureRect" parent="top_btn_back/btn" unique_id=220664436]
+layout_mode = 0
+offset_top = 11.0
+offset_right = 229.0
+offset_bottom = 142.0
+texture = ExtResource("86_nar5m")
+stretch_mode = 5
+
+[node name="Shape_2_copy_2" type="TextureRect" parent="top_btn_back/btn" unique_id=1988531173]
+layout_mode = 0
+offset_left = 2.0
+offset_right = 232.0
+offset_bottom = 132.0
+texture = ExtResource("87_tis6v")
+stretch_mode = 5
+
+[node name="icon" type="Control" parent="top_btn_back" unique_id=450735262]
+anchors_preset = 0
+offset_left = 85.0
+offset_top = 35.0
+offset_right = 171.0
+offset_bottom = 109.0
+
+[node name="icon" type="TextureRect" parent="top_btn_back/icon" unique_id=671649844]
+layout_mode = 0
+offset_right = 86.0
+offset_bottom = 74.0
+texture = ExtResource("88_rlnj2")
+stretch_mode = 5
+
+[node name="tab" type="Control" parent="." unique_id=1870111412]
+visible = false
+anchors_preset = 0
+offset_right = 1027.0
+offset_bottom = 2282.0
+
+[node name="tab" type="Control" parent="tab" unique_id=469695203]
+anchors_preset = 0
+offset_left = 218.0
+offset_top = 2149.0
+offset_right = 1027.0
+offset_bottom = 2282.0
+
+[node name="normal" type="Control" parent="tab/tab" unique_id=86197382]
+anchors_preset = 0
+offset_left = 277.0
+offset_right = 809.0
+offset_bottom = 133.0
+
+[node name="tab" type="TextureRect" parent="tab/tab/normal" unique_id=926124686]
+layout_mode = 0
+offset_right = 253.0
+offset_bottom = 133.0
+texture = ExtResource("89_fq0ec")
+stretch_mode = 5
+
+[node name="@TextureRect@24666" type="TextureRect" parent="tab/tab/normal" unique_id=1938544403]
+layout_mode = 0
+offset_left = 279.0
+offset_right = 532.0
+offset_bottom = 133.0
+texture = ExtResource("90_ps08s")
+stretch_mode = 5
+
+[node name="focus" type="Control" parent="tab/tab" unique_id=381133542]
+anchors_preset = 0
+offset_right = 252.0
+offset_bottom = 133.0
+
+[node name="tab" type="TextureRect" parent="tab/tab/focus" unique_id=629525303]
+layout_mode = 0
+offset_right = 252.0
+offset_bottom = 133.0
+texture = ExtResource("91_yrukc")
+stretch_mode = 5
+
+[node name="icon" type="Control" parent="tab" unique_id=1710424288]
+anchors_preset = 0
+offset_left = 316.0
+offset_top = 2124.0
+offset_right = 386.0
+offset_bottom = 2217.0
+
+[node name="Group_7540" type="Control" parent="tab/icon" unique_id=776188230]
+anchors_preset = 0
+offset_right = 70.0
+offset_bottom = 93.0
+
+[node name="Group_7541" type="Control" parent="tab/icon/Group_7540" unique_id=55920892]
+anchors_preset = 0
+offset_top = 7.0
+offset_right = 63.0
+offset_bottom = 93.0
+
+[node name="Shape_652" type="TextureRect" parent="tab/icon/Group_7540/Group_7541" unique_id=611540555]
+layout_mode = 0
+offset_top = 1.0
+offset_right = 63.0
+offset_bottom = 86.0
+texture = ExtResource("92_q6edj")
+stretch_mode = 5
+
+[node name="Shape_652_copy" type="TextureRect" parent="tab/icon/Group_7540/Group_7541" unique_id=398517291]
+layout_mode = 0
+offset_right = 60.0
+offset_bottom = 81.0
+texture = ExtResource("93_nk6uc")
+stretch_mode = 5
+
+[node name="Shape_660" type="TextureRect" parent="tab/icon/Group_7540" unique_id=1696712270]
+layout_mode = 0
+offset_left = 43.0
+offset_right = 70.0
+offset_bottom = 27.0
+texture = ExtResource("94_sodur")
+stretch_mode = 5
+
+[node name="icon_copy_4" type="Control" parent="tab" unique_id=86723322]
+anchors_preset = 0
+offset_left = 585.0
+offset_top = 2138.0
+offset_right = 658.0
+offset_bottom = 2214.0
+
+[node name="Group_7540" type="Control" parent="tab/icon_copy_4" unique_id=1171840871]
+anchors_preset = 0
+offset_right = 73.0
+offset_bottom = 76.0
+
+[node name="Shape_660" type="TextureRect" parent="tab/icon_copy_4/Group_7540" unique_id=1696666976]
+layout_mode = 0
+offset_right = 73.0
+offset_bottom = 76.0
+texture = ExtResource("95_n5y71")
+stretch_mode = 5
+
+[node name="icon_copy_5" type="Control" parent="tab" unique_id=192132246]
+anchors_preset = 0
+offset_left = 857.0
+offset_top = 2148.0
+offset_right = 943.0
+offset_bottom = 2215.0
+
+[node name="Group_7540_copy" type="Control" parent="tab/icon_copy_5" unique_id=1508891036]
+anchors_preset = 0
+offset_right = 86.0
+offset_bottom = 67.0
+
+[node name="Shape_660" type="TextureRect" parent="tab/icon_copy_5/Group_7540_copy" unique_id=2059177135]
+layout_mode = 0
+offset_right = 86.0
+offset_bottom = 67.0
+texture = ExtResource("96_vqn50")
+stretch_mode = 5
+
+[node name="text" type="Control" parent="tab" unique_id=368939819]
+anchors_preset = 0
+offset_left = 292.0
+offset_top = 2234.0
+offset_right = 293.0
+offset_bottom = 2257.0
+
+[node name="text" type="Control" parent="tab/text" unique_id=1475558118]
+anchors_preset = 0
+offset_right = 1.0
+offset_bottom = 23.0
+
+[node name="Offers" type="Label" parent="tab/text/text" unique_id=798815234]
+layout_mode = 0
+offset_right = 1.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 36
+text = "Offers"
+
+[node name="@Control@24650" type="Control" parent="tab" unique_id=1627241978]
+anchors_preset = 0
+offset_left = 579.0
+offset_top = 2232.0
+offset_right = 821.0
+offset_bottom = 2259.0
+
+[node name="text" type="Control" parent="tab/@Control@24650" unique_id=231456572]
+anchors_preset = 0
+offset_right = 242.0
+offset_bottom = 27.0
+
+[node name="Daily" type="Label" parent="tab/@Control@24650/text" unique_id=1887664351]
+layout_mode = 0
+offset_right = 1.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 36
+text = "Daily"
+
+[node name="Resources" type="Label" parent="tab/@Control@24650/text" unique_id=861798337]
+layout_mode = 0
+offset_left = 241.0
+offset_top = 4.0
+offset_right = 242.0
+offset_bottom = 27.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 36
+text = "Resources"
+
+[node name="red_dot" type="Control" parent="tab" unique_id=79648187]
+anchors_preset = 0
+offset_right = 473.0
+offset_bottom = 2190.0
+
+[node name="bg" type="TextureRect" parent="tab/red_dot" unique_id=1142555448]
+layout_mode = 0
+offset_left = 423.0
+offset_top = 2140.0
+offset_right = 473.0
+offset_bottom = 2190.0
+texture = ExtResource("97_215hq")
+stretch_mode = 5
+
+[node name="text" type="Control" parent="tab/red_dot" unique_id=1193624543]
+anchors_preset = 0
+
+[node name="icon" type="TextureRect" parent="tab/red_dot" unique_id=1485474315]
+layout_mode = 0
+offset_left = 439.0
+offset_top = 2149.0
+offset_right = 458.0
+offset_bottom = 2182.0
+texture = ExtResource("98_dtpuc")
+stretch_mode = 5
+
+[node name="Resource" type="Control" parent="." unique_id=942282870]
+anchors_preset = 0
+offset_left = 31.0
+offset_top = 21.0
+offset_right = 833.0
+offset_bottom = 99.0
+
+[node name="gem" type="Control" parent="Resource" unique_id=1942656884]
+anchors_preset = 0
+offset_left = 555.0
+offset_top = 5.0
+offset_right = 802.0
+offset_bottom = 73.0
+
+[node name="bg" type="TextureRect" parent="Resource/gem" unique_id=656200134]
+layout_mode = 0
+offset_left = 26.0
+offset_top = 5.0
+offset_right = 219.0
+offset_bottom = 63.0
+texture = ExtResource("99_pkpkj")
+stretch_mode = 5
+
+[node name="text" type="Control" parent="Resource/gem" unique_id=236514523]
+anchors_preset = 0
+offset_left = 102.0
+offset_top = 22.0
+offset_right = 103.0
+offset_bottom = 45.0
+
+[node name="text" type="Control" parent="Resource/gem/text" unique_id=1319705935]
+anchors_preset = 0
+offset_right = 1.0
+offset_bottom = 23.0
+
+[node name="120" type="Label" parent="Resource/gem/text/text" unique_id=570295521]
+layout_mode = 0
+offset_right = 1.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 26
+text = "120"
+
+[node name="icon" type="TextureRect" parent="Resource/gem" unique_id=1930491325]
+layout_mode = 0
+offset_right = 77.0
+offset_bottom = 68.0
+texture = ExtResource("100_xksgw")
+stretch_mode = 5
+
+[node name="add_" type="Control" parent="Resource/gem" unique_id=174741601]
+anchors_preset = 0
+offset_left = 191.0
+offset_top = 5.0
+offset_right = 247.0
+offset_bottom = 61.0
+
+[node name="Group_1" type="Control" parent="Resource/gem/add_" unique_id=1499612949]
+anchors_preset = 0
+offset_right = 56.0
+offset_bottom = 56.0
+
+[node name="Rounded_Rectangle_960" type="TextureRect" parent="Resource/gem/add_/Group_1" unique_id=826510421]
+layout_mode = 0
+offset_top = 4.0
+offset_right = 56.0
+offset_bottom = 56.0
+texture = ExtResource("101_a4eub")
+stretch_mode = 5
+
+[node name="Rounded_Rectangle_960_copy" type="TextureRect" parent="Resource/gem/add_/Group_1" unique_id=931545409]
+layout_mode = 0
+offset_right = 56.0
+offset_bottom = 51.0
+texture = ExtResource("102_3eioe")
+stretch_mode = 5
+
+[node name="icon" type="Control" parent="Resource/gem/add_" unique_id=1558362748]
+anchors_preset = 0
+offset_left = 13.0
+offset_top = 10.0
+offset_right = 43.0
+offset_bottom = 40.0
+
+[node name="close" type="TextureRect" parent="Resource/gem/add_/icon" unique_id=237018859]
+layout_mode = 0
+offset_right = 30.0
+offset_bottom = 30.0
+texture = ExtResource("103_tw3sj")
+stretch_mode = 5
+
+[node name="energe" type="Control" parent="Resource" unique_id=1196791311]
+anchors_preset = 0
+offset_right = 537.0
+offset_bottom = 78.0
+
+[node name="gold" type="Control" parent="Resource/energe" unique_id=1947496463]
+anchors_preset = 0
+offset_left = 251.0
+offset_top = 2.0
+offset_right = 537.0
+offset_bottom = 76.0
+
+[node name="bg" type="TextureRect" parent="Resource/energe/gold" unique_id=121076729]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 8.0
+offset_right = 263.0
+offset_bottom = 66.0
+texture = ExtResource("104_b2uxk")
+stretch_mode = 5
+
+[node name="add_" type="Control" parent="Resource/energe/gold" unique_id=1987039636]
+anchors_preset = 0
+offset_left = 230.0
+offset_top = 8.0
+offset_right = 286.0
+offset_bottom = 64.0
+
+[node name="Group_1" type="Control" parent="Resource/energe/gold/add_" unique_id=1163790251]
+anchors_preset = 0
+offset_right = 56.0
+offset_bottom = 56.0
+
+[node name="Rounded_Rectangle_960" type="TextureRect" parent="Resource/energe/gold/add_/Group_1" unique_id=948471037]
+layout_mode = 0
+offset_top = 4.0
+offset_right = 56.0
+offset_bottom = 56.0
+texture = ExtResource("105_45d4s")
+stretch_mode = 5
+
+[node name="Rounded_Rectangle_960_copy" type="TextureRect" parent="Resource/energe/gold/add_/Group_1" unique_id=1144538991]
+layout_mode = 0
+offset_right = 56.0
+offset_bottom = 51.0
+texture = ExtResource("106_0bwwc")
+stretch_mode = 5
+
+[node name="icon" type="Control" parent="Resource/energe/gold/add_" unique_id=1978042443]
+anchors_preset = 0
+offset_left = 13.0
+offset_top = 10.0
+offset_right = 43.0
+offset_bottom = 40.0
+
+[node name="close" type="TextureRect" parent="Resource/energe/gold/add_/icon" unique_id=2028289758]
+layout_mode = 0
+offset_right = 30.0
+offset_bottom = 30.0
+texture = ExtResource("107_36077")
+stretch_mode = 5
+
+[node name="text" type="Control" parent="Resource/energe/gold" unique_id=697027220]
+anchors_preset = 0
+offset_left = 90.0
+offset_top = 25.0
+offset_right = 91.0
+offset_bottom = 48.0
+
+[node name="text" type="Control" parent="Resource/energe/gold/text" unique_id=1318958890]
+anchors_preset = 0
+offset_right = 1.0
+offset_bottom = 23.0
+
+[node name="349810" type="Label" parent="Resource/energe/gold/text/text" unique_id=1673452828]
+layout_mode = 0
+offset_right = 1.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 26
+text = "349810"
+
+[node name="icon" type="TextureRect" parent="Resource/energe/gold" unique_id=200529597]
+layout_mode = 0
+offset_right = 66.0
+offset_bottom = 74.0
+texture = ExtResource("108_eyi6g")
+stretch_mode = 5
+
+[node name="bg" type="TextureRect" parent="Resource/energe" unique_id=308048389]
+layout_mode = 0
+offset_left = 12.0
+offset_top = 10.0
+offset_right = 205.0
+offset_bottom = 68.0
+texture = ExtResource("109_i0yd2")
+stretch_mode = 5
+
+[node name="text" type="Control" parent="Resource/energe" unique_id=1843253642]
+anchors_preset = 0
+offset_left = 80.0
+offset_top = 26.0
+offset_right = 81.0
+offset_bottom = 49.0
+
+[node name="text" type="Control" parent="Resource/energe/text" unique_id=1487789012]
+anchors_preset = 0
+offset_right = 1.0
+offset_bottom = 23.0
+
+[node name="5_5" type="Label" parent="Resource/energe/text/text" unique_id=1394779177]
+layout_mode = 0
+offset_right = 1.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 26
+text = "5/5"
+
+[node name="icon" type="TextureRect" parent="Resource/energe" unique_id=1661651222]
+layout_mode = 0
+offset_right = 57.0
+offset_bottom = 78.0
+texture = ExtResource("110_ovghj")
+stretch_mode = 5
+
+[node name="add_" type="Control" parent="Resource/energe" unique_id=326382938]
+anchors_preset = 0
+offset_left = 162.0
+offset_top = 10.0
+offset_right = 218.0
+offset_bottom = 66.0
+
+[node name="Group_1" type="Control" parent="Resource/energe/add_" unique_id=1888089565]
+anchors_preset = 0
+offset_right = 56.0
+offset_bottom = 56.0
+
+[node name="Rounded_Rectangle_960" type="TextureRect" parent="Resource/energe/add_/Group_1" unique_id=692801094]
+layout_mode = 0
+offset_top = 4.0
+offset_right = 56.0
+offset_bottom = 56.0
+texture = ExtResource("111_ds26n")
+stretch_mode = 5
+
+[node name="Rounded_Rectangle_960_copy" type="TextureRect" parent="Resource/energe/add_/Group_1" unique_id=730721589]
+layout_mode = 0
+offset_right = 56.0
+offset_bottom = 51.0
+texture = ExtResource("112_bvb7f")
+stretch_mode = 5
+
+[node name="icon" type="Control" parent="Resource/energe/add_" unique_id=1516115786]
+anchors_preset = 0
+offset_left = 13.0
+offset_top = 10.0
+offset_right = 43.0
+offset_bottom = 40.0
+
+[node name="close" type="TextureRect" parent="Resource/energe/add_/icon" unique_id=1969350721]
+layout_mode = 0
+offset_right = 30.0
+offset_bottom = 30.0
+texture = ExtResource("113_lgago")
+stretch_mode = 5
