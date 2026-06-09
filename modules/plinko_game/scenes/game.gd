@@ -159,7 +159,7 @@ func _setup_viewport() -> void:
 	vp.content_scale_size = Vector2i(1080, 1920)
 	vp.content_scale_mode = Window.CONTENT_SCALE_MODE_CANVAS_ITEMS
 	vp.content_scale_aspect = Window.CONTENT_SCALE_ASPECT_KEEP
-
+	self.get_window().set_content_scale_size(Vector2i(1080,1920))
 
 # ============================================================
 # 存档
@@ -616,7 +616,7 @@ func _on_drop_zone_input(event: InputEvent) -> void:
 func _handle_drop(local_pos: Vector2) -> void:
 	if _game_over or _drop_locked or balls_remaining <= 0:
 		return
-	if _active_balls.size() >= 3:
+	if _active_balls.size() >= 30:
 		# 最多同屏 3 球，避免音效混乱
 		return
 	_drop_locked = true
@@ -1099,7 +1099,7 @@ func set_target_slot(idx: int) -> void:
 func drop_ball_to_slot(idx: int) -> void:
 	if _game_over or _drop_locked or balls_remaining <=0:
 		return
-	if _active_balls.size() >=3:
+	if _active_balls.size() >=30:
 		return
 	if idx <0 or idx >= slot_count:
 		idx = clamp(idx,0, slot_count -1)
