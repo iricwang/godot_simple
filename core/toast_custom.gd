@@ -3,6 +3,9 @@ extends MarginContainer
 
 var _text_label: Label
 
+@export var button: Button
+@export var title: Label
+
 func _ready() -> void:
 	set_anchors_preset(Control.PRESET_CENTER)
 	mouse_filter = Control.MOUSE_FILTER_IGNORE

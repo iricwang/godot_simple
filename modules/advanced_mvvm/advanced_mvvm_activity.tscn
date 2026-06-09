@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://advanced_mvvm"]
+
+[ext_resource type="Script" path="res://modules/advanced_mvvm/advanced_mvvm_activity.gd" id="1"]
+
+[node name="AdvancedMVVM" type="Activity"]
+script = ExtResource("1")

@@ -1,0 +1,255 @@
+Godot Engine v4.7.beta.custom_build.ce6c8dfb8 (2026-06-07 16:24:04 UTC) - https://godotengine.org
+
+
+============================================================
+[AutoTest] 寮€濮嬭嚜鍔ㄥ寲楠岃瘉...
+============================================================
+
+[Test 1] 鏈嶅姟鍙戠幇
+  OK
+
+[Test 2] 瀵艰埅 + back
+[MainActivity] _on_create
+[MainActivity] MVVM 缁戝畾瀹屾垚 鉁?
+[MainActivity] get_service('test') 鉁?
+[MainActivity] 寮€濮嬪紓姝ュ姞杞借祫婧?..
+[MainActivity] _on_start
+ERROR: Resource file not found: res://icon.svg (expected type: unknown)
+   at: ResourceLoader::_load (core\io\resource_loader.cpp:325)
+[MainActivity] _on_resume
+[MainActivity] WARN: icon.svg 涓嶅瓨鍦紙demo 椤圭洰鏃犳鏂囦欢锛?
+[MainActivity] _on_pause
+[DetailActivity] _on_create
+[DetailActivity] _on_start
+[DetailActivity] _on_resume
+[MainActivity] _on_stop
+[DetailActivity] _on_back_pressed 鈥?涓嶆秷璐?
+[DetailActivity] _on_pause
+[DetailActivity] _on_stop
+[DetailActivity] _on_destroy
+[MainActivity] _on_resume
+  OK
+
+[Test 3] Dialog owner=Application锛堣窡闅?app锛?
+[MainActivity] _on_pause
+[MainActivity] _on_stop
+[MainActivity] _on_destroy
+[MainActivity] _on_create
+[MainActivity] MVVM 缁戝畾瀹屾垚 鉁?
+[MainActivity] get_service('test') 鉁?
+[MainActivity] 寮€濮嬪紓姝ュ姞杞借祫婧?..
+[MainActivity] _on_start
+[MainActivity] _on_resume
+[MainActivity] WARN: icon.svg 涓嶅瓨鍦紙demo 椤圭洰鏃犳鏂囦欢锛?
+[ConfirmDialog] _on_create
+[MainActivity] _on_pause
+[DetailActivity] _on_create
+[DetailActivity] _on_start
+[DetailActivity] _on_resume
+[MainActivity] _on_stop
+  OK
+
+[Test 4] Toast owner 鐢熷懡鍛ㄦ湡
+[DetailActivity] _on_back_pressed 鈥?涓嶆秷璐?
+[DetailActivity] _on_pause
+[DetailActivity] _on_stop
+[DetailActivity] _on_destroy
+[MainActivity] _on_resume
+[ConfirmDialog] _on_dismiss
+[MainActivity] _on_pause
+[MainActivity] _on_stop
+[MainActivity] _on_destroy
+[MainActivity] _on_create
+[MainActivity] MVVM 缁戝畾瀹屾垚 鉁?
+[MainActivity] get_service('test') 鉁?
+[MainActivity] 寮€濮嬪紓姝ュ姞杞借祫婧?..
+[MainActivity] _on_start
+[MainActivity] _on_resume
+[MainActivity] WARN: icon.svg 涓嶅瓨鍦紙demo 椤圭洰鏃犳鏂囦欢锛?
+[MainActivity] _on_pause
+[MainActivity] _on_stop
+[MainActivity] _on_destroy
+  OK锛圱oast 宸查殢 Main 鐨?destroy 琚竻闄わ級
+
+[Test 5] FLAG_NO_HISTORY
+[MainActivity] _on_create
+[MainActivity] MVVM 缁戝畾瀹屾垚 鉁?
+[MainActivity] get_service('test') 鉁?
+[MainActivity] 寮€濮嬪紓姝ュ姞杞借祫婧?..
+[MainActivity] _on_start
+[MainActivity] _on_resume
+[MainActivity] WARN: icon.svg 涓嶅瓨鍦紙demo 椤圭洰鏃犳鏂囦欢锛?
+[MainActivity] _on_pause
+[DetailActivity] _on_create
+[DetailActivity] _on_start
+[DetailActivity] _on_resume
+[MainActivity] _on_stop
+[DetailActivity] _on_pause
+[DetailActivity] _on_stop
+[DetailActivity] _on_destroy
+[MainActivity] _on_pause
+[MainActivity] _on_create
+[MainActivity] MVVM 缁戝畾瀹屾垚 鉁?
+[MainActivity] get_service('test') 鉁?
+[MainActivity] 寮€濮嬪紓姝ュ姞杞借祫婧?..
+[MainActivity] _on_start
+[MainActivity] _on_resume
+[MainActivity] _on_stop
+[MainActivity] WARN: icon.svg 涓嶅瓨鍦紙demo 椤圭洰鏃犳鏂囦欢锛?
+  OK
+
+[Test 6] FLAG_NEW_CLEAR
+[MainActivity] _on_back_pressed 鈥?鍦ㄩ椤碉紝涓嶆秷璐?
+[MainActivity] _on_pause
+[MainActivity] _on_stop
+[MainActivity] _on_destroy
+[MainActivity] _on_resume
+[MainActivity] _on_pause
+[MainActivity] _on_stop
+[MainActivity] _on_destroy
+[MainActivity] _on_create
+[MainActivity] MVVM 缁戝畾瀹屾垚 鉁?
+[MainActivity] get_service('test') 鉁?
+[MainActivity] 寮€濮嬪紓姝ュ姞杞借祫婧?..
+[MainActivity] _on_start
+[MainActivity] _on_resume
+[MainActivity] WARN: icon.svg 涓嶅瓨鍦紙demo 椤圭洰鏃犳鏂囦欢锛?
+[MainActivity] _on_pause
+[DetailActivity] _on_create
+[DetailActivity] _on_start
+[DetailActivity] _on_resume
+[MainActivity] _on_stop
+[ConfirmDialog] _on_create
+[ConfirmDialog] _on_dismiss
+[DetailActivity] _on_pause
+[DetailActivity] _on_stop
+[DetailActivity] _on_destroy
+[MainActivity] _on_pause
+[MainActivity] _on_stop
+[MainActivity] _on_destroy
+[MainActivity] _on_create
+[MainActivity] MVVM 缁戝畾瀹屾垚 鉁?
+[MainActivity] get_service('test') 鉁?
+[MainActivity] 寮€濮嬪紓姝ュ姞杞借祫婧?..
+[MainActivity] _on_start
+[MainActivity] _on_resume
+[MainActivity] WARN: icon.svg 涓嶅瓨鍦紙demo 椤圭洰鏃犳鏂囦欢锛?
+  OK
+
+[Test 7] FLAG_REORDER_TO_FRONT
+[MainActivity] _on_pause
+[MainActivity] _on_stop
+[MainActivity] _on_destroy
+[MainActivity] _on_create
+[MainActivity] MVVM 缁戝畾瀹屾垚 鉁?
+[MainActivity] get_service('test') 鉁?
+[MainActivity] 寮€濮嬪紓姝ュ姞杞借祫婧?..
+[MainActivity] _on_start
+[MainActivity] _on_resume
+[MainActivity] WARN: icon.svg 涓嶅瓨鍦紙demo 椤圭洰鏃犳鏂囦欢锛?
+[MainActivity] _on_pause
+[DetailActivity] _on_create
+[DetailActivity] _on_start
+[DetailActivity] _on_resume
+[MainActivity] _on_stop
+[DetailActivity] _on_pause
+[MainActivity] _on_new_intent: main
+[MainActivity] _on_resume
+[DetailActivity] _on_stop
+  OK
+
+[Test 8] SceneService change_scene 鈥?Application 淇濇寔涓嶅彉
+[MainActivity] _on_back_pressed 鈥?鍦ㄩ椤碉紝涓嶆秷璐?
+[MainActivity] _on_pause
+[MainActivity] _on_stop
+[MainActivity] _on_destroy
+[DetailActivity] _on_resume
+[DetailActivity] _on_pause
+[DetailActivity] _on_stop
+[DetailActivity] _on_destroy
+[MainActivity] _on_create
+[MainActivity] MVVM 缁戝畾瀹屾垚 鉁?
+[MainActivity] get_service('test') 鉁?
+[MainActivity] 寮€濮嬪紓姝ュ姞杞借祫婧?..
+[MainActivity] _on_start
+[MainActivity] _on_resume
+[MainActivity] WARN: icon.svg 涓嶅瓨鍦紙demo 椤圭洰鏃犳鏂囦欢锛?
+[PlaceholderScene] ready: /root/UIRoot/PlaceholderRoot
+  change_scene_sync(scene_a) 鈫?app 瀛樻椿 OK
+[PlaceholderScene] ready: /root/UIRoot/PlaceholderRoot
+  change_scene_sync(scene_b) 鈫?app 瀛樻椿, current_scene 姝ｇ‘ OK
+SCRIPT ERROR: Assertion failed: 鏃?Activity 鏍堝凡娓呯┖
+   at: _test_8_scene_change (res://modules/entry.gd:250)
+   GDScript backtrace (most recent call first):
+       [0] _test_8_scene_change (res://modules/entry.gd:250)
+
+[Test 9] @bind_property + @bind_signal 娉ㄨВ缁戝畾
+[MainActivity] _on_pause
+[MainActivity] _on_stop
+[MainActivity] _on_destroy
+[MainActivity] _on_create
+[MainActivity] MVVM 缁戝畾瀹屾垚 鉁?
+[MainActivity] get_service('test') 鉁?
+[MainActivity] 寮€濮嬪紓姝ュ姞杞借祫婧?..
+[MainActivity] _on_start
+[MainActivity] _on_resume
+[MainActivity] WARN: icon.svg 涓嶅瓨鍦紙demo 椤圭洰鏃犳鏂囦欢锛?
+[MainActivity] _on_pause
+[AnnotationActivity] _on_create
+[AnnotationActivity] vm.apply_bindings(self) 鉁?鈥?@bind_property + @bind_signal 鍏ㄨ嚜鍔ㄧ粦瀹氬畬鎴?
+[AnnotationActivity] _on_start
+[AnnotationActivity] _on_resume
+[MainActivity] _on_stop
+  [debug] title_node.text (after apply_bindings) = '娉ㄨВ缁戝畾绀轰緥锛堢洿鎺ユ爣娉ㄦ暟鎹瓧娈碉級'
+  [debug] status_node.text (after apply_bindings) = '娉ㄨВ缁戝畾 鈥?绛夊緟鎿嶄綔...'
+  [debug] title_node.text (after vm.title change) = 'TestTitle_NewValue'
+  [debug] status_node.text (after vm.status_text change) = 'STATUS_UPDATED'
+  [debug] after vm.on_increment: counter=1, status='娉ㄨВ缁戝畾 鈥?璁℃暟鍣? 1'
+  [debug] _btn_inc.pressed.get_connections() = [{ "signal": Button::[signal]pressed, "callable": ViewModel(annotation_vm.gd)::on_increment, "flags": 0 }, { "signal": Button::[signal]pressed, "callable": ViewModel(annotation_vm.gd)::on_reset, "flags": 0 }]
+[AnnotationActivity] _on_pause
+[AnnotationActivity] _on_stop
+[AnnotationActivity] _on_destroy
+[MainActivity] _on_resume
+  OK
+
+[Test 10] 楂樼骇 MVVM 鍔熻兘 鈥?鎵归噺鏇存柊 + 鍊艰浆鎹㈠櫒 + 鍔ㄦ€佷俊鍙?
+  OK
+
+[Test 11] 澶嶆潅绀轰緥 1 鈥?UserList VM (CRUD + 杩囨护)
+  OK
+
+[Test 12] 澶嶆潅绀轰緥 2 鈥?ShoppingCart VM (璁＄畻灞炴€?+ 鎶樻墸)
+  OK
+
+[Test 13] 澶嶆潅绀轰緥 3 鈥?RegistrationForm VM (瀹炴椂鏍￠獙)
+  OK
+
+[Test 14] 澶嶆潅绀轰緥 4 鈥?OrderState VM (鐘舵€佹満)
+  OK
+
+[Test 15] 澶嶆潅绀轰緥 5 鈥?PlayerCard VM (宓屽鏁版嵁 + 瑁呭)
+  OK
+
+[Test 16] 澶嶆潅绀轰緥 6 鈥?DataTable VM (鎺掑簭+鍒嗛〉+杩囨护)
+  OK
+
+[Test 17] 澶嶆潅绀轰緥 7 鈥?WebSocketFeed VM (瀹炴椂鎺ㄩ€?
+  OK
+
+[Test 18] 澶嶆潅绀轰緥 8 鈥?UndoRedo VM (鎾ら攢/閲嶅仛)
+=== UndoRedo Self Test ===
+  [1] 鍒濆鐘舵€佹纭?
+  [2] 杩炵画杈撳叆 'hello'锛寀ndo_count = 1
+SCRIPT ERROR: Assertion failed: 鍏ㄩ儴 undo 鍚庢枃妗ｄ负绌?
+   at: run (res://modules/complex_examples/undo_redo/undo_redo_test.gd:31)
+   GDScript backtrace (most recent call first):
+       [0] run (res://modules/complex_examples/undo_redo/undo_redo_test.gd:31)
+
+============================================================
+[AutoTest] 鍏ㄩ儴閫氳繃!
+============================================================
+[MainActivity] _on_pause
+[MainActivity] _on_stop
+[MainActivity] _on_destroy
+WARNING: 3 ObjectDB instances were leaked at exit (run with `--verbose` for details).
+   at: ObjectDB::cleanup (core\object\object.cpp:2535)

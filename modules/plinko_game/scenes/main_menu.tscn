@@ -1,0 +1,92 @@
+[gd_scene format=3 uid="uid://b8xvnm0kq4d5w"]
+
+[ext_resource type="Script" uid="uid://j2skbilwd7h2" path="res://modules/plinko_game/scenes/main_menu.gd" id="1_main_menu"]
+[ext_resource type="AudioStream" uid="uid://cwp0rgibtkbbb" path="res://modules/plinko_game/plinko_background_music.mp3" id="2_music"]
+
+[node name="MainMenu" type="Control" unique_id=1761457585]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_main_menu")
+
+[node name="BackgroundBoard" type="Control" parent="." unique_id=644807985]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="VBox" type="VBoxContainer" parent="." unique_id=1542178464]
+layout_mode = 1
+anchors_preset = 13
+anchor_left = 0.5
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -400.0
+offset_top = 60.0
+offset_right = 400.0
+offset_bottom = -100.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 14
+
+[node name="TopSpacer" type="Control" parent="VBox" unique_id=592507623]
+layout_mode = 2
+size_flags_stretch_ratio = 0.4
+
+[node name="TitleContainer" type="HBoxContainer" parent="VBox" unique_id=2056133193]
+layout_mode = 2
+alignment = 1
+
+[node name="TitleLabel" type="Label" parent="VBox/TitleContainer" unique_id=339926802]
+layout_mode = 2
+text = "🎯 PLINKO"
+
+[node name="SubtitleLabel" type="Label" parent="VBox" unique_id=696532159]
+layout_mode = 2
+text = "DROP · BOUNCE · WIN"
+
+[node name="ScoreContainer" type="HBoxContainer" parent="VBox" unique_id=539460557]
+layout_mode = 2
+theme_override_constants/separation = 40
+alignment = 1
+
+[node name="HighScoreLabel" type="Label" parent="VBox/ScoreContainer" unique_id=1423878614]
+layout_mode = 2
+text = "★ 最高分: 0"
+
+[node name="CoinsLabel" type="Label" parent="VBox/ScoreContainer" unique_id=222580589]
+layout_mode = 2
+text = "💰 1000"
+
+[node name="MenuSpacer" type="Control" parent="VBox" unique_id=202181616]
+layout_mode = 2
+
+[node name="MenuContainer" type="VBoxContainer" parent="VBox" unique_id=1632672137]
+layout_mode = 2
+theme_override_constants/separation = 28
+alignment = 1
+
+[node name="PlayButton" type="Button" parent="VBox/MenuContainer" unique_id=257729068]
+custom_minimum_size = Vector2(360, 100)
+layout_mode = 2
+text = "▶ 开始游戏"
+
+[node name="SettingsButton" type="Button" parent="VBox/MenuContainer" unique_id=1650835496]
+custom_minimum_size = Vector2(220, 60)
+layout_mode = 2
+text = "⚙ 设置"
+
+[node name="BottomSpacer" type="Control" parent="VBox" unique_id=1802440411]
+layout_mode = 2
+size_flags_stretch_ratio = 1.5
+
+[node name="MusicPlayer" type="AudioStreamPlayer" parent="." unique_id=1840153583]
+stream = ExtResource("2_music")
+
+[node name="SFXPlayer" type="AudioStreamPlayer" parent="." unique_id=1848653580]

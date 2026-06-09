@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://annotation_activity_demo"]
+
+[ext_resource type="Script" path="res://modules/annotation_bind/annotation_activity.gd" id="1_script"]
+
+[node name="AnnotationActivity" type="Activity"]
+script = ExtResource("1_script")

@@ -11,5 +11,5 @@ config_version=5
 [application]
 
 config/name="gf_test"
-run/main_scene="res://scenes/main.tscn"
+run/main_scene="uid://daywbn1lq5e6x"
 config/features=PackedStringArray("4.7")

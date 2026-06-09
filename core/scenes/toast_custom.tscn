@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://dtc1yap4q7v3w"]
 
-[ext_resource type="Script" path="res://core/toast_custom.gd" id="1_tcst"]
+[ext_resource type="Script" uid="uid://cg5swbw5kr8sx" path="res://core/toast_custom.gd" id="1_tcst"]
 
 [node name="CustomToast" type="MarginContainer" unique_id=1421509934]
 script = ExtResource("1_tcst")

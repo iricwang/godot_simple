@@ -12,7 +12,6 @@ var _res_label: Label
 var _btn_inc: Button
 var _btn_dec: Button
 
-
 func _on_create(saved_state: Dictionary) -> void:
 	print("[MainActivity] _on_create")
 	vm = preload("res://modules/home/main_vm.gd").new()
@@ -165,6 +164,13 @@ func _setup_ui() -> void:
 	btn_back.pressed.connect(_on_back)
 	inner.add_child(btn_back)
 
+	# ==== 新增: 注解绑定示例按钮 ====
+
+	var btn_annotation = Button.new()
+	btn_annotation.text = "⚡ 注解绑定示例 (@bind_property + @bind_signal)"
+	btn_annotation.pressed.connect(_on_go_annotation)
+	inner.add_child(btn_annotation)
+
 	# ==== 新增: Flag 交互测试按钮 ====
 
 	var sep = HSeparator.new()
@@ -231,6 +237,14 @@ func _on_inc() -> void:
 func _on_dec() -> void:
 	vm.counter -= 1
 	vm.status_text = "计数器: %d" % vm.counter
+
+
+func _on_go_annotation() -> void:
+	print("[MainActivity] 跳转到注解绑定示例")
+	var ita = Intent.new()
+	ita.action = "annotation_bind"
+	start_activity(ita)
+	show_toast(Context.make_toast("注解绑定示例 — @bind_property + @bind_signal + vm.apply_bindings()", 2.5))
 
 
 func _on_go_detail() -> void:
