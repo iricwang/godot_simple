@@ -11,5 +11,24 @@ config_version=5
 [application]
 
 config/name="gf_test"
+<<<<<<< HEAD
 run/main_scene="uid://daywbn1lq5e6x"
+=======
+run/main_scene="res://modules/main/main.tscn"
+>>>>>>> 9187b09ab721341dbffce7327213a4971df97ab7
 config/features=PackedStringArray("4.7")
+
+[autoload]
+
+_mcp_game_helper="*res://addons/godot_ai/runtime/game_helper.gd"
+
+[display]
+
+window/size/viewport_width=1080
+window/size/viewport_height=2340
+window/size/transparent=true
+window/stretch/mode="viewport"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/godot_ai/plugin.cfg")
