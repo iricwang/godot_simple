@@ -64,7 +64,8 @@ const SAVE_PATH := "user://plinko_save.cfg"
 @export_group("Board")
 @export_range(400.0,1200.0) var board_width: float =900.0
 @export_range(800.0,1800.0) var board_height: float =1300.0
-@export_range(80.0,400.0) var board_top: float =200.0
+@export_range(80.0,600.0) var board_top: float =320.0  # 整体下移120px
+# 以下值均基于 board_top 计算，调整 board_top 即可整体上下移动
 @export_range(3,20) var peg_rows: int =10
 @export_range(50.0,150.0) var peg_spacing_x: float =100.0
 @export_range(50.0,150.0) var peg_spacing_y: float =95.0
@@ -75,11 +76,11 @@ const SAVE_PATH := "user://plinko_save.cfg"
 @export_range(10.0,60.0) var ball_radius: float =15.0
 @export_range(0.0,1.0) var ball_bounce: float =0.5
 @export_range(0.0,1.0) var ball_friction: float =0.25
-@export_range(100.0,3000.0) var max_speed: float =900.0
+@export_range(100.0,3000.0) var max_speed: float =5900.0
 @export_range(1,12) var physics_substeps: int =3 # 每帧子步数，越大越不易隧穿，但 CPU也会涨
 
 @export_group("Physics")
-@export_range(100.0,3000.0) var gravity: float =1600.0
+@export_range(100.0,3000.0) var gravity: float =4600.0
 @export_range(0.0,1.0) var peg_bounce: float =0.5
 @export_range(-200.0,200.0) var horizontal_wind: float =0.0
 @export_range(0.0,80.0) var drop_jitter: float =3.0 #投放初始水平扰动
@@ -209,9 +210,9 @@ func _build_scene_tree() -> void:
 	frame.name = "BoardFrame"
 	frame.set_anchors_preset(Control.PRESET_TOP_WIDE)
 	frame.offset_left = 30
-	frame.offset_top = 180
+	frame.offset_top = board_top - 20
 	frame.offset_right = -30
-	frame.offset_bottom = 1820
+	frame.offset_bottom = board_top + board_height
 	frame.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	var fs := StyleBoxFlat.new()
 	fs.bg_color = Color(0.08, 0.10, 0.16, 0.6)
@@ -252,8 +253,8 @@ func _build_scene_tree() -> void:
 	_drop_zone = Control.new()
 	_drop_zone.name = "DropZone"
 	_drop_zone.set_anchors_preset(Control.PRESET_TOP_WIDE)
-	_drop_zone.offset_top = 180
-	_drop_zone.offset_bottom = 250  # 顶部一小条
+	_drop_zone.offset_top = board_top - 20
+	_drop_zone.offset_bottom = board_top + 50  # 顶部一小条
 	_drop_zone.mouse_filter = Control.MOUSE_FILTER_STOP
 	add_child(_drop_zone)
 
@@ -269,8 +270,8 @@ func _build_scene_tree() -> void:
 	_multiplier_label.name = "MultiplierLabel"
 	_multiplier_label.text = ""
 	_multiplier_label.set_anchors_preset(Control.PRESET_TOP_WIDE)
-	_multiplier_label.offset_top = 260
-	_multiplier_label.offset_bottom = 300
+	_multiplier_label.offset_top = board_top + 60
+	_multiplier_label.offset_bottom = board_top + 100
 	_multiplier_label.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	_multiplier_label.add_theme_font_size_override("font_size", 22)
 	_multiplier_label.add_theme_color_override("font_color", Color(0.7, 0.85, 1.0, 0.7))
@@ -282,8 +283,8 @@ func _build_scene_tree() -> void:
 	_combo_label.name = "ComboLabel"
 	_combo_label.text = ""
 	_combo_label.set_anchors_preset(Control.PRESET_CENTER_TOP)
-	_combo_label.offset_top = 320
-	_combo_label.offset_bottom = 360
+	_combo_label.offset_top = board_top + 120
+	_combo_label.offset_bottom = board_top + 160
 	_combo_label.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	_combo_label.add_theme_font_size_override("font_size", 36)
 	_combo_label.add_theme_color_override("font_color", Color(1.0, 0.85, 0.30, 0.0))  # 初始透明
@@ -331,8 +332,8 @@ func _build_ui() -> void:
 	# 顶栏背景
 	var top := Panel.new()
 	top.set_anchors_preset(Control.PRESET_TOP_WIDE)
-	top.offset_top = 20
-	top.offset_bottom = 130
+	top.offset_top = 20 + board_top - 200
+	top.offset_bottom = 130 + board_top - 200
 	top.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	var ts := StyleBoxFlat.new()
 	ts.bg_color = Color(0.08, 0.10, 0.16, 0.85)
@@ -352,9 +353,9 @@ func _build_ui() -> void:
 	var top_box := HBoxContainer.new()
 	top_box.set_anchors_preset(Control.PRESET_FULL_RECT)
 	top_box.offset_left = 20
-	top_box.offset_top = 20
+	top_box.offset_top = 20 + board_top - 200
 	top_box.offset_right = -20
-	top_box.offset_bottom = 130
+	top_box.offset_bottom = 130 + board_top - 200
 	top_box.add_theme_constant_override("separation", 0)
 	top_box.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	_ui.add_child(top_box)
@@ -464,7 +465,7 @@ func _build_board() -> void:
 		var pegs_in_row: int = even_count if row %2 ==0 else odd_count
 		var offset: float =0.0 if row %2 ==0 else (cs *0.5 if staggered else 0.0)
 		for col in range(pegs_in_row):
-			var px: float = board_left + offset + col * cs + cs *0.5
+			var px: float = board_left + offset + col * cs  # 移除cs*0.5，修正居中偏移
 			var py: float = board_top + row * peg_spacing_y
 			var peg := _make_peg_node(px, py)
 			_peg_layer.add_child(peg)
@@ -744,7 +745,7 @@ func _physics_step(b: Dictionary, sub_dt: float) -> void:
 			var min_d: float = ball_r + (p["radius"] as float)
 			var d2: float = dx * dx + dy * dy
 			if d2 >= min_d * min_d: continue
-			var d: float = (sqrt(d2),0.0001)[d2 <=1e-9]
+			var d: float = 0.0001 if d2 <= 1e-9 else sqrt(d2)
 			var nx: float = dx / d
 			var ny: float = dy / d
 			#位置修正（推到刚好接触）
@@ -975,8 +976,8 @@ func _show_result_panel() -> void:
 	title.add_theme_font_size_override("font_size", 56)
 	title.add_theme_color_override("font_color", Color(1, 0.95, 0.7, 1))
 	title.set_anchors_preset(Control.PRESET_TOP_WIDE)
-	title.offset_top = 40
-	title.offset_bottom = 130
+	title.offset_top = 40 + board_top - 200
+	title.offset_bottom = 130 + board_top - 200
 	title.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	panel.add_child(title)
 
@@ -986,8 +987,8 @@ func _show_result_panel() -> void:
 	score_lbl.add_theme_font_size_override("font_size", 50)
 	score_lbl.add_theme_color_override("font_color", Color(1.0, 0.88, 0.40, 1))
 	score_lbl.set_anchors_preset(Control.PRESET_TOP_WIDE)
-	score_lbl.offset_top = 160
-	score_lbl.offset_bottom = 240
+	score_lbl.offset_top = 160 + board_top - 200
+	score_lbl.offset_bottom = 240 + board_top - 200
 	score_lbl.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	panel.add_child(score_lbl)
 
@@ -997,8 +998,8 @@ func _show_result_panel() -> void:
 	hi_lbl.add_theme_font_size_override("font_size", 36)
 	hi_lbl.add_theme_color_override("font_color", Color(0.95, 0.85, 0.55, 1))
 	hi_lbl.set_anchors_preset(Control.PRESET_TOP_WIDE)
-	hi_lbl.offset_top = 250
-	hi_lbl.offset_bottom = 310
+	hi_lbl.offset_top = 250 + board_top - 200
+	hi_lbl.offset_bottom = 310 + board_top - 200
 	hi_lbl.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	panel.add_child(hi_lbl)
 
@@ -1009,8 +1010,8 @@ func _show_result_panel() -> void:
 		new_hi.add_theme_font_size_override("font_size", 32)
 		new_hi.add_theme_color_override("font_color", Color(1, 0.40, 0.55, 1))
 		new_hi.set_anchors_preset(Control.PRESET_TOP_WIDE)
-		new_hi.offset_top = 320
-		new_hi.offset_bottom = 380
+		new_hi.offset_top = 320 + board_top - 200
+		new_hi.offset_bottom = 380 + board_top - 200
 		new_hi.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 		panel.add_child(new_hi)
 		play_sfx(SFX_WIN, -2.0)

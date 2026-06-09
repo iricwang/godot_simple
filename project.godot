@@ -10,13 +10,10 @@ config_version=5
 
 [application]
 
-config/name="gf_test"
-<<<<<<< HEAD
+config/name="FortySix"
 run/main_scene="uid://daywbn1lq5e6x"
-=======
-run/main_scene="res://modules/main/main.tscn"
->>>>>>> 9187b09ab721341dbffce7327213a4971df97ab7
-config/features=PackedStringArray("4.7")
+config/features=PackedStringArray("4.7", "GL Compatibility")
+config/icon="res://icon.svg"
 
 [autoload]
 
@@ -24,11 +21,19 @@ _mcp_game_helper="*res://addons/godot_ai/runtime/game_helper.gd"
 
 [display]
 
-window/size/viewport_width=1080
-window/size/viewport_height=2340
-window/size/transparent=true
-window/stretch/mode="viewport"
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/godot_ai/plugin.cfg")
+enabled=PackedStringArray("res://addons/godot_ai/plugin.cfg", "res://addons/rider-plugin/plugin.cfg")
+
+[physics]
+
+3d/physics_engine="Jolt Physics"
+
+[rendering]
+
+rendering_device/driver.windows="d3d12"
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
